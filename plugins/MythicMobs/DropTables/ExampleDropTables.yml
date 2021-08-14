@@ -111,21 +111,21 @@ ValleyDefender2Drops:
   #Bow
   - MagicBow 1 0.1
 #//--//--//--//--//--//--//--//#
-GolemBossDrops:
+KahunaBossDrops:
   Conditions:
   - playerwithin 40
   Drops:
   - GolemFragment 1
   - experience 200
-GolemBossDrops:
+KahunaBossDrops:
   MinItems: 1
   MaxItems: 1
   Drops:
   #Armor
-  - GolemHead 1 10
-  - GolemChestplate 1 10
-  - GolemLeggings 1 10
-  - GolemBoots 1 10
+  - KahunaHead 1 10
+  - KahunaChestplate 1 10
+  - KahunaLeggings 1 10
+  - KahunaBoots 1 10
   #Sword
-  - GolemSword 1 5
+  - KahunaSword 1 5
 #//--//--//--//--//--//--//--//#

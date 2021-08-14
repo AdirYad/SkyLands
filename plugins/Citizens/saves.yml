@@ -31,7 +31,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,mounttrait,skintrait,inventory,owner,equipment,scoreboardtrait,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -68,7 +68,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,mounttrait,skintrait,inventory,owner,equipment,scoreboardtrait,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -105,7 +105,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -142,7 +142,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -192,7 +192,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -242,7 +242,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -292,7 +292,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,equipment,scoreboardtrait,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -342,7 +342,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -398,7 +398,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -442,7 +442,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -492,7 +492,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,gravity,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -536,7 +536,7 @@ npc:
       owner:
         owner: MrNickax
         uuid: fcc8fd16-afd2-3c52-b0a6-7ddcf9e6bd76
-    traitnames: scoreboardtrait,location,gravity,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -585,7 +585,7 @@ npc:
       owner:
         owner: xNickax
         uuid: 1e1ae705-dea4-471e-bb43-2dd3cff44e02
-    traitnames: scoreboardtrait,gravity,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,scoreboardtrait,equipment,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -634,7 +634,7 @@ npc:
       owner:
         owner: xNickax
         uuid: 1e1ae705-dea4-471e-bb43-2dd3cff44e02
-    traitnames: scoreboardtrait,gravity,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,equipment,scoreboardtrait,gravity,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -678,7 +678,7 @@ npc:
       owner:
         owner: Abyx_
         uuid: 4e7b8f61-25c8-4118-82f8-d87abe4bdbc7
-    traitnames: scoreboardtrait,location,owner,type,lookclose,mounttrait,spawned,skintrait,inventory,equipment
+    traitnames: location,lookclose,mounttrait,skintrait,inventory,owner,equipment,scoreboardtrait,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

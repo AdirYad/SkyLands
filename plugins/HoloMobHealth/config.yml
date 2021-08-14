@@ -61,7 +61,9 @@ Options:
   # Do not apply health to mob with these name
   # The name has to be completely equal to this list including color codes
   # Use "&" as color code
-  DisabledMobNamesAbsolute: []
+  DisabledMobNamesAbsolute:
+    - '&d&lZOMBIE BOSS'
+    - '&d&lTHE KAHUNA'
   # Do not apply health to mob with these name
   # The name only has to contain these strings EXCLUDING color codes AND case
   # Color codes are ignored

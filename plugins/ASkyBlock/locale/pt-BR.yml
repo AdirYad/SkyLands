@@ -209,7 +209,7 @@ confirm:
   errorTimeLimitExpired: "Tempo esgotado! Execute o comando novamente."
 coop: 
   cannotcoop: "Only island leader can coop a player." 
-  help: "dá a um jogador accesso total (temporário) à sua ilha"
+  help: "dá a um jogador acesso total (temporário) à sua ilha"
   invited: "[name] tornou [player] um jogador coop! Use expel para removê-lo."
   listcoops: "lista os jogadores da coop"  
   madeyoucoopy: "[name] tornou você um jogador coop - até você se desconectar ou ser expulso."  
@@ -218,7 +218,7 @@ coop:
   removed: "[name] removeu seu status de coop!"
   removesuccess: "[name] não é mais um jogador coop."
   success: "[name] agora é um jogador coop - até se desconectar ou até você expulsá-lo."
-  uncoop: "remove o accesso total do jogador à sua ilha"
+  uncoop: "remove o acesso total do jogador à sua ilha"
   useexpel: "Use expel ou uncoop para remover o jogador coop."
 deaths: 
   deaths: "Mortes"
@@ -361,7 +361,7 @@ islandguardsettings:
   firespread: "Fire spread"
   furnace: "Uso de fornalhas"
   gate: "Uso de portões"
-  horseinventoryaccess: "Visitantes têm accesso ao inventário dos cavalos"
+  horseinventoryaccess: "Visitantes têm acesso ao inventário dos cavalos"
   horseriding: "Visitantes podem andar a cavalo"  
   hurtanimals: "Ferir animais"
   hurtmonsters: "Ferir monstros"

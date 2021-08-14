@@ -22,3 +22,12 @@ SummonMinions:
   - summon{mob=DungeonZombie;amount=2;noise=5} @Self
   - delay 20
   - summon{mob=DungeonZombie;amount=2;noise=5} @Self
+SummonVexes:
+  Cooldown: 50
+  Skills:
+  - delay 20
+  - summon{mob=Vex;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=Vex;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=Vex;amount=1;noise=5} @Self

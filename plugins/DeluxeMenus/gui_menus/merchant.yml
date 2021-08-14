@@ -58,11 +58,11 @@ items:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     - '[openguimenu] menu'
-  'OrcValleyAcess':
+  'OrcValleyAccess':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM3NjVlOGNlMTFhZTZmMTMxYzcyNWMwN2Y1OGYyZDQxMzJkOTg0YWQ2NjM2MDM5YTdhMzZhM2M1MTI3MjEifX19
     priority: 1
     slot: 13
-    display_name: '&2[*] &aOrc Valley Acess'
+    display_name: '&2[*] &aOrc Valley Access'
     view_requirement:
       requirements:
         Pex:
@@ -72,18 +72,18 @@ items:
           type: has permission
           permission: 'group.orc-valley'   
     lore:
-    - '&8Orc Valley Acess'
+    - '&8Orc Valley Access'
     - ''
     - '&7Price: &d500,000 ⛁'
     - '&7Status: &a&lUNLOCKED'
     - ''
-  'OrcValleyAcess2':
+  'OrcValleyAccess2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
     priority: 2
     slot: 13
-    display_name: '&2[*] &aOrc Valley Acess'
+    display_name: '&2[*] &aOrc Valley Access'
     lore:
-    - '&8Orc Valley Acess'
+    - '&8Orc Valley Access'
     - ''
     - '&7Price: &d500,000 ⛁'
     - '&7Status: &c&lLOCKED'

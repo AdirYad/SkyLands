@@ -149,18 +149,18 @@ BossInfo:
   - '&7The boss spawn in the'
   - '&7emerald every 30 minutes'
   - ''
-  - '&7Boss damage: &b50'
-  - '&7Boss health: &b50'
+  - '&7The next &d&lZombie Boss &7will spawn'
+  - '&7in{medium}&a%commandtimer_ZombieBoss_nextExecutionFormat%&7!'
 BossInfo2:
   location: Dungeon, -384.314, 74.000, 704.436
   lines:
   - '&a&lBoss Info:'
   - ''
   - '&7The boss spawn in the'
-  - '&7emerald every 30 minutes'
+  - '&7emerald every 45 minutes'
   - ''
-  - '&7Boss damage: &b100'
-  - '&7Boss health: &b220'
+  - '&d&lThe Kahuna &7will spawn'
+  - '&7in{medium}&a%commandtimer_KahunaBoss_nextExecutionFormat%&7!'
 spawnershop:
   location: Spawn, -12.486, 17.500, 1.473
   lines:
@@ -177,7 +177,7 @@ Crates:
   - '&8---- &aCrates &8----'
   - '&cGot a crate key? Open it here!'
   - ''
-  - '&cYou can also type /warp crates to'
+  - '&cYou can also type /crates to'
   - '&cinstantly warp here!'
   - ''
   - '&aYou can buy keys on &l/buy, or from'

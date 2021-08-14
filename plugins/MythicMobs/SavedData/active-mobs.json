@@ -1,3 +1,60 @@
 {
-  "persistentMobs": {}
+  "persistentMobs": {
+    "32b4373b-fef5-4212-9a49-f9fe63d2fa07": {
+      "aliveTime": 12,
+      "uuid": "32b4373b-fef5-4212-9a49-f9fe63d2fa07",
+      "mobType": "KahunaBoss",
+      "lastSeen": 1628984638778,
+      "spawnLocation": {
+        "world": {
+          "uuid": "d722f19f-9176-4e98-abe1-5b90f3482392",
+          "name": "Dungeon"
+        },
+        "x": -382.5,
+        "y": 71.0,
+        "z": 706.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "level": 0,
+      "gcd": 0,
+      "faction": {},
+      "stance": "default",
+      "lastSignal": "",
+      "playerkills": 0,
+      "cooldowns": {},
+      "owner": {},
+      "variables": {
+        "entries": {}
+      }
+    },
+    "41f6923b-df1c-446d-ad98-3fcbfd820d81": {
+      "aliveTime": 12,
+      "uuid": "41f6923b-df1c-446d-ad98-3fcbfd820d81",
+      "mobType": "ZombieBoss",
+      "lastSeen": 1628984638780,
+      "spawnLocation": {
+        "world": {
+          "uuid": "a4e235e5-f636-4548-8185-a0c13bdc8716",
+          "name": "Spawn"
+        },
+        "x": -89.5,
+        "y": 15.0,
+        "z": 149.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "level": 0,
+      "gcd": 0,
+      "faction": {},
+      "stance": "default",
+      "lastSignal": "",
+      "playerkills": 0,
+      "cooldowns": {},
+      "owner": {},
+      "variables": {
+        "entries": {}
+      }
+    }
+  }
 }

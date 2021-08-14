@@ -15,4 +15,8 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  crates:
+  - warp crates
+  dungeon:
+  - warp dungeon
 ignore-vanilla-permissions: false

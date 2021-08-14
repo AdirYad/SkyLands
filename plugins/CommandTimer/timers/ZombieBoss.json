@@ -1,0 +1,1 @@
+{"seconds":1800,"gender":"CONSOLE","minPlayers":-1,"name":"ZombieBoss","days":["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"],"commands":["mm m kill ZombieBoss","mm m spawn ZombieBoss 1 Spawn,-89.5,15,149.5","broadcast -n §6§lBOSS §8§l» §fA §d§lZombie Boss §fhas spawned, find him at §e\/dungeon§f!"]}

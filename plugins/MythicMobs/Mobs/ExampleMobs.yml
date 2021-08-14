@@ -72,7 +72,12 @@ DungeonSkeleton:
     PreventOtherDrops: false
 ZombieBoss:
   Type: ZOMBIE
-  Display: '&8[&f&lBOSS&8] &cZombie Boss &8[&f*&8]'
+  Display: '&d&lZOMBIE BOSS'
+  BossBar:
+    Enabled: true
+    Range: 20
+    Color: BLUE
+    Style: SOLID
   Health: 50
   Damage: 50
   Equipment:
@@ -91,6 +96,9 @@ ZombieBoss:
     MovementSpeed: 0.3
     MaxCombatDistance: 20
     PreventOtherDrops: true
+    RepeatAllSkills: true
+    Despawn: false
+    FollowRange: 20
 ValleyDefender:
   Type: ZOMBIE
   Display: '&8[&f*&8] &cOrc &8[&f*&8]' 
@@ -127,21 +135,42 @@ ValleyDefender2:
     MovementSpeed: 0.3
     MaxCombatDistance: 20
     PreventOtherDrops: true
-GolemBoss:
-  Type: ZOMBIE
-  Display: '&8[&f&LBOSS&8] &cGolem &8[&f*&8]' 
+KahunaBoss:
+  Type: EVOKER
+  Display: '&d&lTHE KAHUNA'
+  BossBar:
+    Enabled: true
+    Range: 20
+    Color: BLUE
+    Style: SOLID
   Health: 220
   Damage: 100
   Equipment:
-  - GolemHead HEAD
-  - GolemChestplate CHEST
-  - GolemLeggings LEGS
-  - GolemBoots FEET
-  - GolemSword HAND
+  - KahunaHead HEAD
+  - KahunaChestplate CHEST
+  - KahunaLeggings LEGS
+  - KahunaBoots FEET
+  - KahunaSword HAND
+  Skills:
+    - skill{s=SummonVexes} @self 0.1
+    - skill{s=SmashAttack} @target >0 0.2
   Drops:
-  - GolemBossDrops
+  - KahunaBossDrops
   Options:
     AlwaysShowName: true
-    MovementSpeed: 0.3
+    MovementSpeed: 0.5
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    RepeatAllSkills: true
+    Despawn: false
+    FollowRange: 20
+Vex:
+  Type: VEX
+  Display: '&c&lKahuna Guardian'
+  Health: 35
+  Damage: 15
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 1
     MaxCombatDistance: 20
     PreventOtherDrops: true
