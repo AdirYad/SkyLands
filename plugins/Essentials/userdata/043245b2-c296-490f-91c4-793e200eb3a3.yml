@@ -1,0 +1,38 @@
+lastAccountName: AdirYad
+timestamps:
+  login: 1628892607078
+  logout: 1628892776103
+  lastteleport: 1628879897387
+  kits:
+    special: 1628484584104
+    skygod: 1628484622652
+    skylegend: 1628568083794
+    skyhero: 1628624408989
+    skylord: 1628484633477
+    weekly: 1628557779219
+  lastheal: 1628627006006
+ipAddress: 127.0.0.1
+lastlocation:
+  world: ASkyBlock_nether
+  x: 521.720844348821
+  y: 124.11079000903459
+  z: 407.82662838207347
+  yaw: 92.40463
+  pitch: 14.700001
+logoutlocation:
+  world: ASkyBlock
+  x: 402.53645757528983
+  y: 135.20000004768372
+  z: -398.40891451868134
+  yaw: -191.98344
+  pitch: 21.449825
+money: '100000.0'
+godmode: false
+homes:
+  home:
+    world: Spawn
+    x: -1.9328922651359521
+    y: 16.11759293784915
+    z: -1.492343805867715
+    yaw: -268.21124
+    pitch: 3.1500087

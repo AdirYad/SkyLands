@@ -1,0 +1,36 @@
+# IGNORE PLEASE --------------------
+Version: 1
+Command_Aliases: [unbreakable]
+# ----------------------------------
+
+Unbreakable_Items:
+  - armor
+  - swords
+  - bow
+  - flint_and_steel
+  - stone_hoe
+  - wood_hoe
+  - gold_hoe
+  - iron_hoe
+  - diamond_hoe
+  - stone_spade
+  - wood_spade
+  - gold_spade
+  - iron_spade
+  - diamond_spade
+  - stone_axe
+  - wood_axe
+  - gold_axe
+  - iron_axe
+  - diamond_axe
+  - stone_pickaxe
+  - wood_pickaxe
+  - gold_pickaxe
+  - iron_pickaxe
+  - diamond_pickaxe
+  - skull
+Worlds:
+  - Spawn
+  - Mine
+  - Dungeon
+  - ASkyBlock_nether

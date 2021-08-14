@@ -1,0 +1,99 @@
+menu_title: '&8Voting'
+update_interval: 1
+open_command:
+- vote
+- vote url
+- vote last
+- vote next
+- vote shop
+- vote help
+size: 27
+items:
+#  Green stained glass pane
+  'Decoration':
+    display_name: '&7'
+    material: 160
+    data: 5
+    slots:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 18
+      - 19
+      - 25
+      - 26
+  #  Red stained glass pane
+  'Decoration-1':
+    display_name: '&7'
+    material: 160
+    data: 14
+    slots:
+      - 2
+      - 6
+      - 20
+      - 24
+  #  yellow stained glass pane
+  'Decoration-2':
+    display_name: '&7'
+    material: 160
+    data: 4
+    slots:
+      - 3
+      - 5
+      - 21
+      - 23
+  #  pink stained glass pane
+  'Decoration-3':
+    display_name: '&7'
+    material: 160
+    data: 6
+    slots:
+      - 4
+      - 22
+  #  light blue stained glass pane
+  'Decoration-4':
+    display_name: '&7'
+    material: 160
+    data: 3
+    slots:
+      - 9
+      - 17
+  #  white stained glass pane
+  'Decoration-5':
+    display_name: '&7'
+    material: 160
+    slots:
+      - 10
+      - 11
+      - 13
+      - 15
+      - 16
+  'Stats':
+    material: head-%player_name%
+    slot: 14
+    display_name: '&8[&6Stats&8]'
+    lore:
+    - ''
+    - '&aVotes &8» &f%VotingPlugin_Total_AllTime%'
+    - '&aVote Party &8» &f%VotingPlugin_VotePartyVotesCurrent%/%VotingPlugin_VotePartyVotesRequired%'
+    - ''
+    - '&e&lNOTE &8» &fAdditional Vote rewards'
+    - '&fwill be added soon so stay tuned!'
+  'Links':
+    material: 339
+    slot: 12
+    display_name: '&8[&dLinks&8]'
+    lore:
+    - ''
+    - '&fWe have a few voting links!'
+    - ''
+    - '&8» &eClick to view'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
+    - '[close]'
+    - '[player] vote list'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
+    - '[close]'
+    - '[player] vote list'

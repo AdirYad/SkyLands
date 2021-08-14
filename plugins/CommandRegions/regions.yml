@@ -1,0 +1,46 @@
+# 
+# Start of example Region (You can add any amount of regions)
+# To add, either edit this .yml file or use the provided in-game commands.
+# Note that if in-game commands are used and the first region is created, most of these notes will be erased.
+# 
+# 
+# You're able to add multiple commands for on enter & on leave, just seperate them using "; ". - example below.
+regions:
+  portal:
+    worldName: Spawn
+    commands:
+      playerEnterCommand: warp mine
+      consoleEnterCommand: NONE
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 7
+        y: 14
+        z: 7
+      '2':
+        x: 11
+        y: 14
+        z: 11
+  dungeon2:
+    worldName: Spawn
+    commands:
+      playerEnterCommand: warp orc-valley
+      consoleEnterCommand: NONE
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: -80
+        y: 29
+        z: 154
+      '2':
+        x: -81
+        y: 15
+        z: 164

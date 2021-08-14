@@ -1,0 +1,86 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Skyzen:
+    delay: 100000000000
+    items:
+      - 267 1 sharpness:3 looting:1 name:&7Skyzen
+      - 322 8 name:&7Skyzen
+      - 257 1 efficiency:2 fortune:1 name:&7Skyzen
+      - 258 1 efficiency:2 name:&7Skyzen
+      - 306 1 protection:2 thorns:1 name:&7Skyzen
+      - 307 1 protection:2 thorns:1 name:&7Skyzen
+      - 308 1 protection:2 thorns:1 name:&7Skyzen
+      - 309 1 protection:2 thorns:1 name:&7Skyzen
+  Weekly:
+    delay: 604800
+    items:
+    - 322:0 20 name:§7Kit_§8|_§fWeekly
+    - 326:0 1 name:§7Kit_§8|_§fWeekly
+    - 327:0 1 name:§7Kit_§8|_§fWeekly
+    - 54:0 6 name:§7Kit_§8|_§fWeekly
+    - 61:0 1 name:§7Kit_§8|_§fWeekly
+    - 58:0 1 name:§7Kit_§8|_§fWeekly
+    - 6:0 4 name:§7Kit_§8|_§fWeekly
+  Special:
+    delay: 2064000
+    items:
+    - 57:0 16 name:§5Kit_§8|_§dSpecial
+    - 133:0 16 name:§5Kit_§8|_§dSpecial
+    - 41:0 16 name:§5Kit_§8|_§dSpecial
+    - 42:0 16 name:§5Kit_§8|_§dSpecial
+    - 322:0 64 name:§5Kit_§8|_§dSpecial
+    - 322:0 64 name:§5Kit_§8|_§dSpecial
+    - 322:1 2 name:§5Kit_§8|_§dSpecial
+  SkyHero:
+    delay: 100000000000
+    items:
+    - 267:0 1 damage_all:4 loot_bonus_mobs:2 name:§2Kit_§8|_§aSkyHero
+    - 322:0 16 name:§2Kit_§8|_§aSkyHero
+    - 257:0 1 dig_speed:3 loot_bonus_blocks:1 name:§2Kit_§8|_§aSkyHero
+    - 258:0 1 dig_speed:3 name:§2Kit_§8|_§aSkyHero
+    - 306:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
+    - 307:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
+    - 308:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
+    - 309:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
+  SkyLegend:
+    delay: 100000000000
+    items:
+    - 267:0 1 damage_all:5 loot_bonus_mobs:3 name:§2Kit_§8|_§eSkyLegend
+    - 322:0 32 name:§2Kit_§8|_§eSkyLegend
+    - 257:0 1 dig_speed:4 loot_bonus_blocks:2 name:§2Kit_§8|_§eSkyLegend
+    - 258:0 1 dig_speed:4 name:§2Kit_§8|_§aSkyHero§e+
+    - 306:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
+    - 307:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
+    - 308:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
+    - 309:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
+  SkyLord:
+    delay: 100000000000
+    items:
+    - 276:0 1 damage_all:3 loot_bonus_mobs:2 name:§3Kit_§8|_§c§lSkyLord
+    - 322:0 64 name:§3Kit_§8|_§c§lSkyLord
+    - 278:0 1 dig_speed:3 loot_bonus_blocks:1 name:§3Kit_§8|_§c§lSkyLord
+    - 279:0 1 dig_speed:3 name:§3Kit_§8|_§c§lSkyLord
+    - 310:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
+    - 311:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
+    - 312:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
+    - 313:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
+  SkyGod:
+    delay: 100000000000
+    items:
+    - 276:0 1 damage_all:4 loot_bonus_mobs:3 name:§3Kit_§b§lSky§a§lGod
+    - 322:0 64 name:§3Kit_§b§lSky§a§lGod
+    - 278:0 1 dig_speed:4 loot_bonus_blocks:2 name:§3Kit_§b§lSky§a§lGod
+    - 279:0 1 dig_speed:4 name:§3Kit_§b§lSky§a§lGod
+    - 310:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
+    - 311:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
+    - 312:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
+    - 313:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod

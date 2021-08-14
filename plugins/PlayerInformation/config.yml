@@ -1,0 +1,82 @@
+#
+# ██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░██╗███╗░░██╗███████╗░█████╗░
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗
+# ██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝██║██╔██╗██║█████╗░░██║░░██║
+# ██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗██║██║╚████║██╔══╝░░██║░░██║
+# ██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██║██║░╚███║██║░░░░░╚█████╔╝
+# ╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
+#                               Player Information
+#                           Developed by aglerr with <3
+#
+# Join our discord to get a support!
+# Discord: https://discord.gg/vHqQfsF
+#
+# If you found any bugs please report it on discussion page or join our discord
+# server, don't post the bug on the review section!
+# Don't forget to rate us ★★★★★
+#
+###############################################################################
+messages:
+  no-permission: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+  reload: '&6&l(!) &aYou have reloaded the configuration.'
+  disable-world: '&6&l(!) &cYou can''t use this feature on this world.'
+  open: '&6&l(!) &aYou have opened &e%player_name%&a''s information.'
+  target-not-found: '&6&l(!) &cPlayer not found!'
+  help-cmd: 
+  - '&6&l&nPlayerInformation - v2.9'
+  - '&6/playerinfo view <player> &7- see any player''s information'
+  - '&6/playerinfo reload &7- reload the configuration.'
+  - '&6/playerinfo toggle &7- toggle on/off so other players can''t see your information.'
+  toggle-blocked: 
+  - '&6&l(!) &7You have &cblocked &7player information'
+  - '&7Now everyone &ccan''t &7see your information'
+  toggle-enabled: 
+  - '&6&l(!) &7You have &aenabled &7player information'
+  - '&7Now everyone &acan &7see your information'
+  target-toggle-blocked: '&6&l(!) &e%player_name% &7has player information &cblocked'
+  selfview: '&6&l(!) &cYou can''t view your own information.'
+  is-in-combat: '&a&lCOMBAT &8&l &7You cant view player information while in combat!'
+  
+options:
+  shiftclick: false #If false, you don't need to sneak to open the player info, but disabled shift-click completely
+  disable-npc: true #Disable viewing NPC's information.
+  disable-selfviewing: true #Disable player from viewing their own info.
+  disable-open-msg: true
+  empty-hand: false #If true, you can only open players information with an empty hand
+
+hooks:
+  combatlogx: false
+
+# You can put 'disable-worlds: []' to disable this features.
+# worlds name are case-sensitive
+disable-worlds:
+- anyworld
+- disabledworld
+
+close-distance:
+  enabled: false
+  distance: 5
+  messages:
+    close: '&6&l(!) &e%player_name% &7is too far from you.'
+
+# Interval in ticks
+# 20 ticks = 1 second
+# 100 ticks = 5 seconds
+auto-refresh:
+  enabled: true
+  interval: 40
+
+# Time in seconds
+cooldown:
+  enabled: false
+  time: 3
+  messages:
+    on-cooldown: '&6&l(!) &7You &ccan''t &7open player information for &6%time% seconds&7.'
+    
+# Latest: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+sounds:
+  on-open:
+    enabled: false
+    name: BLOCK_LAVA_POP
+    volume: 10.0
+    pitch: 1.0

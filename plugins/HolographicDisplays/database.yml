@@ -1,0 +1,185 @@
+# 
+#  - '&2* &aVote Crate &2»{medium}&a%crazycrates_Vote% &2*'
+lumberjack:
+  location: Spawn, -8.585, 17.600, -16.521
+  lines:
+  - '&aLumberjack'
+  - '&e&lCLICK'
+builder:
+  location: Spawn, -23.541, 17.600, -18.436
+  lines:
+  - '&aBuilder'
+  - '&e&lCLICK'
+miner:
+  location: Spawn, -17.500, 17.600, -49.554
+  lines:
+  - '&aMiner'
+  - '&e&lCLICK'
+farmer:
+  location: Spawn, 3.500, 17.600, -17.575
+  lines:
+  - '&aFarmer'
+  - '&e&lCLICK'
+adventurer:
+  location: Spawn, -2.500, 17.600, -49.500
+  lines:
+  - '&aAdventurer'
+  - '&e&lCLICK'
+weaponsmith:
+  location: Spawn, -9.500, 17.600, -22.500
+  lines:
+  - '&aWeaponsmith'
+  - '&e&lCLICK'
+blacksmith:
+  location: Spawn, -24.492, 17.600, -24.566
+  lines:
+  - '&aBlacksmith'
+  - '&e&lCLICK'
+traveler:
+  location: Spawn, 5.529, 17.600, -11.463
+  lines:
+  - '&dTraveler Seller'
+  - '&e&lCLICK'
+auctioner:
+  location: Spawn, -38.473, 18.500, -51.504
+  lines:
+  - '&aAuctioner'
+  - '&e&lCLICK'
+deliveryman:
+  location: Spawn, 13.484, 17.600, -5.572
+  lines:
+  - '&aDelivery Man'
+  - '&e&lCLICK'
+enchanter:
+  location: Spawn, -45.535, 17.600, -10.495
+  lines:
+  - '&aEnchanter'
+  - '&e&lCLICK'
+banker:
+  location: Spawn, -58.499, 17.600, -33.544
+  lines:
+  - '&aBanker'
+  - '&e&lCLICK'
+mine:
+  location: Spawn, 9.527, 17.200, 9.419
+  lines:
+  - '&aGo to the Mine'
+  - '&e&LJUMP TO GO'
+vote:
+  location: Spawn, -18.481, 18.300, 3.482
+  lines:
+  - '&2* &a&Vote &aCrate &2*'
+  - '&e&lUSE A KEY'
+mega:
+  location: Spawn, -22.491, 18.300, 3.515
+  lines:
+  - '&2* &d&lMega &aCrate &2*'
+  - '&e&lUSE A KEY'
+legendary:
+  location: Spawn, -26.488, 18.300, 3.489
+  lines:
+  - '&2* &6&lLegendary &aCrate &2*'
+  - '&e&lUSE A KEY'
+warning:
+  location: Spawn, -74.374, 17.000, -46.524
+  lines:
+  - '&c[!] &lWARNING &c[!]'
+  - ''
+  - '&7When you die you will not lose'
+  - '&7Your items but half your money'
+  - ''
+  - '&c[!] &lWARNING &c[!]'
+warning1:
+  location: Spawn, -107.551, 17.000, -13.470
+  lines:
+  - '&c[!] &lWARNING &c[!]'
+  - ''
+  - '&7When you die you will not lose'
+  - '&7Your items but half your money'
+  - ''
+  - '&c[!] &lWARNING &c[!]'
+warning2:
+  location: Spawn, -107.415, 17.000, -79.487
+  lines:
+  - '&c[!] &lWARNING &c[!]'
+  - ''
+  - '&7When you die you will not lose'
+  - '&7Your items but half your money'
+  - ''
+  - '&c[!] &lWARNING &c[!]'
+warning3:
+  location: Spawn, -140.550, 17.000, -46.497
+  lines:
+  - '&c[!] &lWARNING &c[!]'
+  - ''
+  - '&7When you die you will not lose'
+  - '&7Your items but half your money'
+  - ''
+  - '&c[!] &lWARNING &c[!]'
+sanvil:
+  location: Spawn, -42.484, 17.450, -12.506
+  lines:
+  - '&aSpecial Anvil'
+  - '&e&lCLICK'
+orc-valley:
+  location: Spawn, -81.700, 18.200, 159.415
+  lines:
+  - '&a&lLev 2 [Orc Valley]'
+  - ''
+  - '&7It is advisable to go well equipped!'
+  - ''
+access:
+  location: Spawn, -85.470, 17.200, 167.370
+  lines:
+  - '&a&lNpc Info:'
+  - ''
+  - '&7Talk with the npc to buy access'
+  - '&7to the dungeon #2 (orc valley).'
+  - ''
+merchant:
+  location: Spawn, -83.559, 17.500, 165.462
+  lines:
+  - '&aMerchant'
+  - '&e&lCLICK'
+BossInfo:
+  location: Spawn, -87.544, 18.000, 148.462
+  lines:
+  - '&a&lBoss Info:'
+  - ''
+  - '&7The boss spawn in the'
+  - '&7emerald every 30 minutes'
+  - ''
+  - '&7Boss damage: &b50'
+  - '&7Boss health: &b50'
+BossInfo2:
+  location: Dungeon, -384.314, 74.000, 704.436
+  lines:
+  - '&a&lBoss Info:'
+  - ''
+  - '&7The boss spawn in the'
+  - '&7emerald every 30 minutes'
+  - ''
+  - '&7Boss damage: &b100'
+  - '&7Boss health: &b220'
+spawnershop:
+  location: Spawn, -12.486, 17.500, 1.473
+  lines:
+  - '&aSpawners Shop'
+  - '&e&lCLICK'
+Tops:
+  location: Spawn, -27.551, 17.500, -4.485
+  lines:
+  - '&aTops'
+  - '&e&lCLICK'
+Crates:
+  location: Spawn, -22.500, 18.658, -1.500
+  lines:
+  - '&8---- &aCrates &8----'
+  - '&cGot a crate key? Open it here!'
+  - ''
+  - '&cYou can also type /warp crates to'
+  - '&cinstantly warp here!'
+  - ''
+  - '&aYou can buy keys on &l/buy, or from'
+  - '&aour store, &bstore.skylandsnetwork.com'
+  - '&8-----------------'

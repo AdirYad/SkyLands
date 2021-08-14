@@ -1,0 +1,104 @@
+amountPattern: '1-64'
+ignoreColoredDisplay: true
+
+iconsLore:
+- '&7'
+- '&8&l▪ &8&nPrices:'
+- '&7'
+- '&8* &7Buy: &b{buy_price} ⛁'
+- '&8* &7Sell: &b{sell_price} ⛁'
+- '&7'
+- '&8» &eLeft click to buy'
+- '&8» &eRight click to sell'
+
+pageSuffix: ''
+
+# These items will be added in the last row
+changeAmount:
+  enable: true
+  slot: 7
+  id: 265
+  name: '&2[*] &aChange Amount'
+  lore:
+  - '&7'
+  - '&7Use this to select the quantity'
+  - '&7of items you wish to buy or sell.'
+  - '&7'
+  - '&8» &eLeft click to increase'
+  - '&8» &eRight click to decrease'
+nextPage:
+  slot: 2
+  id: '351:10'
+  inactiveId: '351:8'
+  name: '&2[*] &aNext'
+  inactiveName: '&7'
+previousPage:
+  slot: 1
+  id: '351:10'
+  inactiveId: '351:8'
+  name: '&2[*] &aBack'
+  inactiveName: '&7'
+
+customNodes:
+  'Close':
+    slot: 4
+    id: 166
+    name: '&2[*] &aClose'
+    lore: ''
+    close: true
+  'D1':
+    slot: 0
+    id: 0160:15
+    name: ''
+    lore: ''
+  'D2':
+    slot: 1
+    id: 0160:7
+    name: ''
+    lore: ''
+  'D3':
+    slot: 2
+    id: 0160:7
+    name: ''
+    lore: ''
+  'D4':
+    slot: 3
+    id: 0160:7
+    name: ''
+    lore: ''
+  'D5':
+    slot: 5
+    id: 0160:7
+    name: ''
+    lore: ''
+  'D6':
+    slot: 6
+    id: 0160:7
+    name: ''
+    lore: ''
+  'D7':
+    slot: 8
+    id: 0160:15
+    name: ''
+    lore: ''
+
+messages:
+  noItem: '&a&lSHOP &8&l» &7You dont have &ex{amount} {item}'
+  noMoney: '&a&lSHOP &8&l» &7You need &e{money} ⛁ &7to buy this'
+  bought: '&a&lSHOP &8&l» &7You have bought &ex{amount} {item}'
+  sold: '&a&lSHOP &8&l» &7You have sold &ex{amount} {item} &7for &d{money} ⛁'
+
+# Sound names can be found here hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sounds:
+  bought: ENTITY_PLAYER_LEVELUP
+  sold: ENTITY_PLAYER_LEVELUP
+  noMoney: BLOCK_ANVIL_LAND
+  noItem: BLOCK_ANVIL_LAND
+
+
+
+
+
+
+
+configVersion: '1.5'

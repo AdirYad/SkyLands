@@ -1,0 +1,99 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+
+nametag-refresh-interval-milliseconds: 1000
+tablist-refresh-interval-milliseconds: 1000
+header-footer-refresh-interval-milliseconds: 100
+
+header:
+  - ""
+  - "&8« &7* &8» &a&l%animation:SkyLands% &8« &7* &8»"
+  - ""
+footer:
+  - ""
+  - "&a&lOnline"
+  - "&f%server_online%&8/&f%server_max_players%"
+  - ""
+  - "&a&lstore.skylandsnetwork.com "
+  - ""
+
+tablist-objective: PING
+tablist-objective-custom-value: "%some_placeholderapi_placeholder%"
+group-sorting-priority-list:
+  - Owner
+  - SkyGod
+  - SkyLord
+  - SkyLegend
+  - SkyHero
+  - Skyzen
+Groups:
+  Owner:
+    tabprefix: "&0&4&lOWNER &f"
+    tagprefix: "&0&4&lOWNER &f"
+  SkyGod:
+    tabprefix: "&1&b&lSky&a&lGod &f"
+    tagprefix: "&b&lSky&a&lGod &f"
+  SkyLord:
+    tabprefix: "&2&c&lSkyLord &f"
+    tagprefix: "&2&c&lSkyLord &f"
+  SkyLegend:
+    tabprefix: "&3&eSkyLegend &f"
+    tagprefix: "&3&eSkyLegend &f"
+  SkyHero:
+    tabprefix: "&4&aSkyHero &f"
+    tagprefix: "&4&aSkyHero &f"
+  Skyzen:
+    tabprefix: "&7Skyzen &f"
+    tagprefix: "&7Skyzen &f"
+
+Users:
+
+belowname:
+  enabled: false
+  refresh-interval-milliseconds: 200
+  number: "&c%health%"
+  text: "&cHealth"
+
+enable-collision: true
+revert-collision-rule-in-worlds:
+  - revertedworld
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+
+per-world-settings:
+
+placeholders:
+  afk-yes: " &4*&4&lAFK&4*&r"
+  afk-no: ""
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss / h:mm a]"
+  time-offset: 0
+  remove-strings:
+    - "[]"
+    - "< >"
+rank-aliases:
+  Owner: "&4&lOWNER &f"
+  SkyGod: "&b&lSky&a&lGod &f"
+  SkyLord: "&c&lSkyLord &f"
+  SkyLegend: "&eSkyLegend &f"
+  SkyHero: "&aSkyHero &f"
+  Skyzen: "&7Skyzen &f"
+  
+disable-features-in-worlds:
+  header-footer:
+    - disabledworld
+  tablist-names:
+    - disabledworld
+  nametag:
+    - disabledworld
+  tablist-objective:
+    - disabledworld
+  bossbar:
+    - disabledworld
+  belowname:
+    - disabledworld

@@ -1,0 +1,24 @@
+Zombie:
+  MobName: DungeonZombie
+  World: Spawn
+  X: -169
+  Y: 14
+  Z: 72
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 20
+  CooldownTimer: 0
+  Warmup: 30
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

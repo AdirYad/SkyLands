@@ -1,0 +1,17 @@
+Language: EN
+Default:
+  Border:
+    Toggled: true
+    Color: BLUE
+ToggleCooldown:
+  Enabled: true
+  Seconds: 5
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Port: 3306
+  Username: user
+  Password: mySecurePassword
+  Database: IslandBorder
+  TableName: IslandBorder
+  SSL: false

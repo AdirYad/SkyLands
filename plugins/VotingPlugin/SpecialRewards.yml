@@ -1,0 +1,105 @@
+# To disable reward set value to {}
+# or remove entirely
+# Eg:
+# FirstVote: {} (All in one line)
+# Rewards will be given if there is a reward to give, otherwise they will be ignored
+# 
+# First vote rewards
+FirstVote:
+  Messages:
+    Player: '&aYou voted for your first time!'
+FirstVoteToday: {}
+AllSites:
+  Messages:
+    Player: '&aYou voted on all sites in 1 day!'
+Cumulative:
+  '20':
+    Enabled: false
+    TotalToUse: AllTime
+    Rewards:
+      Messages:
+        Player: '&aYou got %cumulative% cumulative votes!'
+VoteParty:
+  Enabled: true
+  VotesRequired: 25
+  GiveAllPlayers: false
+  GiveOnlinePlayersOnly: true
+  ResetEachDay: false
+  ResetWeekly: false
+  ResetMonthly: false
+  OnlyOncePerDay: false
+  ResetExtraVotesMonthly: false
+  CountFakeVotes: true
+  UserVotesRequired: 0
+  CountOfflineVotes: true
+  ResetCount: true
+  Commands:
+    - broadcast &fReached the vote party amount! Dont forget to &a/vote
+    - cc giveall p Mega 1
+  Rewards:
+    Commands:
+ResetMilestonesMonthly: false
+MileStones:
+  '20':
+    Enabled: false
+    Rewards:
+      Messages:
+        Player: '&aYou got %milestone% milestone votes!'
+VoteStreak:
+  Day:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: '&aYou voted for %Streak% %Type%''s in a row!'
+  Week:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: '&aYou voted for %Streak% %Type%''s in a row!'
+  Month:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: '&aYou voted for %Streak% %Type%''s in a row!'
+  Requirement:
+    UsePercentage: false
+    Day: 50
+    Week: 50
+    Month: 50
+VoteCoolDownEndedReward: []
+AnySiteRewards: {}
+LoginRewards: {}
+LogoutRewards: {}
+EnableMonthlyAwards: false
+MonthlyAwards:
+  '1':
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  '2':
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'
+EnableWeeklyAwards: false
+WeeklyAwards:
+  '1':
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  '2':
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'
+EnableDailyRewards: false
+DailyAwards:
+  '1':
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  '2':
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'

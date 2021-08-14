@@ -1,0 +1,112 @@
+udiamond:
+  ==: Recipe
+  result: §aUltimate Diamond
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+zleather:
+  ==: Recipe
+  result: §2Zombie Leather
+  recipe:
+  - §aZombie Fragment
+  - §aZombie Fragment
+  - null
+  - §aZombie Fragment
+  - §aUltimate Diamond
+  - null
+  - §aZombie Fragment
+  - §aZombie Fragment
+  - null
+  permission: ''
+zombiehelmet:
+  ==: Recipe
+  result: §9Zombie Helmet
+  recipe:
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - null
+  - null
+  - null
+  permission: ''
+zombiechestplate:
+  ==: Recipe
+  result: §9Zombie Chestplate
+  recipe:
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  permission: ''
+zombieleggings:
+  ==: Recipe
+  result: §9Zombie Leggings
+  recipe:
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  permission: ''
+zombieboots:
+  ==: Recipe
+  result: §9Zombie Boots
+  recipe:
+  - null
+  - null
+  - null
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  permission: ''
+slimecompact:
+  ==: Recipe
+  result: §aCompact Slime
+  recipe:
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  - §fSlime Fragment
+  permission: ''
+slimebow:
+  ==: Recipe
+  result: §2Slime Bow
+  recipe:
+  - null
+  - STICK
+  - §aCompact Slime
+  - STICK
+  - null
+  - §aCompact Slime
+  - null
+  - STICK
+  - §aCompact Slime
+  permission: ''

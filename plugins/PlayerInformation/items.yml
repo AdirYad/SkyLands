@@ -1,0 +1,64 @@
+#
+# ██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░██╗███╗░░██╗███████╗░█████╗░
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗
+# ██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝██║██╔██╗██║█████╗░░██║░░██║
+# ██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗██║██║╚████║██╔══╝░░██║░░██║
+# ██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██║██║░╚███║██║░░░░░╚█████╔╝
+# ╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
+#                               Player Information
+#                           Developed by aglerr with <3
+#
+# Once you've purchased this resource, you will receive a special rank on our
+# official discord support server, make sure to join the server.
+# Discord: https://discord.gg/vHqQfsF
+#
+# If you found any bugs please report it on discussion page or join our discord
+# server, don't post the bug on the review section!
+# Don't forget to rate us ★★★★★
+#
+###############################################################################
+#
+# You can create unlimited items in here with PlaceholderAPI support
+# And also you can disable commands or lore, example:
+# 'commands: []' or 'lore: []'
+#
+###############################################################################
+items:
+  youCanCreateAnything:
+    material: GOLD_INGOT
+    slot: 16
+    amount: 1
+    name: '&a%player_name% Money:'
+    lore:
+    - '&7'
+    - '&7Purse: &e$%vault_eco_balance_formatted%'
+    - '&7Bank Purse: &e%banksystem_balance%$'
+    - '&7'
+  Invite:
+    material: SAPLING
+    slot: 25
+    amount: 1
+    name: '&aInvite %player_name%'
+    lore:
+    - '&7'
+    - '&7Use this option to invite'
+    - '&b%player_name% &7to you island.'
+    - '&7'
+    - '&8» &eClick to invite'
+    commands:
+    - '[PLAYER] is invite %player_name%'
+    - '[CLOSE]'
+  tradeItem:
+    material: CHEST
+    slot: 34
+    amount: 1
+    name: '&aTrade with %player_name%'
+    lore:
+    - '&7'
+    - '&7Use this option to send a trade'
+    - '&7request to &b%player_name%'
+    - '&7'
+    - '&8» &eClick to send'
+    commands:
+    - '[PLAYER] trade %player_name%'
+    - '[CLOSE]'

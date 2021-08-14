@@ -1,0 +1,24 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 30
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SummonMinions:
+  Cooldown: 50
+  Skills:
+  - delay 20
+  - summon{mob=DungeonZombie;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=DungeonZombie;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=DungeonZombie;amount=2;noise=5} @Self

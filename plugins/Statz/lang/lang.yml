@@ -1,0 +1,16 @@
+# Language file
+incorrect-page-number: '&4You did not provide a correct page number!'
+page-index: '&9Page {0} of {1}'
+command-performed-only-players: '&4This command can only be performed by players!'
+player-never-played-before: '&4{0} has never played on this server before!'
+no-statistics-to-show: '&4There is nothing to show for this stat.'
+incorrect-stat-type: '&4{0} is not a correct stat!'
+specific-stat-header: '&e---- [Stat {0} of {1}] ----'
+statz-hooked-and-listening: '&eStatz is currently hooked and listening to the following
+  plugins:'
+did-not-find-dependency: '&4Statz could not detect {0} running on this server!'
+command-not-recognized: '&4This command was not recognized!'
+statz-help-command: '&eUse ''/statz help'' for a list of commands.'
+insufficient-permissions: '&4You do not have the permission ({0}) to perform this
+  command.'
+incorrect-command-usage: '&4Incorrect command usage! Try &e{0}'

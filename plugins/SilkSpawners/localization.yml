@@ -1,0 +1,78 @@
+# This line affects the new naming of spawners, to DISABLE this, change the message back to Monster Spawner
+spawnerName: '&a%creature% &2Spawner'
+ 
+addedEgg: '&a&lSPAWNERS &8&l» &7Successfully added &e%amount% %creature% spawn egg(s)
+  &2to your inventory.'
+addedEggOtherPlayer: '&a&lSPAWNERS &8&l» &7Added &e%amount% %creature% spawn egg(s)
+  &2to &e%player%&2''s inventory.'
+addedSpawner: '&a&lSPAWNERS &8&l» &7Added &e%amount% %creature% spawner(s) &2to your
+  inventory.'
+addedSpawnerOtherPlayer: '&a&lSPAWNERS &8&l» &7Added &e%amount% %creature% spawner(s)
+  &2to &e%player%&2''s inventory.'
+noFreeSlot: '&a&lSPAWNERS &8&l» &7There is no free slot in the inventory!'
+ 
+noPermission: '&a&lSPAWNERS &8&l» &7You do not have the permission to use this command!'
+noPermissionChangingEgg: '&a&lSPAWNERS &8&l» &7You do not have permission to change
+  spawn eggs!'
+noPermissionChangingSpawner: '&a&lSPAWNERS &8&l» &7You do not have permission to change
+  spawners!'
+noPermissionFreeEgg: '&a&lSPAWNERS &8&l» &7You do not have permission to spawn free
+  eggs!'
+noPermissionFreeSpawner: '&a&lSPAWNERS &8&l» &7You do not have the permission to spawn
+  free spawners!'
+noPermissionViewType: '&a&lSPAWNERS &8&l» &7You do not have the permission to view
+  the type of this spawner!'
+noPermissionChangingWithEggs: '&a&lSPAWNERS &8&l» &7You do not have permission to
+  change spawners with spawn eggs!'
+noPermissionCraft: '&a&lSPAWNERS &8&l» &7You do not have the permission to craft a(n)
+  &e%creature% &4spawner!'
+noPermissionPlace: '&a&lSPAWNERS &8&l» &7You do not have the permission to place a(n)
+  &e%creature% &4spawner!'
+ 
+changedEgg: '&a&lSPAWNERS &8&l» &7Successfully changed the spawning egg to a(n) &e%creature%
+  spawn egg.'
+changedSpawner: '&a&lSPAWNERS &8&l» &7Successfully changed the spawner to a(n) &e%creature%
+  spawner.'
+ 
+playerOffline: '&a&lSPAWNERS &8&l» &7Sorry this player is offline!'
+changingDeniedFactions: '&a&lSPAWNERS &8&l» &7You are not allowed to change spawners
+  in other peoples territory!'
+changindDeniedFeudal: '&a&lSPAWNERS &8&l» &7You are not allowed to change spawners
+  in other peoples kingdom!'
+changingDeniedWorldGuard: '&a&lSPAWNERS &8&l» &7Changing spawner type denied by WorldGuard
+  protection.'
+getSpawnerType: '&a&lSPAWNERS &8&l» &7This is a(n) &e%creature% spawner&2.'
+unknownArgument: '&a&lSPAWNERS &8&l» &7Unrecognized argument. See &e/silkspawners
+  help'
+unknownCreature: '&a&lSPAWNERS &8&l» &7Unrecognized creature &e%creature%&4.'
+useNumbers: '&a&lSPAWNERS &8&l» &7Please use a numeric number between 1 and 64!'
+noConsole: '&a&lSPAWNERS &8&l» &7The console can not use this command!'
+configsReloaded: '&a&lSPAWNERS &8&l» &7Successfully reloaded the configs!'
+ 
+spawnerBroken: '&a&lSPAWNERS &8&l» &e%creature% &7spawner has been broken.'
+spawnerPlaced: '&a&lSPAWNERS &8&l» &e%creature% &7spawner has been placed.'
+placingDefault: '&ePlacing default spawner (either this spawner is invalid or disabled)'
+ 
+informationOfSpawner1: -- Monster Spawner --
+informationOfSpawner2: '-- Type: %creature% --'
+informationOfSpawner3: '-- EntityID: %ID% --'
+informationOfSpawnerBar: 'Monster Spawner, Type: &e%creature%&f, ID: %ID%'
+ 
+spawningDenied: '&a&lSPAWNERS &8&l» &7Spawning of &e%creature% (ID %ID%) &4denied!'
+spawning: '&a&lSPAWNERS &8&l» &7Spawning &e%creature% (ID %ID%)'
+noSpawnerHere: '&a&lSPAWNERS &8&l» &7A spawner can not be placed here, because the
+  block above is blocked!'
+ 
+lookAtSpawner: '&a&lSPAWNERS &8&l» &7You must be looking directly at a spawner.'
+spawnerNotDeterminable: '&a&lSPAWNERS &8&l» &7You either have no spawner or egg in
+  your hand or a spawner or egg in both hands. Please make one empty!'
+help: |-
+  '&7------&6SilkSpawners v%version% Help Menu&7------'
+  '&e/ss help &7- &2Displays the help menu.'
+  '&e/ss list|all &7- &2Displays all available creatures.'
+  '&e/ss view &7- &2Displays information about the viewed spawner.'
+  '&e/ss reload|rl &7- &2Reloads the configuration files.'
+  '&e/ss change <newMob> &7- &2Changes the spawner you are currently holding or viewing at.'
+  '&e/ss give|add <player> <mob> [amount] &7- &2Gives a spawner or egg to the player. Amount is optional'
+changingDeniedFeudal: '&a&lSPAWNERS &8&l» &7You are not allowed to change spawners
+  in other peoples kingdom!'

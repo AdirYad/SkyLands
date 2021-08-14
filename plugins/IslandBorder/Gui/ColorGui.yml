@@ -1,0 +1,28 @@
+Gui:
+  Name: '&fBorder Color'
+  Slot:
+    '1':
+      Item: INK_SACK
+      Data: 12
+      Quantity: 1
+      Name: '&bBlue'
+    '2':
+      Item: STAINED_GLASS_PANE
+      Data: 0
+      Quantity: 1
+      Name: ' '
+    '3':
+      Item: INK_SACK
+      Data: 1
+      Quantity: 1
+      Name: '&cRed'
+    '4':
+      Item: STAINED_GLASS_PANE
+      Data: 0
+      Quantity: 1
+      Name: ' '
+    '5':
+      Item: INK_SACK
+      Data: 10
+      Quantity: 1
+      Name: '&aGreen'

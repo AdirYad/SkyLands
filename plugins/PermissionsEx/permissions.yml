@@ -1,0 +1,168 @@
+groups:
+  Owner:
+    options:
+      prefix: '&4&lOWNER &f'
+    permissions:
+    - '*'
+    worlds:
+      AdirYad:
+        permissions: []
+  Skyzen:
+    options:
+      prefix: '&7Skyzen &f'
+      default: true
+    permissions:
+    - parmorinfo.clickinfo
+    - simplescore.toggle
+    - autotool.use
+    - shop.command.usage
+    - shop.command.open
+    - deluxemenus.open.*
+    - deluxemenus.clear
+    - skyzen.tags
+    - deluxetags.heart
+    - deluxetags.coin
+    - askyblock.team.join
+    - askyblock.team.makeleader
+    - askyblock.team.kick
+    - askyblock.island.maxhomes.1
+    - askyblock.team.maxsize.2
+    - askyblock.team.create
+    - askyblock.craft.enderchest
+    - ISBorder.Color.Gui
+    - ISBorder.Color
+    - ISBorder.Toggle
+    - ISBorder.Gui
+    - essentials.help
+    - essentials.helpop
+    - essentials.msg
+    - essentials.pay
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpahere
+    - essentials.spawn
+    - essentials.kit
+    - essentials.kits.weekly
+    - essentials.warp
+    - essentials.warps.Auctioner
+    - essentials.warps.Banker
+    - essentials.warps.Crates
+    - essentials.warps.Dungeon
+    - essentials.warps.enchanter
+    - essentials.warps.Mine
+    - essentials.warps.PvP
+    - essentials.warps.Wood
+    - essentials.balance.others
+    - essentials.balance
+    - essentials.mail
+    - essentials.mail.send
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - unbreakable.armor
+    - unbreakable.weapons
+    - unbreakable.tools
+    - crazyenchantments.access
+    - crazyenchantments.blacksmith
+    - crazyenchantments.limit.10
+    - crazyauctions.access
+    - crazyauctions.collect
+    - crazyauctions.expire
+    - crazyauctions.bid
+    - crazyauctions.bid.15
+    - banksystem.command.deposit
+    - banksystem.command.withdraw
+    - skyzen.reward
+    - BlockCommand.click
+  SkyHero:
+    options:
+      prefix: '&aSkyHero &f'
+    permissions:
+    - rank.yes
+    - essentials.disposal
+    - essentials.feed
+    - essentials.heal
+    - essentials.kits.skyhero
+    - essentials.kits.special
+    - essentials.home
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.workbench
+    - deluxetags.peace
+    - deluxetags.airplane
+    - deluxetags.star1
+    - skyhero.tags
+    - skyhero.colors
+    - skyhero.reward
+    inheritance:
+    - Skyzen
+  SkyLegend:
+    options:
+      prefix: '&eSkyLegend &f'
+    permissions:
+    - essentials.nick
+    - essentials.kits.skylegend
+    - essentials.sethome.multiple.skylegend
+    - essentials.enderchest
+    - deluxetags.star2
+    - deluxetags.yinyang
+    - deluxetags.toxic
+    - deluxetags.recycling
+    - deluxetags.sword
+    - skylegend.tags
+    - skylegend.colors
+    - skylegend.reward
+    inheritance:
+    - SkyHero
+  SkyLord:
+    options:
+      prefix: '&c&lSkyLord &f'
+    permissions:
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.kits.skylord
+    - essentials.sethome.multiple.skylord
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.repair.all
+    - essentials.condense
+    - deluxetags.snowflake
+    - deluxetags.scissors
+    - deluxetags.flower1
+    - deluxetags.flower2
+    - deluxetags.clover
+    - skylord.tags
+    - skylord.reward
+    - skylord.colors
+    inheritance:
+    - SkyLegend
+  SkyGod:
+    options:
+      prefix: '&b&lSky&a&lGod &f'
+    permissions:
+    - essentials.fly
+    - essentials.kits.skygod
+    - essentials.sethome.multiple.skygod
+    - essentials.chat.color
+    - essentials.invsee
+    - special.reward
+    - deluxetags.snowflake
+    - deluxetags.snowman
+    - deluxetags.hot
+    - deluxetags.music1
+    - deluxetags.music2
+    - deluxetags.music3
+    - skygod.tags
+    - skygod.reward
+    - skygod.colors
+    inheritance:
+    - SkyLord
+schema-version: 1
+users:
+  043245b2-c296-490f-91c4-793e200eb3a3:
+    group:
+    - SkyGod
+    - Owner
+    options:
+      name: AdirYad

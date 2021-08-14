@@ -1,0 +1,91 @@
+# 
+# Reward for any site
+# Similar to AnySiteReward
+# This requires the site to be configured in order to get the reward.
+VoteSites:
+  MinecraftServers:
+    Enabled: true
+    Name: MinecraftServers.org
+    Priority: 5
+    Hidden: false
+    ServiceSite: minecraftservers.org
+    VoteURL: https://minecraftservers.org/vote/621727
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+      Firework:
+        Enabled: true
+  PlanetMinecraft:
+    Enabled: true
+    Name: PlanetMinecraft.com
+    Priority: 4
+    Hidden: false
+    ServiceSite: planetminecraft.com
+    VoteURL: https://planetminecraft.com/server/skylandsnetwork/vote/
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+      Firework:
+        Enabled: true
+  Minecraft-Mp:
+    Enabled: true
+    Name: Minecraft-Mp.com
+    Priority: 3
+    Hidden: false
+    ServiceSite: minecraft-mp.com
+    VoteURL: https://minecraft-mp.com/server/291369/vote/
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+      Firework:
+        Enabled: true
+  Minecraft-Server-List:
+    Enabled: true
+    Name: Minecraft-Server-List.com
+    Priority: 2
+    Hidden: false
+    ServiceSite: MCSL
+    VoteURL: https://minecraft-server-list.com/server/480377/vote/
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+      Firework:
+        Enabled: true
+  TopG:
+    Enabled: true
+    Name: TopG.org
+    Priority: 1
+    Hidden: false
+    ServiceSite: topg.org
+    VoteURL: https://topg.org/minecraft-servers/server-633075
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+      Firework:
+        Enabled: true
+EverySiteReward:
+  Commands:
+    Console:
+    - broadcast &a&l%player_name% &fhas supported the server using &a/vote
+    - cc give p Vote 1 %player_name%
+    - eco give %player_name% 1000

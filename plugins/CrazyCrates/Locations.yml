@@ -1,0 +1,19 @@
+Locations:
+  '1':
+    Crate: Vote
+    World: Spawn
+    X: -19
+    Y: 17
+    Z: 3
+  '2':
+    Crate: Mega
+    World: Spawn
+    X: -23
+    Y: 17
+    Z: 3
+  '3':
+    Crate: Legendary
+    World: Spawn
+    X: -27
+    Y: 17
+    Z: 3

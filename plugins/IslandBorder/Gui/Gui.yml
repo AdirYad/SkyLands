@@ -1,0 +1,30 @@
+Gui:
+  Name: '&fIsland Border Settings'
+  Slot:
+    '1':
+      Item: BANNER
+      Data: 10
+      Quantity: 1
+      Name: '&aActivate Island Border'
+    '2':
+      Item: STAINED_GLASS_PANE
+      Data: 0
+      Quantity: 1
+      Name: ' '
+    '3':
+      Item: BANNER
+      Data: 1
+      Quantity: 1
+      Name: '&cDeactivate Island Border'
+    '4':
+      Item: STAINED_GLASS_PANE
+      Data: 0
+      Quantity: 1
+      Name: ' '
+    '5':
+      Item: INK_SACK
+      DataBLUEBorder: 12
+      DataGREENBorder: 10
+      DataREDBorder: 1
+      Quantity: 1
+      Name: '&7Border Color: %color%'

@@ -1,0 +1,24 @@
+DiamondSpawner5:
+  MobName: DiamondZombie
+  World: Mine
+  X: -2635
+  Y: 23
+  Z: -1142
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 20
+  CooldownTimer: 0
+  Warmup: 20
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 18
+  LeashRange: 0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

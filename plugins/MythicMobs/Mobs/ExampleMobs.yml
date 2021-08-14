@@ -1,0 +1,147 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+RedlapizZombie:
+  Type: ZOMBIE
+  Display: '&8[&f*&8] &cRedlapiz Zombie &8[&f*&8]'
+  Health: 10
+  Damage: 15
+  Equipment:
+  - LapisHelmet HEAD
+  - RedstoneChestplate CHEST
+  - RedstoneLeggings LEGS
+  - LapisBoots FEET
+  - CorruptedSword HAND
+  Drops:
+  - RedstoneZombieDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+DiamondZombie:
+  Type: ZOMBIE
+  Display: '&8[&f*&8] &cDiamond Zombie &8[&f*&8]'
+  Health: 20
+  Damage: 15
+  Equipment:
+  - DiamondHelmet HEAD
+  - DiamondChestplate CHEST
+  - DiamondLeggings LEGS
+  - DiamondBoots FEET
+  - DiamondSword HAND
+  Drops:
+  - DiamondZombieDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+EmeraldDefender:
+  Type: SLIME
+  Display: '&8[&f*&8] &cEmerald Defender &8[&f*&8]'
+  Health: 300
+  Damage: 100
+  Drops:
+  - EmeraldDefenderDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    MaxCombatDistance: 30
+    PreventOtherDrops: true 
+DungeonZombie:
+  Type: ZOMBIE
+  Display: '&8[&f*&8] &cDungeon Zombie &8[&f*&8]'
+  Health: 20
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 15
+    PreventOtherDrops: false
+DungeonSkeleton:
+  Type: SKELETON
+  Display: '&8[&f*&8] &cDugeon Skeleton &8[&f*&8]'
+  Health: 20
+  Damage: 10
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 15
+    PreventOtherDrops: false
+ZombieBoss:
+  Type: ZOMBIE
+  Display: '&8[&f&lBOSS&8] &cZombie Boss &8[&f*&8]'
+  Health: 50
+  Damage: 50
+  Equipment:
+  - ZombieHelmet HEAD
+  - ZombieChestplate CHEST
+  - ZombieLeggings LEGS
+  - ZombieBoots FEET
+  - ZombieSword HAND
+  Skills:
+  - skill{s=SummonMinions} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.2
+  Drops:
+  - ZombieBossDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+ValleyDefender:
+  Type: ZOMBIE
+  Display: '&8[&f*&8] &cOrc &8[&f*&8]' 
+  Health: 25
+  Damage: 15
+  Equipment:
+  - OrcHead HEAD
+  - OrcChestplate CHEST
+  - OrcLeggings LEGS
+  - OrcBoots FEET
+  - RustyAxe HAND
+  Drops:
+  - ValleyDefenderDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+ValleyDefender2:
+  Type: SKELETON
+  Display: '&8[&f*&8] &cElf &8[&f*&8]' 
+  Health: 15
+  Damage: 65
+  Equipment:
+  - ElfHead HEAD
+  - ElfChestplate CHEST
+  - ElfLeggings LEGS
+  - ElfBoots FEET
+  - MagicBow HAND
+  Drops:
+  - ValleyDefender2Drops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+GolemBoss:
+  Type: ZOMBIE
+  Display: '&8[&f&LBOSS&8] &cGolem &8[&f*&8]' 
+  Health: 220
+  Damage: 100
+  Equipment:
+  - GolemHead HEAD
+  - GolemChestplate CHEST
+  - GolemLeggings LEGS
+  - GolemBoots FEET
+  - GolemSword HAND
+  Drops:
+  - GolemBossDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 20
+    PreventOtherDrops: true

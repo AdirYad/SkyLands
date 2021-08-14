@@ -1,0 +1,24 @@
+SlimeSpawner2:
+  MobName: EmeraldDefender
+  World: Mine
+  X: -2631
+  Y: 19
+  Z: -1129
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 40
+  CooldownTimer: 0
+  Warmup: 20
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 25
+  LeashRange: 0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

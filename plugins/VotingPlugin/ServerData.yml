@@ -1,0 +1,11 @@
+VotingPlugin:
+  Version: 'git-Paper-1618 (MC: 1.12.2)'
+  VoteParty:
+    Voted: []
+    Total: 0
+  VotePartyExtraRequired: 0
+PluginVersions:
+  VotingPlugin: 6.5.2
+Month: AUGUST
+PrevWeek: 33
+PrevDay: 14

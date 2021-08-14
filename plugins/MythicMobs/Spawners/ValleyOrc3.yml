@@ -1,0 +1,24 @@
+ValleyOrc3:
+  MobName: ValleyDefender
+  World: Dungeon
+  X: -360
+  Y: 70
+  Z: 744
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 20
+  CooldownTimer: 0
+  Warmup: 20
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 30
+  LeashRange: 50
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

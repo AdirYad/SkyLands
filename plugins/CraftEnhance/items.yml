@@ -1,0 +1,132 @@
+§9Zombie Helmet:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §9Zombie Helmet
+    lore:
+    - §9§lRARE
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 6
+§aZombie Fragment:
+  ==: org.bukkit.inventory.ItemStack
+  type: ROTTEN_FLESH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §aZombie Fragment
+    lore:
+    - §a§lCOMMON
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§aUltimate Diamond:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §aUltimate Diamond
+    lore:
+    - §a§lCOMMON
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+DIAMOND_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BLOCK
+§2Zombie Leather:
+  ==: org.bukkit.inventory.ItemStack
+  type: ROTTEN_FLESH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §2Zombie Leather
+    lore:
+    - §2§lUNCOMMON
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§9Zombie Chestplate:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §9Zombie Chestplate
+    lore:
+    - §9§lRARE
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 6
+§9Zombie Leggings:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §9Zombie Leggings
+    lore:
+    - §9§lRARE
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 6
+§9Zombie Boots:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §9Zombie Boots
+    lore:
+    - §9§lRARE
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 6
+§aCompact Slime:
+  ==: org.bukkit.inventory.ItemStack
+  type: SLIME_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §2Compact Slime
+    lore:
+    - §2§lUNCOMMON
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§fSlime Fragment:
+  ==: org.bukkit.inventory.ItemStack
+  type: SLIME_BALL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §aSlime Fragment
+    lore:
+    - §a§lCOMMON
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§2Slime Bow:
+  ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §2Slime Bow
+    lore:
+    - §2§lUNCOMMON
+    enchants:
+      ARROW_DAMAGE: 6
+      ARROW_KNOCKBACK: 4
+      ARROW_FIRE: 1
+STICK:
+  ==: org.bukkit.inventory.ItemStack
+  type: STICK

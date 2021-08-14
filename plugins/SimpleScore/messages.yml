@@ -1,0 +1,12 @@
+Help: |
+  &6SimpleScore &7plugin made by &cR4G3_BABY
+  &8/SB reload &7to reload the plugin
+  &8/SB toggle &7to toggle the scoreboard
+
+Prefix: "&a&lSCOREBOARD &8&l» "
+Permission: "&7You don't have permission to execute this command."
+OnlyPlayers: "&7Only players can execute this command."
+Reloading: "&7Reloading plugin..."
+Reloaded: "&7Plugin reloaded."
+Enabled: "&7You have &eenabled &7the scoreboard."
+Disabled: "&7You have &edisabled &7the scoreboard."

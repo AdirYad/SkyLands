@@ -1,0 +1,131 @@
+#//--//--//--//--//--//--//--//#
+RedstoneZombieDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - RedstoneZombieItemDrops 1
+  - experience 3
+RedstoneZombieItemDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  #Fragments & RottenFlesh
+  - ZombieFragment 1 5
+  - ZombieFragment 2 1
+  - RottenFlesh 1-8 50
+  #Armor
+  - LapisHelmet 1 0.1
+  - RedstoneChestplate 1 0.1
+  - RedstoneLeggings 0.1
+  - LapisBoots 1 0.1
+  #Sword
+  - CorruptedSword 1 0.1
+#//--//--//--//--//--//--//--//#
+DiamondZombieDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - DiamondZombieItemDrops 1
+  - experience 5
+DiamondZombieItemDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  #Fragments & RottenFlesh
+  - ZombieFragment 1 1
+  - ZombieFragment 2 0.5
+  - RottenFlesh 1-8 50
+  #Armor
+  - DiamondHelmet 1 0.1
+  - DiamondChestplate 1 0.1
+  - DiamondLeggings 1 0.1
+  - DiamondBoots 1 0.1
+#//--//--//--//--//--//--//--//#
+EmeraldDefenderDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - EmeraldDefenderDrops 1
+  - experience 10
+EmeraldDefenderDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  #Fragments & SlimeBall
+  - SlimeFragment 1 1
+  - SlimeFragment 2 0.5
+  - SlimeBall 1-8 50
+#//--//--//--//--//--//--//--//#
+ZombieBossDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - ZombieBossDrops 1
+  - experience 100
+ZombieBossDrops:
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  #Fragments
+  - ZombieFragment 4-8 90
+  #Sword
+  - ZombieSword 1 10
+#//--//--//--//--//--//--//--//#
+ValleyDefenderDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - RedstoneZombieItemDrops 1
+  - experience 15
+ValleyDefenderDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  #Items
+  - GoldNugget 1-8 50
+  #Armor
+  - OrcHead 0.5
+  - OrcChestplate 0.5
+  - OrcLeggings 0.5
+  - OrcBoots 0.5
+  #Axe
+  - RustyAxe 1 0.1
+#//--//--//--//--//--//--//--//#
+ValleyDefender2Drops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - RedstoneZombieItemDrops 1
+  - experience 15
+ValleyDefender2Drops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  #Items
+  - GoldNugget 1-8 50
+  #Armor
+  - ElfHead 0.5
+  - ElfChestplate 0.5
+  - ElfLeggings 0.5
+  - ElfBoots 0.5
+  #Bow
+  - MagicBow 1 0.1
+#//--//--//--//--//--//--//--//#
+GolemBossDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - GolemFragment 1
+  - experience 200
+GolemBossDrops:
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  #Armor
+  - GolemHead 1 10
+  - GolemChestplate 1 10
+  - GolemLeggings 1 10
+  - GolemBoots 1 10
+  #Sword
+  - GolemSword 1 5
+#//--//--//--//--//--//--//--//#

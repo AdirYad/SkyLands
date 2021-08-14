@@ -1,0 +1,12 @@
+worlds:
+  Spawn:
+    weather: CLEAR
+    time: NOON
+  Mine:
+    weather: CLEAR
+    time: NOON
+  Dungeon:
+    weather: CLEAR
+    time: NOON
+  ASkyBlock:
+    weather: CLEAR

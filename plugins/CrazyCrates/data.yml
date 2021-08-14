@@ -1,0 +1,6 @@
+Players: {}
+Offline-Players:
+  '%player_name%':
+    Mega: 2
+  '%player%':
+    Mega: 1
