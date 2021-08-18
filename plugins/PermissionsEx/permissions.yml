@@ -74,6 +74,8 @@ groups:
     - banksystem.command.withdraw
     - skyzen.reward
     - BlockCommand.click
+    - tempfly.toggle.self
+    - tempfly.time.self
   SkyHero:
     options:
       prefix: '&aSkyHero &f'
@@ -141,7 +143,6 @@ groups:
     options:
       prefix: '&b&lSky&a&lGod &f'
     permissions:
-    - essentials.fly
     - essentials.kits.skygod
     - essentials.sethome.multiple.skygod
     - essentials.chat.color
@@ -156,6 +157,8 @@ groups:
     - skygod.tags
     - skygod.reward
     - skygod.colors
+    - tempfly.infinite
+    - tempfly.infinite.toggle
     inheritance:
     - SkyLord
 schema-version: 1

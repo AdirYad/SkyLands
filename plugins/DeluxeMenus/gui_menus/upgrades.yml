@@ -86,6 +86,8 @@ items:
     - ''
     - '&7Upgrade the number of homes'
     - '&7you can set on your island.'
+    - "&7You'll get access to &a/is sethome 1 - X&7,"
+    - "&7and in order to use them &a/is go 1 - X&7."
     - ''
     - '&8* &8Progress&8 | %javascript_homes-progress-bar%'
     - ''

@@ -47,7 +47,7 @@ worlds:
     generator: ASkyBlock
     playerLimit: '-1'
     allowFlight: 'true'
-  Dungeon:
+  Mine:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -82,16 +82,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -334.0
-      y: 77.0
-      z: 788.0
+      x: -37.0
+      y: 4.0
+      z: 937.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '7967255967051068442'
+    seed: '5101058755432476235'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -143,7 +143,7 @@ worlds:
     generator: ASkyBlock
     playerLimit: '-1'
     allowFlight: 'true'
-  Mine:
+  Dungeon:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -178,16 +178,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -37.0
-      y: 4.0
-      z: 937.0
+      x: -334.0
+      y: 77.0
+      z: 788.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '5101058755432476235'
+    seed: '7967255967051068442'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

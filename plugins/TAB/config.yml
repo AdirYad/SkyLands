@@ -29,6 +29,7 @@ group-sorting-priority-list:
   - SkyLegend
   - SkyHero
   - Skyzen
+  - default
 Groups:
   Owner:
     tabprefix: "&0&4&lOWNER &f"

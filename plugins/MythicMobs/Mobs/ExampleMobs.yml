@@ -89,6 +89,10 @@ ZombieBoss:
   Skills:
   - skill{s=SummonMinions} @self 0.1
   - skill{s=SmashAttack} @target >0 0.2
+  - skill{s=removeBossWithoutHit} @self ~onSpawn
+  - skill{s=removeBossTimeout} @self ~onSpawn
+  - message{m="&6&lBOSS &8&l» <mob.name> &fhas spawned, find him at &e/dungeon&f!"} @Server ~onSpawn
+  - message{m="&6&lBOSS &8&l» &6&l<trigger.name> &fkilled the <mob.name>&f!"} @Server ~onDeath
   Drops:
   - ZombieBossDrops
   Options:
@@ -154,6 +158,10 @@ KahunaBoss:
   Skills:
     - skill{s=SummonVexes} @self 0.1
     - skill{s=SmashAttack} @target >0 0.2
+    - skill{s=removeBossWithoutHit} @self ~onSpawn
+    - skill{s=removeBossTimeout} @self ~onSpawn
+    - message{m="&6&lBOSS &8&l» <mob.name> &fhas spawned, find him at &e/dungeon&f!"} @Server ~onSpawn
+    - message{m="&6&lBOSS &8&l» &6&l<trigger.name> &fkilled <mob.name>&f!"} @Server ~onDeath
   Drops:
   - KahunaBossDrops
   Options:

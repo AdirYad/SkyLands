@@ -12,14 +12,14 @@
 verbose: false
 config-version: 13
 settings:
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
-  save-player-data: true
   sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
+  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -65,6 +65,9 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    remove-corrupt-tile-entities: false
+    use-chunk-inhabited-timer: true
+    queue-light-updates: false
     optimize-explosions: true
     portal-search-radius: 128
     use-vanilla-world-scoreboard-name-coloring: false
@@ -118,9 +121,6 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    remove-corrupt-tile-entities: false
-    use-chunk-inhabited-timer: true
-    queue-light-updates: false
     keep-spawn-loaded-range: 7
     auto-save-interval: -1
     nether-ceiling-void-damage: false
@@ -171,11 +171,11 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    baby-zombie-movement-speed: 0.5
     spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
-    all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 2
+    all-chunks-are-slime-chunks: false
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false

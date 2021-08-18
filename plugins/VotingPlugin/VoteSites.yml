@@ -89,3 +89,4 @@ EverySiteReward:
     - broadcast &a&l%player_name% &fhas supported the server using &a/vote
     - cc give p Vote 1 %player_name%
     - eco give %player_name% 1000
+    - tf add %player_name% 12 m

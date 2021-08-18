@@ -31,3 +31,13 @@ SummonVexes:
   - summon{mob=Vex;amount=1;noise=5} @Self
   - delay 20
   - summon{mob=Vex;amount=1;noise=5} @Self
+removeBossWithoutHit:
+  Skills:
+  - delay 6000
+  - remove @self >99%
+  - message{m="&6&lBOSS &8&l» <mob.name> &fdespawned after 5 minutes without hits."} @Server >99%
+removeBossTimeout:
+  Skills:
+  - delay 30000
+  - remove @self
+  - message{m="&6&lBOSS &8&l» <mob.name> &fdespawned after 25 minutes of survival."} @Server

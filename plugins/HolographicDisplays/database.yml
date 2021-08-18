@@ -68,7 +68,7 @@ mine:
 vote:
   location: Spawn, -18.481, 18.300, 3.482
   lines:
-  - '&2* &a&Vote &aCrate &2*'
+  - '&2* &a&lVote &aCrate &2*'
   - '&e&lUSE A KEY'
 mega:
   location: Spawn, -22.491, 18.300, 3.515

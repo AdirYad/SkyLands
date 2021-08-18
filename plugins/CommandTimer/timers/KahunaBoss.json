@@ -1,1 +1,1 @@
-{"seconds":2700,"gender":"CONSOLE","name":"KahunaBoss","days":["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"],"commands":["mm m kill KahunaBoss","mm m spawn KahunaBoss 1 Dungeon,-382.5,71,706.5","broadcast -n §6§lBOSS §8§l» §d§lThe Kahuna §fhas spawned, find him at §e\/dungeon§f!"]}
+{"seconds":2700,"gender":"CONSOLE","minPlayers":-1,"name":"KahunaBoss","days":["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"],"commands":["mm m spawn KahunaBoss 1 Dungeon,-382.5,71,706.5"]}

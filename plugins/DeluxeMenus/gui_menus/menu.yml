@@ -121,7 +121,7 @@ items:
     display_name: '&2[*] &aEnderchest'
     lore:
     - '&7'
-    - '&8* &7Required Rank: &aSkyHero'
+    - '&8* &7Required Rank: &eSkyLegend'
     - '&7'
     - '&8» &cBuy rank to select'
     left_click_commands:

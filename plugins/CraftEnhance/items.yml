@@ -122,7 +122,7 @@ DIAMOND_BLOCK:
     meta-type: UNSPECIFIC
     display-name: §2Slime Bow
     lore:
-    - §2§lUNCOMMON
+    - §9§lRare
     enchants:
       ARROW_DAMAGE: 6
       ARROW_KNOCKBACK: 4

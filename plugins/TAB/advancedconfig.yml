@@ -23,6 +23,10 @@ primary-group-finding-list:
   - Owner
   - Admin
   - Helper
-  - default
+  - SkyGod
+  - SkyLord
+  - SkyLegend
+  - SkyHero
+  - Skyzen
 bukkit-bridge-mode: false
 assign-groups-by-permissions: false

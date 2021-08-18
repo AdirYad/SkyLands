@@ -1,8 +1,8 @@
 lastAccountName: AdirYad
 timestamps:
-  login: 1628984580424
-  logout: 1628979501899
-  lastteleport: 1628984599071
+  login: 1629251429842
+  logout: 1629236534879
+  lastteleport: 1629235897708
   kits:
     special: 1628484584104
     skygod: 1628484622652
@@ -14,19 +14,19 @@ timestamps:
 ipAddress: 127.0.0.1
 lastlocation:
   world: Dungeon
-  x: -388.56160535812063
-  y: 73.82252431144789
-  z: 707.8725224982218
-  yaw: 259.9471
-  pitch: 23.261034
+  x: -383.3471359779096
+  y: 72.20000004768372
+  z: 702.8003858394029
+  yaw: 4.440796
+  pitch: -3.4026747
 logoutlocation:
-  world: Dungeon
-  x: -388.0001537492271
-  y: 73.82252431144789
-  z: 708.0945356131043
-  yaw: 93.89879
-  pitch: 28.51102
-money: '100000.0'
+  world: Spawn
+  x: -87.1399071080829
+  y: 15.304213417929743
+  z: 151.3501220730154
+  yaw: -107.271164
+  pitch: 42.172455
+money: '101001.0'
 godmode: false
 homes:
   home:
