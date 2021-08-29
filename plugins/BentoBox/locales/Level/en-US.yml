@@ -1,0 +1,62 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+admin:
+  level:
+    parameters: <player>
+    description: calculate the island level for player
+    sethandicap:
+      parameters: <player> <handicap>
+      description: set the island handicap, usually the level of the starter island
+      changed: '&a&lISLAND &8&l» &7Initial island handicap changed from [number] to
+        [new_number].'
+      invalid-level: '&c Invalid handicap. Use an integer.'
+  levelstatus:
+    description: show how many islands are in the queue for scanning
+    islands-in-queue: '&a Islands in queue: [number]'
+  top:
+    description: show the top ten list
+    unknown-world: '&c Unknown world!'
+    display: '&f[rank]. &a[name] &7- &b[level]'
+    remove:
+      description: remove player from Top Ten
+      parameters: <player>
+island:
+  level:
+    parameters: '[player]'
+    description: calculate your island level or show the level of [player]
+    calculating: ''
+    estimated-wait: '&a&lISLAND &8&l» &7Calculating level, please wait &a[number]
+      &7seconds.'
+    in-queue: '&a&lISLAND &8&l» &7You are number &a[number] &7in the queue.'
+    island-level-is: ''
+    required-points-to-next-level: '&a&lISLAND &8&l» &7Island level is &6&l%Level_bskyblock_island_level%&7,
+      &a[points] &7points required until the next level &c(%statistic_deaths% deaths)&7.'
+    deaths: ''
+    cooldown: '&a&lISLAND &8&l» &7You must wait &a[time] &7seconds until you can do
+      that again.'
+    in-progress: '&a&lISLAND &8&l» &7Island level calculation is in progress...'
+    time-out: '&a&lISLAND &8&l» &7The level calculation took too long. Please try
+      again later.'
+  top:
+    description: show the Top Ten
+    gui-title: '&6&lTop Ten Islands'
+    gui-heading: '&6[name]: &b[rank]'
+    island-level: '&5Level: &b[level]'
+    warp-to: '&a&lISLAND &8&l» &AWarping to [name]''s island'
+  level-details:
+    above-sea-level-blocks: Above Sea Level Blocks
+    spawners: Spawners
+    underwater-blocks: Underwater Blocks
+    all-blocks: All Blocks
+    no-island: '&a&lISLAND &8&l» &cNo island!'
+    names-island: '&f[name]''s island'
+    syntax: '&f[name] x [number]'
+    hint: '&cRun level to see the block report'
+  value:
+    description: shows the value of any block
+    success: '&a&lISLAND &8&l» &7The value of this block is: &e[value]&7.'
+    success-underwater: '&a&lISLAND &8&l» &7The value of this block below sea-level:
+      &e[value]'
+    empty-hand: '&a&lISLAND &8&l» &cThere are no blocks in your hand'
+    no-value: '&a&lISLAND &8&l» &cThat item has no value.'

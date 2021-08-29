@@ -1,0 +1,54 @@
+{
+  "uniqueId": "BSkyBlock_papermaker",
+  "friendlyName": "Paper Maker",
+  "deployed": true,
+  "description": [
+    "Create 21 pages of paper"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Novice",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n  amount: 21\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "5 dirt and 15 clay blocks",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CLAY\n  amount: 15\n"
+  ],
+  "rewardExperience": 30,
+  "rewardMoney": 15,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "2 sand blocks",
+  "maxTimes": 100,
+  "repeatExperienceReward": 10,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SAND\n  amount: 2\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

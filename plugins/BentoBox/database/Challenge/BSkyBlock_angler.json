@@ -1,0 +1,58 @@
+{
+  "uniqueId": "BSkyBlock_angler",
+  "friendlyName": "Angler",
+  "deployed": true,
+  "description": [
+    "Catch and cook 10",
+    "standard fish (no salmon)"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_COD\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Competent",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_COD\n  amount: 10\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "16 redstone dust, 5 inksacs, 5 iron (ore)",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: INK_SAC\n  amount: 5\n"
+  ],
+  "rewardExperience": 75,
+  "rewardMoney": 75,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "2 redstone dust, 1 inksac, 1 iron (ore)",
+  "maxTimes": 100,
+  "repeatExperienceReward": 15,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: INK_SAC\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

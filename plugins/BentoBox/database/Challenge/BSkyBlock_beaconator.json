@@ -1,0 +1,58 @@
+{
+  "uniqueId": "BSkyBlock_beaconator",
+  "friendlyName": "Beaconator",
+  "deployed": true,
+  "description": [
+    "Build a beacon and let it",
+    "shine!"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BEACON\n",
+  "order": -1,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Advanced",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "BEACON": 1
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "20 blocks of every kind of stone brick",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: STONE_BRICKS\n  amount: 20\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MOSSY_STONE_BRICKS\n  amount: 20\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CRACKED_STONE_BRICKS\n  amount: 20\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CHISELED_STONE_BRICKS\n  amount: 20\n"
+  ],
+  "rewardExperience": 300,
+  "rewardMoney": 300,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

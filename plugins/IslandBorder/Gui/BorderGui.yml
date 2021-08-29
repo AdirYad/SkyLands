@@ -1,0 +1,23 @@
+Gui:
+  Name: '&fIsland Border Settings'
+  Slot:
+    '1':
+      Item: LIME_BANNER
+      Name: '&aActivate Island Border'
+    '2':
+      Item: WHITE_STAINED_GLASS_PANE
+      Name: ' '
+    '3':
+      Item: RED_BANNER
+      Name: '&cDeactivate Island Border'
+    '4':
+      Item: WHITE_STAINED_GLASS_PANE
+      Name: ' '
+    '5':
+      Blue-Border:
+        Item: LIGHT_BLUE_DYE
+      Green-Border:
+        Item: LIME_DYE
+      Red-Border:
+        Item: RED_DYE
+      Name: '&7Border Color: %color%'

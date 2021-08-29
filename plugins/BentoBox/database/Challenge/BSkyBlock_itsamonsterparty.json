@@ -1,0 +1,65 @@
+{
+  "uniqueId": "BSkyBlock_itsamonsterparty",
+  "friendlyName": "It's a Monster Party",
+  "deployed": true,
+  "description": [
+    "Have a party - all",
+    "monsters invited! Get",
+    "close to a Skeleton,",
+    "Zombie, Spider, Creeper",
+    "and Enderman all at the",
+    "same time."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SKELETON_SKULL\n",
+  "order": -1,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Advanced",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {},
+      "removeBlocks": false,
+      "requiredEntities": {
+        "CREEPER": 1,
+        "SKELETON": 1,
+        "SPIDER": 1,
+        "ZOMBIE": 1,
+        "ENDERMAN": 1
+      },
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "Skulls!",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SKELETON_SKULL\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ZOMBIE_HEAD\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PLAYER_HEAD\n  amount: 2\n"
+  ],
+  "rewardExperience": 400,
+  "rewardMoney": 200,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

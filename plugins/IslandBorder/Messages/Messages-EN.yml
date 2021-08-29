@@ -1,0 +1,27 @@
+No-Permission: '&cYou don''t have permission for this command.'
+No-Commands-In-Console: '&cCommands aren''t available in console.'
+Island-Border:
+  Toggle:
+    'On': '&7Your border was toggled on.'
+    'Off': '&7Your border was removed.'
+  Already-Toggled:
+    'On': '&7Your border is already toggled on.'
+    'Off': '&7Your border is already toggled off.'
+  Placeholder:
+    Activated: '&aActivated'
+    Deactivated: '&cDeactivated'
+    Not-On-Island: '&7Not on island'
+    No-Cooldown: '&7No cooldown'
+  Reload: '&7Island Border has been reloaded successfully!'
+  Not-On-Island: '&7This command is available only on island.'
+  Border-Color:
+    Red: '&cRed'
+    Green: '&aGreen'
+    Blue: '&bBlue'
+    Changed: '&7Island Border color was changed!'
+    Same-Border-Color: '&7You can''t change the border color with the actual color.'
+    No-Permission: '&7You don''t have permission to use this border color.'
+  Cooldown: '&7You have to wait %seconds% before modifying your border again.'
+Time:
+  Second: second
+  Seconds: seconds

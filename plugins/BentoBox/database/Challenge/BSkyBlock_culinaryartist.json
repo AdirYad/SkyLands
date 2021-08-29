@@ -1,0 +1,75 @@
+{
+  "uniqueId": "BSkyBlock_culinaryartist",
+  "friendlyName": "Culinary Artist",
+  "deployed": true,
+  "description": [
+    "Collect 1 of every kind",
+    "of cooked or crafted",
+    "edible food (no raw food,",
+    "zombie flesh, or super",
+    "golden apples)"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLDEN_APPLE\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BAKED_POTATO\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BREAD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CAKE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_CHICKEN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_COD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_PORKCHOP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKIE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLDEN_APPLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLDEN_CARROT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSHROOM_STEW\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN_PIE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_BEEF\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "2 gold blocks, 3 music discs, 1 mooshroom spawn egg, and 5 emeralds",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_BLOCK\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_CAT\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_BLOCKS\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_FAR\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MOOSHROOM_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n  amount: 5\n"
+  ],
+  "rewardExperience": 200,
+  "rewardMoney": 200,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "10 gold ingots, 1 mooshroom spawn egg, 1 emerald",
+  "maxTimes": 100,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_INGOT\n  amount: 10\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MOOSHROOM_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

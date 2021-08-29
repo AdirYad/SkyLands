@@ -1,0 +1,65 @@
+{
+  "uniqueId": "BSkyBlock_pioneer",
+  "friendlyName": "Pioneer",
+  "deployed": true,
+  "description": [
+    "Make 1 map and use it, a",
+    "compass, a clock and",
+    "collect 64 netherrack, 16",
+    "soulsand, and 1 ghast",
+    "tear"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAP\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Expert",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHERRACK\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SOUL_SAND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GHAST_TEAR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COMPASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CLOCK\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "256 rails, 32 powered rails, 1 ocelot spawn egg, 1 diamond",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POWERED_RAIL\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: RAIL\n  amount: 256\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OCELOT_SPAWN_EGG\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "1 iron (ore)",
+  "maxTimes": 100,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

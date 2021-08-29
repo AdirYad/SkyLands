@@ -1,0 +1,7 @@
+Enabled: false
+Host: 127.0.0.1
+Port: 3306
+Database: MyDatabase
+SSL: false
+Username: root
+Password: MyPassword

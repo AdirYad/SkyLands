@@ -1,0 +1,55 @@
+{
+  "uniqueId": "BSkyBlock_builder",
+  "friendlyName": "Builder",
+  "deployed": true,
+  "description": [
+    "Reach island level 10",
+    "(/[label] level)."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_PLANKS\n",
+  "order": -1,
+  "challengeType": "OTHER",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Novice",
+  "requirements": {
+    "class": "OtherRequirements",
+    "parameters": {
+      "requiredExperience": 0,
+      "takeExperience": false,
+      "requiredMoney": 0.0,
+      "takeMoney": false,
+      "requiredIslandLevel": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "1 iron pickaxe, 5 dirt and a Sponge",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_PICKAXE\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPONGE\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 50,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

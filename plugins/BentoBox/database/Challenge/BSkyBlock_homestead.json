@@ -1,0 +1,68 @@
+{
+  "uniqueId": "BSkyBlock_homestead",
+  "friendlyName": "Homestead",
+  "deployed": true,
+  "description": [
+    "Build a house that",
+    "contains at least 1",
+    "wooden door, bed,",
+    "bookshelf, crafting",
+    "table, furnace,",
+    "glass-block window, and",
+    "torch."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHITE_BED\n",
+  "order": -1,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Competent",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "GLASS": 1,
+        "BOOKSHELF": 1,
+        "TORCH": 1,
+        "CRAFTING_TABLE": 1,
+        "FURNACE": 1,
+        "OAK_DOOR": 1,
+        "WHITE_BED": 1
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "1 jukebox, 1 music disk, 10 lapis lazuli blocks",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: JUKEBOX\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_WAIT\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LAPIS_BLOCK\n  amount: 10\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

@@ -1,0 +1,27 @@
+No-Permission: '&cNu ai access la aceasta comanda!'
+No-Commands-In-Console: '&cComenzile nu sunt valabile in consola!'
+Island-Border:
+  Toggle:
+    'On': '&7Border-ul tau a fost activat'
+    'Off': '&7Border-ul tau a fost dezactivat'
+  Already-Toggled:
+    'On': '&7Border-ul tau este deja activat'
+    'Off': '&7Border-ul tau este deja dezactivat'
+  Placeholder:
+    Activated: '&aActivat'
+    Deactivated: '&cDezactivat'
+    Not-On-Island: '&7Nu esti pe insula'
+    No-Cooldown: '&7Fara cooldown'
+  Reload: '&7Island Border a fost reincarcat cu success!'
+  Not-On-Island: '&7Aceasta comanda este valabila doar pe insula'
+  Border-Color:
+    Red: '&cRosu'
+    Green: '&aVerde'
+    Blue: '&bAlbastru'
+    Changed: '&7Culoarea Border-ului a fost schimbata!'
+    Same-Border-Color: '&7Nu poti pune aceasi culoare la Border!'
+    No-Permission: '&7Nu ai permisiune pentru a folosi aceasta culoare!'
+  Cooldown: '&7Trebuie sa astepti %seconds% pana poti modifica border-ul din nou!'
+Time:
+  Second: secunda
+  Seconds: secunde

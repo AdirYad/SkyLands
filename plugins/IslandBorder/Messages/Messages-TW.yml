@@ -1,0 +1,27 @@
+No-Permission: '&c你沒有權限使用該指令!'
+No-Commands-In-Console: '&c無法在控制台中使用該指令!'
+Island-Border:
+  Toggle:
+    'On': '&7你開啟了邊界'
+    'Off': '&7你關閉了邊界'
+  Already-Toggled:
+    'On': '&7你的邊界已經在開啟狀態了'
+    'Off': '&7你的邊界已經在關閉狀態了'
+  Placeholder:
+    Activated: '&a開啟'
+    Deactivated: '&c關閉'
+    Not-On-Island: '&7不在島上'
+    No-Cooldown: '&7没有冷却'
+  Reload: '&7Island Border 已成功重新加載!'
+  Not-On-Island: '&7該指令只能在島嶼中使用'
+  Border-Color:
+    Red: '&c紅色'
+    Green: '&a綠色'
+    Blue: '&b藍色'
+    Changed: '&7邊間顏色已改變!'
+    Same-Border-Color: '&7你不能更換相同顏色!'
+    No-Permission: '&7您無權使用此邊框顏色!'
+  Cooldown: '&7您必須等待%seconds%才能再次修改邊框！'
+Time:
+  Second: 秒
+  Seconds: 秒

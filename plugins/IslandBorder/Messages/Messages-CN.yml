@@ -1,0 +1,27 @@
+No-Permission: '&c你没有权限执行此命令!'
+No-Commands-In-Console: '&c你不是玩家，无法执行命令!'
+Island-Border:
+  Toggle:
+    'On': '&7边界已被切换'
+    'Off': '&7你移除了边界'
+  Already-Toggled:
+    'On': '&7你已经开启了'
+    'Off': '&7你已经关闭了'
+  Placeholder:
+    Activated: '&a开启'
+    Deactivated: '&c关闭'
+    Not-On-Island: '&7不在岛上'
+    No-Cooldown: '&7没有冷却'
+  Reload: '&7成功重新载入插件!'
+  Not-On-Island: '&7此命令只有在岛屿中时才可使用'
+  Border-Color:
+    Red: '&c红'
+    Green: '&a绿'
+    Blue: '&b蓝'
+    Changed: '&7Island Border 颜色已被更改!'
+    Same-Border-Color: '&7你不能使用同样的颜色来修改边界!'
+    No-Permission: '&7您无权使用此边框颜色!'
+  Cooldown: '&7在再次修改边框之前，您必须等待%seconds%钟!'
+Time:
+  Second: 秒
+  Seconds: 秒

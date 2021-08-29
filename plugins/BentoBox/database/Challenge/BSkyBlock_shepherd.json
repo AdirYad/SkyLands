@@ -1,0 +1,75 @@
+{
+  "uniqueId": "BSkyBlock_shepherd",
+  "friendlyName": "Shepherd",
+  "deployed": true,
+  "description": [
+    "Collect 5 of every color",
+    "of wool"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAGENTA_WOOL\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHITE_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ORANGE_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAGENTA_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIGHT_BLUE_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: YELLOW_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIME_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PINK_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRAY_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIGHT_GRAY_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CYAN_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PURPLE_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BLUE_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BROWN_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GREEN_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: RED_WOOL\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BLACK_WOOL\n  amount: 5\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "2 diamonds, 5 emeralds, 3 music disks, 1 sheep spawn egg",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_MELLOHI\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_STAL\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_MALL\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHEEP_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n  amount: 5\n"
+  ],
+  "rewardExperience": 200,
+  "rewardMoney": 200,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "1 emerald, 1 sheep spawn egg",
+  "maxTimes": 100,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHEEP_SPAWN_EGG\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

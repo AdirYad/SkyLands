@@ -1,0 +1,52 @@
+{
+  "deleted": false,
+  "uniqueId": "ASkyBlock_i_4fde41a4-0d4d-479b-93ae-0f0b4941ffd4",
+  "center": [
+    "ASkyBlock",
+    -1599.5,
+    115.0,
+    1200.5,
+    0.0,
+    0.0
+  ],
+  "range": 200,
+  "protectionRange": 50,
+  "maxEverProtectionRange": 50,
+  "world": "ASkyBlock",
+  "gameMode": "BSkyBlock",
+  "createdDate": 1630172807903,
+  "updatedDate": 1630172807903,
+  "owner": "2af07ce4-a0cc-40a0-8959-f71d144efef1",
+  "members": {
+    "2af07ce4-a0cc-40a0-8959-f71d144efef1": 1000
+  },
+  "spawn": false,
+  "purgeProtected": false,
+  "flags": {
+    "EGGS": 0,
+    "FIRE_IGNITE": 500,
+    "ENCHANTING": 500,
+    "LOCK": 0,
+    "BREEDING": 0,
+    "BREWING": 0,
+    "REDSTONE": 0,
+    "BREAK_BLOCKS": 0,
+    "FIRE_SPREAD": 500,
+    "BEACON": 0,
+    "CRAFTING": 500,
+    "PRESSURE_PLATE": 0,
+    "ARMOR_STAND": 0,
+    "FIRE_BURNING": 500,
+    "ANVIL": 0,
+    "DOOR": 0,
+    "FURNACE": 0,
+    "SHEARING": 0,
+    "BED": 0,
+    "GATE": 500
+  },
+  "history": [],
+  "levelHandicap": 0,
+  "spawnPoint": {},
+  "doNotLoad": false,
+  "cooldowns": {}
+}

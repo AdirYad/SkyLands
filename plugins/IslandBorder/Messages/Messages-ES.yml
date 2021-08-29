@@ -1,0 +1,27 @@
+No-Permission: '&c¡No tiene permiso para ejecutar ese comando!'
+No-Commands-In-Console: '&c¡Ese Comando solo puede ser usado en la Consola!'
+Island-Border:
+  Toggle:
+    'On': '&7Tu Borde ha sido Activado'
+    'Off': '&7Tu Borde fue removido'
+  Already-Toggled:
+    'On': '&7Tu Borde ya está Activado'
+    'Off': '&7Tu Borde ya está Desactivado'
+  Placeholder:
+    Activated: '&aActivado'
+    Deactivated: '&cDesactivado'
+    Not-On-Island: '&7Not on island'
+    No-Cooldown: '&7Sin tiempo de espera'
+  Reload: '&7¡El Plugin Island Border fue recargado exitosamente!'
+  Not-On-Island: '&7El Comando solo puede ser usado en una Isla'
+  Border-Color:
+    Red: '&cRojo'
+    Green: '&aVerde'
+    Blue: '&bAzul'
+    Changed: '&7¡El Color de tu Borde fue cambiado!'
+    Same-Border-Color: '&7¡No puedes cambiar el color del Borde al Mismo color!'
+    No-Permission: '&7¡No tienes permiso para usar este color de borde!'
+  Cooldown: '&7¡Espera %seconds% para modificar tu Borde nuevamente!'
+Time:
+  Second: segundo
+  Seconds: segundos

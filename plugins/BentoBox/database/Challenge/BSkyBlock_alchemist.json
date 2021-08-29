@@ -1,0 +1,64 @@
+{
+  "uniqueId": "BSkyBlock_alchemist",
+  "friendlyName": "Alchemist",
+  "deployed": true,
+  "description": [
+    "Brew 1 potion of Fire",
+    "Resistance, Slowness,",
+    "Swiftness, Healing,",
+    "Harming, Invisibility,",
+    "Strength and Regeneration"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BREWING_STAND\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "Enchantment Table",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ENCHANTING_TABLE\n"
+  ],
+  "rewardExperience": 200,
+  "rewardMoney": 200,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "1 diamond",
+  "maxTimes": 0,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

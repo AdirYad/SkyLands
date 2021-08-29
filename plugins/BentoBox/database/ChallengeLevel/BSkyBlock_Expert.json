@@ -1,0 +1,24 @@
+{
+  "uniqueId": "BSkyBlock_Expert",
+  "friendlyName": "Expert",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOOK\n",
+  "world": "ASkyBlock",
+  "order": 2,
+  "waiverAmount": 1,
+  "unlockMessage": "Congratulations - you unlocked the &aExpert level!",
+  "rewardText": "3 diamonds!",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 3\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "challenges": [
+    "BSkyBlock_slimeballfarmer",
+    "BSkyBlock_pioneer",
+    "BSkyBlock_nether",
+    "BSkyBlock_mason",
+    "BSkyBlock_enderpearls",
+    "BSkyBlock_baker"
+  ]
+}

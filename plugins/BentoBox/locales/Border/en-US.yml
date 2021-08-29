@@ -1,0 +1,5 @@
+border:
+  toggle:
+    description: toggles the border on/off
+    border-on: '&a&lISLAND &8&l» &7Border has been &aenabled&7!'
+    border-off: '&a&lISLAND &8&l» &7Border has been &cdisabled&7!'

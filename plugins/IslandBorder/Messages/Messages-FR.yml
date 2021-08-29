@@ -1,0 +1,29 @@
+No-Permission: '&cVous n''''avez pas l''''autorisation pour cette commande.'
+No-Commands-In-Console: '&cLes commandes ne sont pas disponibles dans la console.'
+Island-Border:
+  Toggle:
+    'On': '&7Votre bordure a été activée.'
+    'Off': '&7Votre bordure a été supprimée.'
+  Already-Toggled:
+    'On': '&7Votre bordure est déjà activée.'
+    'Off': '&7Votre bordure est déjà désactivée.'
+  Placeholder:
+    Activated: '&aActivé'
+    Deactivated: '&cDésactivée'
+    Not-On-Island: '&7Pas sur l''''île'
+    No-Cooldown: '&7Pas de temps de recharge'
+  Reload: '&7Island Border a été rechargé avec succès!'
+  Not-On-Island: '&7Cette commande n''''est disponible que sur l''''île.'
+  Border-Color:
+    Red: '&cRouge'
+    Green: '&aVert'
+    Blue: '&bBleu'
+    Changed: '&7La couleur de la bordure de l''''île a été modifiée!'
+    Same-Border-Color: '&7Vous ne pouvez pas changer la couleur de la bordure avec
+      la couleur réelle.'
+    No-Permission: '&7Vous n''''avez pas la permission d''''utiliser cette couleur
+      de bordure.'
+  Cooldown: '&7Vous devez attendre %seconds% avant de modifier à nouveau votre bordure.'
+Time:
+  Second: seconde
+  Seconds: secondes

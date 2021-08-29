@@ -1,0 +1,27 @@
+No-Permission: '&cBu Komut İçin Yetkin YOK!'
+No-Commands-In-Console: '&cBunu Sadece Oyuncular Yapabilir!'
+Island-Border:
+  Toggle:
+    'On': '&7Ada Sınırı Belirtecin Aktif Edildi'
+    'Off': '&7Ada Sınırı Belirtecin Kapatıldı'
+  Already-Toggled:
+    'On': '&7Ada Sınırı Belirtecin Zaten Aktif'
+    'Off': '&7Ada Sınırı Belirtecin Zaten Kapalı'
+  Placeholder:
+    Activated: '&aAktif'
+    Deactivated: '&cKapalı'
+    Not-On-Island: '&7Adada değil'
+    No-Cooldown: '&7Bekleme süresi yok'
+  Reload: '&7Ada Sınırı Belirteci İçin Spawn Ayarlandı'
+  Not-On-Island: '&7Bu Komutu Sadece Ada Kullanabilirsin'
+  Border-Color:
+    Red: '&cKırmızı'
+    Green: '&aYeşil'
+    Blue: '&bMavi'
+    Changed: '&7Ada Sınırı Belirtecinin Rengi Değiştirildi!'
+    Same-Border-Color: '&7Ada Sınırı Belirtecin Zaten İstediğin Renkte!'
+    No-Permission: '&7Bu kenarlık rengini kullanma izniniz yok!'
+  Cooldown: '&7Sınırınızı değiştirmeden önce %seconds% beklemeniz gerek!'
+Time:
+  Second: saniye
+  Seconds: saniye

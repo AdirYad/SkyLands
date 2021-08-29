@@ -1,0 +1,25 @@
+{
+  "uniqueId": "BSkyBlock_Competent",
+  "friendlyName": "Competent",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOOK\n",
+  "world": "ASkyBlock",
+  "order": 1,
+  "waiverAmount": 1,
+  "unlockMessage": "Congratulations - you unlocked the &9Competent level!",
+  "rewardText": "A diamond!",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "challenges": [
+    "BSkyBlock_treecutter",
+    "BSkyBlock_homestead",
+    "BSkyBlock_cookiemaker",
+    "BSkyBlock_grinder",
+    "BSkyBlock_angler",
+    "BSkyBlock_farmer",
+    "BSkyBlock_craftsman"
+  ]
+}

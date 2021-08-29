@@ -1,5 +1,0 @@
-This is a log file of Statz made on 2021-08-12 22:15:08
-
-[22:15:08] Enabled Statz!
-[22:15:11] Disabled Statz!
-[22:15:11] Updated database with local data.

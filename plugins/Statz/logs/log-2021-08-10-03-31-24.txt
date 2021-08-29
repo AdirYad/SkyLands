@@ -1,9 +1,0 @@
-This is a log file of Statz made on 2021-08-10 03:31:24
-
-[03:31:24] Enabled Statz!
-[03:31:30] Updated database with local data.
-[03:31:32] Updated database with local data.
-[03:31:33] Updated database with local data.
-[03:31:37] Updated database with local data.
-[03:31:40] Disabled Statz!
-[03:31:40] Updated database with local data.

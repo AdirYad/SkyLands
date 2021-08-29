@@ -1,0 +1,27 @@
+No-Permission: '&cNie masz uprawnień do tej komendy!'
+No-Commands-In-Console: '&cKomenda nie jest dostępna w konsoli!'
+Island-Border:
+  Toggle:
+    'On': '&7Border został włączony'
+    'Off': '&7Border został wyłączony'
+  Already-Toggled:
+    'On': '&7Twój Border jest aktualnie włączony'
+    'Off': '&7Twój border jest aktualnie wyłączony'
+  Placeholder:
+    Activated: '&aAktywny'
+    Deactivated: '&cNieaktywny'
+    Not-On-Island: '&7Nie na wyspie'
+    No-Cooldown: '&7Nie ochlonal'
+  Reload: '&7Island Border został pomyślnie przeładowany!'
+  Not-On-Island: '&7Komenda dostępna tylko na wyspie'
+  Border-Color:
+    Red: '&cCzerwony'
+    Green: '&aZielony'
+    Blue: '&bNiebieski'
+    Changed: '&7Kolor granicy wyspy został zmieniony!'
+    Same-Border-Color: '&7Nie można zmienić koloru obramowania o tym samym kolorze!'
+    No-Permission: '&7Nie masz uprawnień do używania tego koloru obramowania!'
+  Cooldown: '&7Musisz poczekać %seconds%, zanim ponownie zmienisz granicę!'
+Time:
+  Second: sekundę
+  Seconds: sekund

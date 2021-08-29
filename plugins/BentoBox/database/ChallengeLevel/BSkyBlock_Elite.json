@@ -1,0 +1,19 @@
+{
+  "uniqueId": "BSkyBlock_Elite",
+  "friendlyName": "Elite",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOOK\n",
+  "world": "ASkyBlock",
+  "order": 4,
+  "waiverAmount": 1,
+  "unlockMessage": "Congratulations - you unlocked the &dElite level!",
+  "rewardText": "7 diamonds!",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 7\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "challenges": [
+    "BSkyBlock_acidduke"
+  ]
+}

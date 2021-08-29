@@ -1,0 +1,23 @@
+{
+  "uniqueId": "BSkyBlock_Novice",
+  "friendlyName": "Novice",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOOK\n",
+  "world": "ASkyBlock",
+  "order": 0,
+  "waiverAmount": 1,
+  "unlockMessage": "",
+  "rewardText": "",
+  "rewardItems": [],
+  "rewardExperience": 0,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "challenges": [
+    "BSkyBlock_papermaker",
+    "BSkyBlock_stewmaker",
+    "BSkyBlock_glassmaker",
+    "BSkyBlock_cobblemaker",
+    "BSkyBlock_breadmaker",
+    "BSkyBlock_dyemaker",
+    "BSkyBlock_seedbank"
+  ]
+}

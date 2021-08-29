@@ -1,0 +1,62 @@
+{
+  "uniqueId": "BSkyBlock_dyemaker",
+  "friendlyName": "Dye Maker",
+  "deployed": true,
+  "description": [
+    "Craft 32 cactus green",
+    "dyes"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GREEN_DYE\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Novice",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GREEN_DYE\n  amount: 32\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "2 oak, 2 birch, 2 jungle and 2 spruce saplings",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_SAPLING\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPRUCE_SAPLING\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BIRCH_SAPLING\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: JUNGLE_SAPLING\n  amount: 2\n"
+  ],
+  "rewardExperience": 30,
+  "rewardMoney": 10,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "1 of each kind of sapling",
+  "maxTimes": 100,
+  "repeatExperienceReward": 10,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_SAPLING\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPRUCE_SAPLING\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BIRCH_SAPLING\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: JUNGLE_SAPLING\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ACACIA_SAPLING\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DARK_OAK_SAPLING\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

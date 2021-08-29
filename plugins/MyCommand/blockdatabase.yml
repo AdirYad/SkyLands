@@ -1,0 +1,10 @@
+# 
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+block:
+  Spawn:
+    x-43y16z-13:
+      launchby: player
+      command:
+      - /blacksmith
+      command_left_click:
+      - /blacksmith

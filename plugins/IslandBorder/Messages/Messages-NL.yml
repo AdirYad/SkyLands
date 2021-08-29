@@ -1,0 +1,28 @@
+No-Permission: '&cJe hebt geen rechten om dit commando te gebruiken.'
+No-Commands-In-Console: '&cCommandos zijn niet beschikbaar in de console.'
+Island-Border:
+  Toggle:
+    'On': '&7Jouwn grens is geactiveerd.'
+    'Off': '&7Jouwn grens is verwijderd'
+  Already-Toggled:
+    'On': '&7Jouwn grens is al geactiveerd'
+    'Off': '&7Jouwn grens is al gedeactiveerd'
+  Placeholder:
+    Activated: '&aGeactiveerd'
+    Deactivated: '&cGedeactiveerd'
+    Not-On-Island: '&7Niet op een eiland'
+    No-Cooldown: '&7Geen cooldown'
+  Reload: '&7Eiland grens succesvol geherlaad!'
+  Not-On-Island: '&7Deze commando is alleen bruikbaar op een eiland.'
+  Border-Color:
+    Red: '&cRood'
+    Green: '&aGroen'
+    Blue: '&bBlauw'
+    Changed: '&7Eiland grens kleur is veranderd!'
+    Same-Border-Color: '&7Je kan de grens kleur niet vervangen met de geactiveerde
+      kleur.'
+    No-Permission: '&7Je hebt geen rechten om deze grens kleur te gebruiken.'
+  Cooldown: '&7Je moet %seconds% wachten voordat je je grens weer kan aanpassen.'
+Time:
+  Second: seconde
+  Seconds: seconden

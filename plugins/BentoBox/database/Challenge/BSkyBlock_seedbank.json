@@ -1,0 +1,59 @@
+{
+  "uniqueId": "BSkyBlock_seedbank",
+  "friendlyName": "Seedbank",
+  "deployed": true,
+  "description": [
+    "Collect 64 melon seeds,",
+    "64 pumpkin seeds and 64",
+    "wheat seeds"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN_SEEDS\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Novice",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MELON_SEEDS\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN_SEEDS\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHEAT_SEEDS\n  amount: 64\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "5 dirt blocks and 20 vines",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: VINE\n  amount: 20\n"
+  ],
+  "rewardExperience": 30,
+  "rewardMoney": 15,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "2 dirt blocks and 5 vines",
+  "maxTimes": 100,
+  "repeatExperienceReward": 10,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: VINE\n  amount: 20\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

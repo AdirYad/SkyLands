@@ -1,0 +1,54 @@
+{
+  "uniqueId": "BSkyBlock_stewmaker",
+  "friendlyName": "Stew Maker",
+  "deployed": true,
+  "description": [
+    "Cook up 18 bowls of",
+    "mushroom stew"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSHROOM_STEW\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "BSkyBlock_Novice",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSHROOM_STEW\n  amount: 18\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "2 mycelium blocks",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MYCELIUM\n  amount: 2\n"
+  ],
+  "rewardExperience": 30,
+  "rewardMoney": 15,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "1 mycelium block",
+  "maxTimes": 100,
+  "repeatExperienceReward": 10,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MYCELIUM\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

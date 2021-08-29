@@ -1,0 +1,27 @@
+No-Permission: '&cНедопустимая команда'
+No-Commands-In-Console: '&cНеверная консоль'
+Island-Border:
+  Toggle:
+    'On': '&7Край активирован'
+    'Off': '&7Край отключен'
+  Already-Toggled:
+    'On': '&7Края уже включены'
+    'Off': '&7Края уже отключены'
+  Placeholder:
+    Activated: '&aвключен'
+    Deactivated: '&cинвалид'
+    Not-On-Island: '&7Not on island'
+    No-Cooldown: '&7Нет перезарядки'
+  Reload: '&7Плагин перезагружен!'
+  Not-On-Island: '&7Команда работает только на острове'
+  Border-Color:
+    Red: '&cкрасный'
+    Green: '&aзеленый'
+    Blue: '&bсиний'
+    Changed: '&7Изменен цвет границы острова!'
+    Same-Border-Color: '&7Вы не можете изменить цвет рамки с тем же цветом!'
+    No-Permission: '&7У вас нет разрешения использовать этот цвет границы!'
+  Cooldown: '&7Вы должны подождать %seconds%, прежде чем снова менять границу!'
+Time:
+  Second: секунду
+  Seconds: секунд
