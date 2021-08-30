@@ -1,20 +1,121 @@
-udiamond:
-  ==: Recipe
-  result: §aUltimate Diamond
+zombiehelmet:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §9Zombie Helmet
+  hidden: false
   recipe:
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
-  - DIAMOND_BLOCK
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - null
+  - null
+  - null
   permission: ''
-zleather:
-  ==: Recipe
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+zombiechestplate:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §9Zombie Chestplate
+  hidden: false
+  recipe:
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+zombieleggings:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §9Zombie Leggings
+  hidden: false
+  recipe:
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+zombieboots:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §9Zombie Boots
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  - §2Zombie Leather
+  - null
+  - §2Zombie Leather
+  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+slimecompact:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §aCompact Slime
+  hidden: false
+  recipe:
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  - §aSlime Fragment
+  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+slimebow:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §2Slime Bow
+  hidden: false
+  recipe:
+  - null
+  - STICK
+  - §aCompact Slime
+  - STICK
+  - null
+  - §aCompact Slime
+  - null
+  - STICK
+  - §aCompact Slime
+  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+zombieleather:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
   result: §2Zombie Leather
+  hidden: false
   recipe:
   - §aZombie Fragment
   - §aZombie Fragment
@@ -26,87 +127,26 @@ zleather:
   - §aZombie Fragment
   - null
   permission: ''
-zombiehelmet:
-  ==: Recipe
-  result: §9Zombie Helmet
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+udiamond:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §aUltimate Diamond
+  hidden: false
   recipe:
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  - null
-  - null
-  - null
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
   permission: ''
-zombiechestplate:
-  ==: Recipe
-  result: §9Zombie Chestplate
-  recipe:
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  permission: ''
-zombieleggings:
-  ==: Recipe
-  result: §9Zombie Leggings
-  recipe:
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  permission: ''
-zombieboots:
-  ==: Recipe
-  result: §9Zombie Boots
-  recipe:
-  - null
-  - null
-  - null
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  - §2Zombie Leather
-  - null
-  - §2Zombie Leather
-  permission: ''
-slimecompact:
-  ==: Recipe
-  result: §aCompact Slime
-  recipe:
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  - §fSlime Fragment
-  permission: ''
-slimebow:
-  ==: Recipe
-  result: §2Slime Bow
-  recipe:
-  - null
-  - STICK
-  - §aCompact Slime
-  - STICK
-  - null
-  - §aCompact Slime
-  - null
-  - STICK
-  - §aCompact Slime
-  permission: ''
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false

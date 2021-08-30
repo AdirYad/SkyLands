@@ -1282,7 +1282,7 @@ EntityList:
   54-ZOMBIE: Зомби
   55-SLIME: Слизень
   56-GHAST: Гаст
-  57-PIG_ZOMBIE: Зомби-свиночеловек
+  925-ZOMBIFIED_PIGLIN: Zombified Piglin
   58-ENDERMAN: Странник Края
   59-CAVE_SPIDER: Пещерный паук
   60-SILVERFISH: Чешуйница
@@ -1311,38 +1311,67 @@ EntityList:
   103-LLAMA: Лама
   105-PARROT: Попугай
   120-VILLAGER: Деревенский житель
+  901-TURTLE: Turtle
+  902-PHANTOM: Phantom
+  904-COD: Cod
+  905-SALMON: Salmon
+  906-PUFFERFISH: Pufferfish
+  907-TROPICAL_FISH: Tropical Fish
+  908-DROWNED: Drowned
+  909-DOLPHIN: Dolphin
+  923-CAT: Cat
+  917-PANDA: Panda
+  918-PILLAGER: Pillager
+  919-RAVAGER: Ravager
+  920-TRADER_LLAMA: Trader Llama
+  921-WANDERING_TRADER: Wandering Trader
+  922-FOX: Fox
+  924-BEE: Bee
+  926-HOGLIN: Hoglin
+  927-PIGLIN: Piglin
+  928-STRIDER: Strider
+  929-ZOGLIN: Zoglin
+  930-PIGLIN_BRUTE: Piglin Brute
   914-PLAYER: Игрок
 EnchantList:
-  Protection: Защита
   Fire protection: Fire protection
-  Feather falling: Feather falling
-  Blast protection: Blast protection
-  Projectile protection: Projectile protection
-  Respiration: Respiration
-  Aqua affinity: Aqua affinity
-  Mending: Починка
-  Thorns: Шипы
-  Vanishing curse: Vanishing curse
-  Depth strider: Подводная ходьба
-  Frost walker: Ходьба по воде
-  Binding curse: Binding curse
   Sharpness: Sharpness
-  Smite: Smite
-  Bane of arthropods: Bane of arthropods
-  Knockback: Отдача
-  Fire aspect: Заговор огня
-  Looting: Looting
-  Sweeping: Разящий клинок
-  Efficiency: Efficiency
-  Silk touch: Шёлковое касание
-  Unbreaking: Unbreaking
-  Fortune: Fortune
-  Power: Power
-  Punch: Punch
   Flame: Flame
-  Infinity: Infinity
+  Soul speed: Soul speed
+  Aqua affinity: Aqua affinity
+  Punch: Punch
+  Loyalty: Loyalty
+  Depth strider: Подводная ходьба
+  Vanishing curse: Vanishing curse
+  Unbreaking: Unbreaking
+  Knockback: Отдача
   Luck of the sea: Luck of the sea
+  Binding curse: Binding curse
+  Fortune: Fortune
+  Protection: Защита
+  Efficiency: Efficiency
+  Mending: Починка
+  Frost walker: Ходьба по воде
   Lure: Приманка
+  Looting: Looting
+  Piercing: Piercing
+  Blast protection: Blast protection
+  Smite: Smite
+  Multishot: Multishot
+  Fire aspect: Заговор огня
+  Channeling: Channeling
+  Sweeping: Разящий клинок
+  Thorns: Шипы
+  Bane of arthropods: Bane of arthropods
+  Respiration: Respiration
+  Riptide: Riptide
+  Silk touch: Шёлковое касание
+  Quick charge: Quick charge
+  Projectile protection: Projectile protection
+  Impaling: Impaling
+  Feather falling: Feather falling
+  Power: Power
+  Infinity: Infinity
 ColorList:
   0-white: '&fБелый'
   1-orange: '&6Оражевый'

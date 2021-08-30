@@ -6,7 +6,7 @@ Skeleton:
   Z: 96
   Radius: 0
   UseTimer: true
-  MaxMobs: 2
+  MaxMobs: '2'
   MobLevel: '1'
   MobsPerSpawn: 2
   Cooldown: 20
@@ -15,6 +15,7 @@ Skeleton:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 40
+  ScalingRange: 25.0
   LeashRange: 32
   HealOnLeash: false
   ResetThreatOnLeash: false

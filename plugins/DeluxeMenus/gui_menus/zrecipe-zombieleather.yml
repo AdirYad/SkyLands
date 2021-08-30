@@ -4,8 +4,7 @@ open_command:
 size: 63
 items:
   'Decoration':
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 1
     - 2
@@ -43,8 +42,7 @@ items:
     - 50
     - 51
   'Decoration-1':
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 8
@@ -57,41 +55,39 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 49
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
     - '[openguimenu] recipes'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
     - '[openguimenu] recipes'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Zombiefragment':
-    material: 367
+    material: 'rotten_flesh'
     slots:
     - 11
     - 12
     - 20
     - 29
     - 30
-    display_name: '&2[*] &aZombie Fragment'
+    display_name: '&aZombie Fragment'
     enchantments:
     - 'ARROW_DAMAGE;6'
     hide_enchantments: true
     lore:
     - '&a&lCOMMON'
   'UltimateDiamond':
-    material: 264
+    material: 'diamond'
     slot: 21
-    display_name: '&2[*] &aUltimate Diamond'
+    display_name: '&aUltimate Diamond'
     enchantments:
     - 'ARROW_DAMAGE;6'
     hide_enchantments: true
     lore:
     - '&a&lCOMMON'
   'Zombieleather':
-    material: 367
+    material: 'rotten_flesh'
     slots:
     - 24
     display_name: '&2Zombie Leather'

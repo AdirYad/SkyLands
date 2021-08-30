@@ -6,7 +6,7 @@ ElfSpawn3:
   Z: 752
   Radius: 0
   UseTimer: true
-  MaxMobs: 3
+  MaxMobs: '3'
   MobLevel: '1'
   MobsPerSpawn: 1
   Cooldown: 30
@@ -15,6 +15,7 @@ ElfSpawn3:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 40
+  ScalingRange: 25.0
   LeashRange: 32
   HealOnLeash: false
   ResetThreatOnLeash: false

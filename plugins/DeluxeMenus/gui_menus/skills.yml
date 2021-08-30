@@ -6,8 +6,7 @@ size: 36
 items:
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 2
     - 4
@@ -29,8 +28,7 @@ items:
     - 33
   'Decoration-1':
     display_name: '&7' 
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 1
@@ -49,21 +47,19 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
-    - '[close]'
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[close]'
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Strength':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 5
     slot: 11
-    display_name: '&2[*] &aStrength'
+    display_name: '&aStrength'
     lore:
     - ''
     - '&7Increase your damage'
@@ -112,7 +108,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 4
     slot: 11
-    display_name: '&2[*] &aStrength #2'
+    display_name: '&aStrength #2'
     view_requirement:
       requirements:
         Pex:
@@ -166,7 +162,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 3
     slot: 11
-    display_name: '&2[*] &aStrength #3'
+    display_name: '&aStrength #3'
     view_requirement:
       requirements:
         Pex:
@@ -220,7 +216,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 2
     slot: 11
-    display_name: '&2[*] &aStrength #4'
+    display_name: '&aStrength #4'
     view_requirement:
       requirements:
         Pex:
@@ -274,7 +270,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 1
     slot: 11
-    display_name: '&2[*] &aStrength #4'
+    display_name: '&aStrength #4'
     view_requirement:
       requirements:
         Pex:
@@ -290,7 +286,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 5
     slot: 12
-    display_name: '&2[*] &aCriticals'
+    display_name: '&aCriticals'
     lore:
     - ''
     - '&7Increase critical damage'
@@ -339,7 +335,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 4
     slot: 12
-    display_name: '&2[*] &aCriticals #2'
+    display_name: '&aCriticals #2'
     view_requirement:
       requirements:
         Pex:
@@ -393,7 +389,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 3
     slot: 12
-    display_name: '&2[*] &aCriticals #3'
+    display_name: '&aCriticals #3'
     view_requirement:
       requirements:
         Pex:
@@ -447,7 +443,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 2
     slot: 12
-    display_name: '&2[*] &aCriticals #4'
+    display_name: '&aCriticals #4'
     view_requirement:
       requirements:
         Pex:
@@ -501,7 +497,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 1
     slot: 12
-    display_name: '&2[*] &aCriticals #4'
+    display_name: '&aCriticals #4'
     view_requirement:
       requirements:
         Pex:
@@ -519,7 +515,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 5
     slot: 13
-    display_name: '&2[*] &aResistance'
+    display_name: '&aResistance'
     lore:
     - ''
     - '&7Reduces damage taken'
@@ -568,7 +564,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 4
     slot: 13
-    display_name: '&2[*] &aResistance #2'
+    display_name: '&aResistance #2'
     view_requirement:
       requirements:
         Pex:
@@ -622,7 +618,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 3
     slot: 13
-    display_name: '&2[*] &aResistance #3'
+    display_name: '&aResistance #3'
     view_requirement:
       requirements:
         Pex:
@@ -676,7 +672,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 1
     slot: 13
-    display_name: '&2[*] &aResistance #3'
+    display_name: '&aResistance #3'
     view_requirement:
       requirements:
         Pex:
@@ -694,7 +690,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 5
     slot: 14
-    display_name: '&2[*] &aArchery'
+    display_name: '&aArchery'
     lore:
     - ''
     - '&7Increase arrow damage'
@@ -743,7 +739,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 4
     slot: 14
-    display_name: '&2[*] &aArchery #2'
+    display_name: '&aArchery #2'
     view_requirement:
       requirements:
         Pex:
@@ -797,7 +793,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 3
     slot: 14
-    display_name: '&2[*] &aArchery #3'
+    display_name: '&aArchery #3'
     view_requirement:
       requirements:
         Pex:
@@ -851,7 +847,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 2
     slot: 14
-    display_name: '&2[*] &aArchery #4'
+    display_name: '&aArchery #4'
     view_requirement:
       requirements:
         Pex:
@@ -905,7 +901,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 1
     slot: 14
-    display_name: '&2[*] &aArchery #4'
+    display_name: '&aArchery #4'
     view_requirement:
       requirements:
         Pex:
@@ -923,7 +919,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 5
     slot: 15
-    display_name: '&2[*] &aHealth'
+    display_name: '&aHealth'
     lore:
     - ''
     - '&7Increase your health'
@@ -972,7 +968,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 4
     slot: 15
-    display_name: '&2[*] &aHealth #2'
+    display_name: '&aHealth #2'
     view_requirement:
       requirements:
         Pex:
@@ -1026,7 +1022,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 3
     slot: 15
-    display_name: '&2[*] &aHealth #3'
+    display_name: '&aHealth #3'
     view_requirement:
       requirements:
         Pex:
@@ -1080,7 +1076,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 2
     slot: 15
-    display_name: '&2[*] &aHealth #4'
+    display_name: '&aHealth #4'
     view_requirement:
       requirements:
         Pex:
@@ -1134,7 +1130,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 1
     slot: 15
-    display_name: '&2[*] &aHealth #4'
+    display_name: '&aHealth #4'
     view_requirement:
       requirements:
         Pex:

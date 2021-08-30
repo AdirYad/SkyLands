@@ -58,11 +58,11 @@ Messages:
       Name: '&f&l»&7&l» &8Enchantments Info &7&l«&f&l«'
     Categories-Info:
       Back:
-        Item: 399
+        Item: 'nether_star'
         Right: '&aBack'
         Left: '&aBack'
       Helmets:
-        Item: 314
+        Item: 'golden_helmet'
         Slot: 1
         Name: '&aHelmet Enchantments'
         Lore:
@@ -76,7 +76,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Boots:
-        Item: 317
+        Item: 'golden_boots'
         Slot: 2
         Name: '&aBoot Enchantments'
         Lore:
@@ -90,7 +90,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Armor:
-        Item: 315
+        Item: 'golden_chestplate'
         Slot: 3
         Name: '&aArmor Enchantments'
         Lore:
@@ -104,7 +104,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Bow:
-        Item: 261
+        Item: 'bow'
         Slot: 4
         Name: '&aBow Enchantments'
         Lore:
@@ -114,7 +114,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Sword:
-        Item: 283
+        Item: 'golden_sword'
         Slot: 5
         Name: '&aSword Enchantments'
         Lore:
@@ -128,7 +128,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Axe:
-        Item: 286
+        Item: 'golden_axe'
         Slot: 6
         Name: '&aAxe Enchantments'
         Lore:
@@ -142,7 +142,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'  
       Tool:
-        Item: 294
+        Item: 'golden_hoe'
         Slot: 7
         Name: '&aTool Enchantments'
         Lore:
@@ -155,7 +155,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Pickaxe:
-        Item: 285
+        Item: 'golden_pickaxe'
         Slot: 8
         Name: '&aPickaxe Enchantments'
         Lore:
@@ -169,7 +169,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Misc:
-        Item: 345
+        Item: 'compass'
         Slot: 9
         Name: '&aMisc Enchantments'
         Lore:
@@ -179,7 +179,7 @@ Messages:
           - ''
           - '&8&l» &eClick to open'
       Other:
-        Item: 381
+        Item: 'ender_eye'
         Slot: 14
         Name: '&aOther Info'
         Lore:

@@ -1,5 +1,5 @@
 # PlaceholderAPI
-# Version: 2.10.3
+# Version: 2.10.10
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
@@ -40,3 +40,7 @@ expansions:
       low: '&c'
   javascript:
     engine: javascript
+    debug: false
+    github_script_downloads: false
+    argument_split: ','
+    use_quick_js: false

@@ -19,7 +19,7 @@ Crate:
     ChestLines: 5
     Glass:
       Toggle: true
-      Item: '160:15'
+      Item: 'black_stained_glass_pane'
   PhysicalKey:
     Name: '&a&lVoting Crate Key'
     Lore:
@@ -30,7 +30,7 @@ Crate:
   Prizes:
     1:
       DisplayName: '&a$2,500'
-      DisplayItem: '175' 
+      DisplayItem: 'sunflower'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e20%'
@@ -50,7 +50,7 @@ Crate:
         Items: {}
     2:
       DisplayName: '&a$5,000'
-      DisplayItem: '175' 
+      DisplayItem: 'sunflower'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e10%'
@@ -70,7 +70,7 @@ Crate:
         Items: {} 
     3:
       DisplayName: '&a$10,000'
-      DisplayItem: '175' 
+      DisplayItem: 'sunflower'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e5%'
@@ -90,7 +90,7 @@ Crate:
         Items: {} 
     4:
       DisplayName: '&a$20,000'
-      DisplayItem: '175' 
+      DisplayItem: 'sunflower'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e1%'
@@ -110,7 +110,7 @@ Crate:
         Items: {} 
     5:
       DisplayName: '&a$30,000'
-      DisplayItem: '175' 
+      DisplayItem: 'sunflower'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e0.5%'
@@ -130,7 +130,7 @@ Crate:
         Items: {} 
     6:
       DisplayName: '&ax8 Diamond Blocks'
-      DisplayItem: '57' 
+      DisplayItem: 'diamond_block'
       DisplayAmount: 8
       Lore:
         - '&7Chance: &e5%'
@@ -141,7 +141,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 57 8'
+        - 'give %Player% diamond_block 8'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -150,7 +150,7 @@ Crate:
         Items: {} 
     7:
       DisplayName: '&ax16 Diamond Blocks'
-      DisplayItem: '57' 
+      DisplayItem: 'diamond_block'
       DisplayAmount: 16
       Lore:
         - '&7Chance: &e1%'
@@ -161,7 +161,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 57 16'
+        - 'give %Player% diamond_block 16'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -170,7 +170,7 @@ Crate:
         Items: {} 
     8:
       DisplayName: '&ax8 Emerald Blocks'
-      DisplayItem: '133' 
+      DisplayItem: 'emerald_block'
       DisplayAmount: 8
       Lore:
         - '&7Chance: &e5%'
@@ -181,7 +181,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 133 8'
+        - 'give %Player% emerald_block 8'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -190,7 +190,7 @@ Crate:
         Items: {} 
     9:
       DisplayName: '&ax16 Emerald Blocks'
-      DisplayItem: '133' 
+      DisplayItem: 'emerald_block'
       DisplayAmount: 16
       Lore:
         - '&7Chance: &e1%'
@@ -201,7 +201,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 133 16'
+        - 'give %Player% emerald_block 16'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -210,7 +210,7 @@ Crate:
         Items: {} 
     10:
       DisplayName: '&ax8 Iron Blocks'
-      DisplayItem: '42' 
+      DisplayItem: 'iron_block'
       DisplayAmount: 8
       Lore:
         - '&7Chance: &e10%'
@@ -221,7 +221,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 42 8'
+        - 'give %Player% iron_block 8'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -230,7 +230,7 @@ Crate:
         Items: {} 
     11:
       DisplayName: '&ax16 Iron Blocks'
-      DisplayItem: '42' 
+      DisplayItem: 'iron_block'
       DisplayAmount: 16
       Lore:
         - '&7Chance: &e5%'
@@ -241,7 +241,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 42 16'
+        - 'give %Player% iron_block 16'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -250,7 +250,7 @@ Crate:
         Items: {} 
     12:
       DisplayName: '&ax8 Gold Blocks'
-      DisplayItem: '41' 
+      DisplayItem: 'gold_block'
       DisplayAmount: 8
       Lore:
         - '&7Chance: &e10%'
@@ -261,7 +261,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 41 8'
+        - 'give %Player% gold_block 8'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -270,7 +270,7 @@ Crate:
         Items: {} 
     13:
       DisplayName: '&ax16 Gold Blocks'
-      DisplayItem: '41' 
+      DisplayItem: 'gold_block'
       DisplayAmount: 16
       Lore:
         - '&7Chance: &e5%'
@@ -281,7 +281,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'give %Player% 41 16'
+        - 'give %Player% gold_block 16'
       BlackListed-Permissions: {} 
       Alternative-Prize:
         Toggle: false
@@ -290,7 +290,7 @@ Crate:
         Items: {}  
     14:
       DisplayName: '&aZombie Fragment'
-      DisplayItem: '367'
+      DisplayItem: 'rotten_flesh'
       DisplayAmount: 1
       Lore:
         - '&a&lCOMMON'
@@ -303,7 +303,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'mm i give %Player% ZombieFragment'
+        - 'mm i give -s %Player% ZombieFragment'
       BlackListed-Permissions: {}
       Alternative-Prize:
         Toggle: false
@@ -312,7 +312,7 @@ Crate:
         Items: {}
     15:
       DisplayName: '&aSlime Fragment'
-      DisplayItem: '341'
+      DisplayItem: 'slime_ball'
       DisplayAmount: 1
       Lore:
         - '&a&lCOMMON'
@@ -325,7 +325,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'mm i give %Player% SlimeFragment'
+        - 'mm i give -s %Player% SlimeFragment'
       BlackListed-Permissions: {}
       Alternative-Prize:
         Toggle: false
@@ -334,7 +334,7 @@ Crate:
         Items: {}
     16:
       DisplayName: '&ax1 Mega Key'
-      DisplayItem: '131'
+      DisplayItem: 'tripwire_hook'
       DisplayAmount: 1
       Lore:
         - '&7Chance: &e3%'
@@ -354,7 +354,7 @@ Crate:
         Items: {}
     17:
       DisplayName: '&ax2 Mega Key'
-      DisplayItem: '131'
+      DisplayItem: 'tripwire_hook'
       DisplayAmount: 2
       Lore:
         - '&7Chance: &e2%'

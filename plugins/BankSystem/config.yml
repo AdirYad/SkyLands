@@ -46,7 +46,7 @@ Settings:
     updateChecker: true
     # Enable/disable override default balance command in-game
     # /bal and /balance
-    overrideBalanceCommand: true
+    overrideBalanceCommand: false
     # Enable/disable deposit/withdraw all 
     # /bank withdraw all|*
     # /bank deposit all|*
@@ -69,7 +69,7 @@ Settings:
     pocketLimit: 300000000
     # Amount of time in milliseconds a player has to wait between interactions.
     # 1000 milliseconds = 1 second
-    interactCooldown: 500
+    interactCooldown: 15000
     # Interest settings
     # Enable bank accounts interest
     # Valid values: true, false
@@ -79,7 +79,7 @@ Settings:
     interestPercentage: 2%
     # Cooldown between interest credit in minutes.
     # Default value: 60 minutes
-    interestCooldown: 7200
+    interestCooldown: 4320
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -125,7 +125,7 @@ Messages:
     withdrawSuccess: '&7You withdraw &e%amount% &7of your bank!'
     reachedBankLimit: '&7Reached bank account limit!'
     reachedPocketLimit: '&7Reached pocket money limit!'
-    tooFastInteract: '&7Please wait to use the bank again.'
+    tooFastInteract: '&7Please wait 15 seconds to use the bank again.'
     setCommand: '&7%player% bank balance set to: &e%amount%'
     interest: '&7Interest credited: &e%amount%'
     interestCommand: '&7Next interest in: &e%interestCooldown%'
@@ -134,19 +134,8 @@ Messages:
     reloadError: '&7Error reloading config!'
     reloadSuccess: '&7Config reloaded succesfully!'
     balance:
-        - '&8[&7Bank System &eBalance&8]'
-        - '&7Bank &e%balance%'
-        - '&7Pocket &e%pocket%'
-        - '&7Total &e%total%'
+        - '&a&lBANK &8&l» &7Balance: &e%pocket%&7, Bank: &e%balance%&7, &7Total: &e%total%'
     help:
-        - '&8[&7Bank System &eHelp&8]'
-        - '&7/bank balance&f: Check your bank balance.'
-        - '&7/bank deposit <amount | all | *>&f: Deposit money to your bank.'
-        - '&7/bank withdraw <amount | all | *>&f: Withdraw money from your bank.'
-        - '&7/bank interest&f: Checks the cooldown until next interest.'
+        - ''
     admin:
         - ''
-        - '&8[&7Bank System &eAdmin Help&8]'
-        - '&7/bank balance <player>&f: Check online players bank balance.'
-        - '&7/bank set <player> <amount>&f: Set online players bank balance.'
-        - '&7/bank reload&f: Reload BankSystem config file.'

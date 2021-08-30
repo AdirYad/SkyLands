@@ -1,3 +1,7 @@
+skill_upgrade_false_perms: You don't have permissions to upgrade
+hologram_set: 'You set hologram at: §e{0}'
+hologram_disabled: Holograms `§cDisabled§f` in config or `§cHolographic Display§f`
+  dosen't loaded
 prefix: §a§lSKILLS §8§l» §7
 invalied_args: Pls, use corect arguments
 no_permissions_message: You don't have permissions for this

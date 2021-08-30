@@ -1,132 +1,179 @@
 §9Zombie Helmet:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND_HELMET
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §9Zombie Helmet
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Zombie
+      Helmet"}],"text":""}'
     lore:
-    - §9§lRARE
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
     enchants:
       PROTECTION_ENVIRONMENTAL: 5
       THORNS: 6
-§aZombie Fragment:
-  ==: org.bukkit.inventory.ItemStack
-  type: ROTTEN_FLESH
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: §aZombie Fragment
-    lore:
-    - §a§lCOMMON
-    enchants:
-      DURABILITY: 1
-    ItemFlags:
-    - HIDE_ENCHANTS
+      DURABILITY: 3
 §aUltimate Diamond:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §aUltimate Diamond
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ultimate
+      Diamond"}],"text":""}'
     lore:
-    - §a§lCOMMON
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"COMMON"}],"text":""}'
     enchants:
       DURABILITY: 1
     ItemFlags:
     - HIDE_ENCHANTS
 DIAMOND_BLOCK:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND_BLOCK
 §2Zombie Leather:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: ROTTEN_FLESH
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §2Zombie Leather
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Zombie
+      Leather"}],"text":""}'
     lore:
-    - §2§lUNCOMMON
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"UNCOMMON"}],"text":""}'
     enchants:
       DURABILITY: 1
     ItemFlags:
     - HIDE_ENCHANTS
 §9Zombie Chestplate:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND_CHESTPLATE
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §9Zombie Chestplate
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Zombie
+      Chestplate"}],"text":""}'
     lore:
-    - §9§lRARE
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
     enchants:
       PROTECTION_ENVIRONMENTAL: 5
       THORNS: 6
+      DURABILITY: 3
 §9Zombie Leggings:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND_LEGGINGS
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §9Zombie Leggings
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Zombie
+      Leggings"}],"text":""}'
     lore:
-    - §9§lRARE
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
     enchants:
       PROTECTION_ENVIRONMENTAL: 5
       THORNS: 6
+      DURABILITY: 3
 §9Zombie Boots:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: DIAMOND_BOOTS
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §9Zombie Boots
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Zombie
+      Boots"}],"text":""}'
     lore:
-    - §9§lRARE
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
     enchants:
       PROTECTION_ENVIRONMENTAL: 5
       THORNS: 6
+      DURABILITY: 3
 §aCompact Slime:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: SLIME_BLOCK
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §2Compact Slime
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Compact
+      Slime"}],"text":""}'
     lore:
-    - §2§lUNCOMMON
-    enchants:
-      DURABILITY: 1
-    ItemFlags:
-    - HIDE_ENCHANTS
-§fSlime Fragment:
-  ==: org.bukkit.inventory.ItemStack
-  type: SLIME_BALL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: §aSlime Fragment
-    lore:
-    - §a§lCOMMON
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"UNCOMMON"}],"text":""}'
     enchants:
       DURABILITY: 1
     ItemFlags:
     - HIDE_ENCHANTS
 §2Slime Bow:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: BOW
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §2Slime Bow
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Slime
+      Bow"}],"text":""}'
     lore:
-    - §9§lRare
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rare"}],"text":""}'
     enchants:
+      ARROW_FIRE: 1
       ARROW_DAMAGE: 6
       ARROW_KNOCKBACK: 4
-      ARROW_FIRE: 1
 STICK:
   ==: org.bukkit.inventory.ItemStack
+  v: 2586
   type: STICK
+§2Zombie Leather1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ROTTEN_FLESH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Zombie
+      Leather"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"UNCOMMON"}],"text":""}'
+§aSlime Fragment:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SLIME_BALL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"color":"green","text":"Slime Fragment"}'
+    lore:
+    - '{"bold":true,"italic":false,"color":"green","text":"COMMON"}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+§aZombie Fragment:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ROTTEN_FLESH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"color":"green","text":"Zombie Fragment"}'
+    lore:
+    - '{"bold":true,"italic":false,"color":"green","text":"COMMON"}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+HOPPER:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: HOPPER
+IRON_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: IRON_INGOT
+CHEST:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: CHEST

@@ -1,61 +1,55 @@
 # Time in ticks for a score to stay on the scoreboard (20 ticks = 3 second)
 UpdateTime: 20
-
-# Save which players have the scoreboard disabled
 SaveScoreboards: true
-
-# Per world scoreboards
-Worlds:
+Scoreboards:
   Spawn:
     Titles:
-      - text: "&b&lSKY&a&lLANDS"
-        time: 4
-      - text: "&b&lS&3&lK&f&lYLANDS"
-        time: 4
-      - text: "&b&lSK&3&lY&f&lLANDS"
-        time: 4
-      - text: "&b&lSKY&2&lL&f&lANDS"
-        time: 4
-      - text: "&b&lSKY&a&lL&2&lA&f&lNDS"
-        time: 4
-      - text: "&b&lSKY&a&lLA&2&lN&f&lDS"
-        time: 4
-      - text: "&b&lSKY&a&lLAND&2&lS"
-        time: 4
-      - text: "&b&lSKY&a&lLANDS"
-        time: 4
-      - text: "&3&lSKY&2&lLANDS"
-        time: 4
-      - text: "&f&lSKYLANDS"
-        time: 4
+    - text: '&b&lSKY&a&lLANDS'
+      time: 4
+    - text: '&b&lS&3&lK&f&lYLANDS'
+      time: 4
+    - text: '&b&lSK&3&lY&f&lLANDS'
+      time: 4
+    - text: '&b&lSKY&2&lL&f&lANDS'
+      time: 4
+    - text: '&b&lSKY&a&lL&2&lA&f&lNDS'
+      time: 4
+    - text: '&b&lSKY&a&lLA&2&lN&f&lDS'
+      time: 4
+    - text: '&b&lSKY&a&lLAND&2&lS'
+      time: 4
+    - text: '&b&lSKY&a&lLANDS'
+      time: 4
+    - text: '&3&lSKY&2&lLANDS'
+      time: 4
+    - text: '&f&lSKYLANDS'
+      time: 4
     Scores:
-      11:
-        - "&7&m------------------"
-      10:
-        - "&2&l%player_name%"
-      9:
-        - " &a&l| &fBalance: &a$%vault_eco_balance_formatted%"
-      8:
-        - " &a&l| &fExp: &a%level%"
-      7:
-        - " &a&l| &fVote Party: &a%VotingPlugin_VotePartyVotesCurrent%/%VotingPlugin_VotePartyVotesRequired%"
-      6:
-        - ""
-      5:
-        - "&2&lIsland"
-      4:
-        - " &a&l| &fLevel: &a%askyblock_level%"
-      3:
-        - " &a&l| &fMates: &a%askyblock_team_size%"
-      2:
-        - ""
-      1:
-        - "&a&lstore.skylandsnetwork.com"
-
-# Shared scoreboards
-Shared:
-  Spawn:
-    - "ASkyBlock"
-    - "ASkyBlock_nether"
-    - "Mine"
-    - "Dungeon"
+      '11':
+      - '&7&m------------------'
+      '10':
+      - '&2&l%player_name%'
+      '9':
+      - ' &a&l| &fBalance: &a$%vault_eco_balance_formatted%'
+      '8':
+      - ' &a&l| &fExp: &a%level%'
+      '7':
+      - ' &a&l| &fVote Party: &a%VotingPlugin_VotePartyVotesCurrent%/%VotingPlugin_VotePartyVotesRequired%'
+      '6':
+      - ''
+      '5':
+      - '&2&lIsland'
+      '4':
+      - ' &a&l| &fLevel: &a%Level_bskyblock_island_level%'
+      '3':
+      - ' &a&l| &fMates: &a%bskyblock_island_members_count%'
+      '2':
+      - ''
+      '1':
+      - '&a&lstore.skylandsnetwork.com'
+Worlds:
+  Spawn: Spawn
+  ASkyBlock: Spawn
+  ASkyBlock_nether: Spawn
+  Mine: Spawn
+  Dungeon: Spawn

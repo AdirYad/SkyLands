@@ -1,0 +1,239 @@
+title: "&a&l{target}'s &8Profile"
+size: 54
+
+fillItems:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: "&f"
+  lore: []
+
+items:
+  close:
+    material: BARRIER
+    name: "&cClose"
+    slots: [ 49 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    leftClickCommands:
+      - '[CLOSE]'
+    rightClickCommands:
+      - '[CLOSE]'
+  playerInformation:
+    material: head;{target}
+    name: "&2&l{target}"
+    slots: [ 13 ]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - ' &a&l| &fPlayed time: &a%statistic_time_played%'
+      - ' &a&l| &fDeaths: &a%statistic_deaths%'
+      - ' &a&l| &fKills: &a%statistic_player_kills%'
+      - '&7'
+      - '&2&lIsland'
+      - ' &a&l| &fLevel: &a%Level_bskyblock_island_level%'
+      - ' &a&l| &fMates: &a%bskyblock_island_members_count%'
+  money:
+    material: GOLD_INGOT
+    name: "&6{target} Balance"
+    slots: [ 16 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - '&7'
+      - '&7Balance: &6$%vault_eco_balance_formatted%'
+      - '&7Bank: &6$%banksystem_balance%'
+  invite:
+    material: SAPLING
+    name: "&bInvite {target}"
+    slots: [ 25 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - '&7'
+      - '&7Invite &b{target} &7to'
+      - '&7your island.'
+      - '&7'
+      - '&8» &bClick to invite'
+    leftClickCommands:
+      - '[PLAYER] is team invite {target}'
+      - '[CLOSE]'
+    rightClickCommands:
+      - '[PLAYER] is team invite {target}'
+      - '[CLOSE]'
+  tradeTarget:
+    material: CHEST
+    name: "&eTrade {target}"
+    slots: [ 34 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&7"
+      - "&8» &eClick to trade"
+    leftClickCommands:
+      - "[PLAYER] trade {target}"
+      - "[CLOSE]"
+    rightClickCommands:
+      - "[PLAYER] trade {target}"
+      - "[CLOSE]"
+  customMenu:
+    material: DIAMOND_AXE
+    name: "&ePunish {target}"
+    slots: [ 22 ]
+    glowing: false
+    hideAttributes: true
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: true
+    permission: "playerprofiles.punishgui"
+    lore:
+      - ""
+      - "&8» &eClick to punish {target}"
+    leftClickCommands:
+      - "[OPENGUIMENU] punish-gui.yml"
+    rightClickCommands:
+      - "[OPENGUIMENU] punish-gui.yml"
+  exampleHelmet:
+    type: HELMET
+    material: RED_STAINED_GLASS_PANE
+    name: "&eHelmet"
+    slots: [10]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&cEmpty!"
+  exampleChestplate:
+    type: CHESTPLATE
+    material: RED_STAINED_GLASS_PANE
+    name: "&eChestplate"
+    slots: [ 19 ]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&cEmpty!"
+  exampleLeggings:
+    type: LEGGINGS
+    material: RED_STAINED_GLASS_PANE
+    name: "&eLeggings"
+    slots: [ 28 ]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&cEmpty!"
+  exampleBoots:
+    type: BOOTS
+    material: RED_STAINED_GLASS_PANE
+    name: "&eBoots"
+    slots: [ 37 ]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&cEmpty!"
+  exampleMainHand:
+    type: MAIN_HAND
+    material: RED_STAINED_GLASS_PANE
+    name: "&eMain Hand"
+    slots: [ 31 ]
+    glowing: true
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    lore:
+      - "&cEmpty!"
+#  exampleOffhand:
+#    type: OFF_HAND
+#    material: RED_STAINED_GLASS_PANE
+#    name: "&eOff Hand"
+#    slots: [ 29 ]
+#    glowing: true
+#    hideAttributes: false
+#    customModelData: 0
+#    onlyOwner: false
+#    onlyVisitor: false
+#    usePermission: false
+#    lore:
+#      - "&cEmpty!"
+#  unlockProfile:
+#    material: head;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA3ZmJjMzM5ZmYyNDFhYzNkNjYxOWJjYjY4MjUzZGZjM2M5ODc4MmJhZjNmMWY0ZWZkYjk1NGY5YzI2In19fQ==
+#    name: "&aUnlock Profile"
+#    slots: [ 53 ]
+#    glowing: true
+#    hideAttributes: false
+#    customModelData: 0
+#    onlyOwner: true
+#    onlyVisitor: false
+#    usePermission: false
+#    lore:
+#      - "&7Click to unlock your profile"
+#    leftClickCommands:
+#      - "[CONSOLE] unlockprofile {target}"
+#    rightClickCommands:
+#      - "[CONSOLE] unlockprofile {target}"
+#  profileStatus:
+#    material: CHEST
+#    name: "&6Profile Status"
+#    slots: [ 52 ]
+#    glowing: false
+#    hideAttributes: false
+#    customModelData: 0
+#    onlyOwner: true
+#    onlyVisitor: false
+#    usePermission: false
+#    permission: "custom.permission"
+#    lore:
+#      - "{target_status}"
+#  lockProfile:
+#    material: head;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE5ZjUwYjQzMmQ4NjhhZTM1OGUxNmY2MmVjMjZmMzU0MzdhZWI5NDkyYmNlMTM1NmM5YWE2YmIxOWEzODYifX19
+#    name: "&cLock Profile"
+#    slots: [ 51 ]
+#    glowing: true
+#    hideAttributes: false
+#    customModelData: 0
+#    onlyOwner: true
+#    onlyVisitor: false
+#    usePermission: false
+#    permission: "custom.permission"
+#    lore:
+#      - "&7Click to lock your profile"
+#    leftClickCommands:
+#      - "[CONSOLE] lockprofile {target}"
+#    rightClickCommands:
+#      - "[CONSOLE] lockprofile {target}"

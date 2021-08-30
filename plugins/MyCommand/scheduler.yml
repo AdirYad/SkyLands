@@ -1,6 +1,11 @@
-#-----------------------------------------------------------------------------------------------------------#
-#							MyCommand Scheduler Database File (last update v5.0.0)							#
-#																											#
+# 
 #  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
-#						Use date : always for launch the command on every check.							#
-#-----------------------------------------------------------------------------------------------------------#
+scheduler:
+  ZombieBoss:
+    date: ''
+    commands:
+    - mm m spawn ZombieBoss 1 Spawn,-89.5,15,149.5
+    times:
+    - '30'
+    - '1'
+    - '34'

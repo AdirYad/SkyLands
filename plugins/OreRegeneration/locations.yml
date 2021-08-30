@@ -1,1 +1,109 @@
 regions:
+  Mine:
+    loc1:
+      ==: org.bukkit.Location
+      world: Mine
+      x: -2732.0
+      y: 165.0
+      z: -1242.0
+      pitch: 0.0
+      yaw: 0.0
+    loc2:
+      ==: org.bukkit.Location
+      world: Mine
+      x: -2462.0
+      y: 11.0
+      z: -979.0
+      pitch: 0.0
+      yaw: 0.0
+    canBreak:
+      ANDESITE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 400
+      IRON_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 600
+      COAL_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 600
+      GOLD_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 600
+      REDSTONE_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 800
+      LAPIS_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 800
+      DIAMOND_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 1200
+      EMERALD_ORE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 1200
+      STONE:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 400
+    mobs-spawn: true
+    pvp: true
+  wood1:
+    loc1:
+      ==: org.bukkit.Location
+      world: Spawn
+      x: 32.0
+      y: 16.0
+      z: 99.0
+      pitch: 0.0
+      yaw: 0.0
+    loc2:
+      ==: org.bukkit.Location
+      world: Spawn
+      x: -64.0
+      y: 53.0
+      z: 35.0
+      pitch: 0.0
+      yaw: 0.0
+    canBreak:
+      OAK_WOOD:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 1200
+      OAK_LOG:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 40
+  wood2:
+    loc1:
+      ==: org.bukkit.Location
+      world: Spawn
+      x: 0.0
+      y: 15.0
+      z: 40.0
+      pitch: 0.0
+      yaw: 0.0
+    loc2:
+      ==: org.bukkit.Location
+      world: Spawn
+      x: -54.0
+      y: 46.0
+      z: 24.0
+      pitch: 0.0
+      yaw: 0.0
+    canBreak:
+      OAK_WOOD:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 40
+      OAK_LOG:
+        replaceWith:
+        - BEDROCK
+        replenishTime: 40

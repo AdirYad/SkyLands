@@ -133,3 +133,32 @@ StaffEndPortalProtected: Prevented the end portal from being broken using a disp
   @
 StaffMsgNoPerm: 'You do not have permission to use that IllegalStack feature, node
   required: ~perm~'
+PluginTeleportText: §6Click to teleport here
+ShulkerPlace: Removed a shulker box containing illegally stacked, or enchanted items
+  on player ~player~  @
+HeadInsideSolidBlock: Stopped ~player~ 's head from being inside a solid block while
+  in a ~vehicle~ @
+HeadInsideSolidBlock2: 'Stopped ~player~ ''s head from being inside a ~block~ Reason:
+  potential Xray Glitch'
+MinecartMount: Prevented a ~entity~ from being able to mount a ~vehicle~ @
+ItemTypeRemovedPlayerOnPlace: '~name~ attempted to place a blacklisted item type:
+  ~item~, it has been removed'
+ItemTypeRemovedPlayerOnDrop: '~name~ attempted to drop a blacklisted item type: ~item~,
+  it has been removed'
+ItemTypeRemoved: 'Found a blacklisted item type: ~item~ in ~player~''s inventory,
+  it has been removed'
+IllegalStackDurability: 'Fixed durability on: ~item~ triggered by player: ~name~.'
+CustomAttribsRemoved2: Removed ~item~ with Custom Attributes worn by ~name~ (~attributes~)
+CustomAttribsRemoved3: Removed ~item~ with Custom attributes found in ~name~'s inventory
+  (~attributes~)
+GenericItemRemoval: ~item~ removed by protection ~protection~, found on source ~source~
+PlayerDisabledRidingChestedMsg: §cSorry, taming creatures that can carry chests is
+  disabled!
+PlayerSpawnEggBlock: §cSorry you can not use spawn eggs to change spawner types!
+StaffMsgChangedSpawnerType: Player ~player~ used ~type~ to change a spawner type @
+StaffMsgDispenerFlint: Detected a downward facing dispenser from dispensing flint
+  and steel which would crash the server @
+StaffMsgUnderNether: ~name~ has been killed for flying under the nether floor @
+StaffMsgBedExplosion: Prevented a bed from being used as an explosive @
+DestroyedEnchantedItem: 'Destroyed an Illegally Enchanted Item ~item~ ~enchant~.(~lvl)
+  found on player: ~player~'

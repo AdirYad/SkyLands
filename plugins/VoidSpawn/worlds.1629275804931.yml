@@ -1,0 +1,10 @@
+version: 1
+ASkyBlock:
+  spawn:
+    x: -0.2842937449109841
+    y: 133.0
+    z: -0.7245274245734177
+    pitch: 0.85823774
+    yaw: -89.41624
+    world: ASkyBlock
+  mode: Touch

@@ -1,0 +1,40 @@
+timestamps:
+  login: 1630278759002
+  logout: 1630280675137
+  lastteleport: 1630083832429
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: Spawn
+  x: -43.875588758599
+  y: 30.5
+  z: -9.279136643480955
+  yaw: 101.06077
+  pitch: 14.099831
+  world-name: ASkyBlock
+logoutlocation:
+  world: Spawn
+  x: -43.875588758599
+  y: 30.5
+  z: -9.279136643480955
+  yaw: 95.66083
+  pitch: 4.9498305
+  world-name: ASkyBlock
+money: '0.0546875'
+ip-address: 127.0.0.1
+last-account-name: Sturt_Clrk
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+lastAccountName: Sturt_Clrk
+ipAddress: 127.0.0.1

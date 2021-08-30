@@ -47,25 +47,25 @@ unlockables:
   ##-------------------+-------------------------------------##
   island_roles:
     owner:
-      player_level: 5
+      player_level: 0
 
     member:
-      player_level: 50
+      player_level: 0
 
     coop:
-      player_level: 75
-      island_level: 75
+      player_level: 0
+      island_level: 0
 
     visitor:
-      player_level: 100
-      island_level: 75
+      player_level: 0
+      island_level: 0
 
       player_challenges:
         stewmaker:
-          completed: 1
+          completed: 0
       island_challenges:
         papermaker:
-          completed: 1
+          completed: 0
 
 flight_settings:
   # If false the player cannot fly when they are not on an island

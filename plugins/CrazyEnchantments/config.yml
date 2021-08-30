@@ -4,7 +4,7 @@ Settings:
   Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the players data gets backed up.
   Reset-Players-Max-Health: true #This is for some servers that get a health duplication glitch from plugins like CombatTagPlus(v1.2.3 down)
   InvName: '&f&l»&7&l» &8Enchants &7&l«&f&l«' #The name of the /CE inventory
-  Enchantment-Book-Item: '340' #The item that the enchantment book is.
+  Enchantment-Book-Item: 'book' #The item that the enchantment book is.
   Enchantment-Book-Glowing: true #Toggle on or off if the book will have an enchanted look.
   GUISize: 36 #The size of the GUI, must be a factor of 9
   EnchantmentBookLore: #The lore on the enchantments books.
@@ -17,7 +17,7 @@ Settings:
     - '&8&l» &eDrag book and drop on Item'
     - '&8&l» &eRight click for more Info' 
   LostBook: #Lost book options.
-    Item: '340' #The item the lost books is.
+    Item: 'book' #The item the lost books is.
     Name: '%Category% Book' #The name of the lost books.
     Lore: #The lore of the lost books.
       - ''
@@ -27,7 +27,7 @@ Settings:
       - ''
       - '&8&l» &eRight Click to clean off'
   Scrambler:
-    Item: '175' #The item it will be.
+    Item: 'sunflower' #The item it will be.
     Glowing: true #If it has the glowing effect.
     Name: '&e&lThe Grand Scrambler' #The name of the item.
     Lore: #The lore of the item.
@@ -39,7 +39,7 @@ Settings:
       Name: '&8Rolling the &eScrambler' #Name of the GUI.
       Toggle: true #If the GUI will show. Warning>> This may cause lag if a lot of players are using it all the time.
       Pointer: #The pointer in the middle of the GUI.
-        Item: '76' #The item the pointer is.
+        Item: 'redstone_torch' #The item the pointer is.
         Name: '&c&lPointer' #The name of the pointer.
         Lore: #The lore on the pointer.
           - '&7Whatever percents the item lands on'
@@ -57,7 +57,7 @@ Settings:
   GKitz: #GKitz GUI option.
     InGUI: false #If you can open the GKitz GUI from the main /ce gui.
     Slot: 1 #The slot it will be in.
-    Item: '311' #The item it is.
+    Item: 'diamond_chestplate' #The item it is.
     Glowing: true #If the item has a glowing effect.
     Name: '&c&lGKitz' #The name of the item.
     Lore: #The lore of the item.
@@ -65,7 +65,7 @@ Settings:
   ProtectionCrystal:
     InGUI: false #If its in the GUI.
     Slot: 1 #Slot it is in
-    Item: '388' #Item it is
+    Item: 'emerald' #Item it is
     Glowing: true #If it is enchanted
     Protected: '&6Ancient Protection' #The lore that goes on the item that is protected.
     Lose-Protection-On-Death: true #If true then when the player dies they get the item but it loses its protection.
@@ -89,7 +89,7 @@ Settings:
   BlackSmith: #Options for the Black Smith
     InGUI: false #In the GUI.
     Slot: 24 #Slot it is in.
-    Item: '145' #Item that shows in the GUI
+    Item: 'anvil' #Item that shows in the GUI
     Glowing: false #Is it enchanted
     Name: '&7&lThe &b&lBlack &9&lSmith' #Name of the Item in the GUI
     Lore: #Lore on the item.
@@ -113,7 +113,7 @@ Settings:
   Tinker: #Settings for Info item in the GUI
     InGUI: false #Toggle whether it is in the /CE GUI or not
     Slot: 22 #Slot it is in
-    Item: '399' #Item it is
+    Item: 'nether_star' #Item it is
     Glowing: false #Whether it glows like its enchanted
     Name: '&7&lThe &b&lCrazy &9&lTinkerer' #Name of the Item
     Lore: #Lore of the item
@@ -121,7 +121,7 @@ Settings:
   Info: #Settings for Info item in the GUI
     InGUI: true #Toggle whether it is in the /CE GUI or not
     Slot: 14 #Slot it is in
-    Item: '386' #Item it is
+    Item: 'writable_book' #Item it is
     Glowing: false #Whether it glows like its enchanted
     Name: '&aEnchantments Information' #Name of the Item
     Lore: #Lore of the item
@@ -132,7 +132,7 @@ Settings:
       - '&8&l» &eClick to open'
   Dust: #Settings for the Magical Dust
     MysteryDust:
-      Item: '289' #Item mystery dust is
+      Item: 'gunpowder' #Item mystery dust is
       Name: '&7Mystery Dust' #Name of the dust
       Lore: #Use %Percent% to set the percent
         - '&a1-%Percent%% &7will be on a'
@@ -160,7 +160,7 @@ Settings:
         - '&7'
         - '&8&l» &eClick to buy'
       Slot: 21 #Slot number it is in
-      Item: '353' #Item the dust is
+      Item: 'sugar' #Item the dust is
       Name: '&aMagical Angel Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&7'
@@ -183,7 +183,7 @@ Settings:
         - '&7'
         - '&8&l» &eClick to buy'
       Slot: 25 #Slot number it is in
-      Item: '289' #Item the dust is
+      Item: 'gunpowder' #Item the dust is
       Name: '&aMagical Fixing Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&7'
@@ -195,14 +195,14 @@ Settings:
         Max: 10 #Max percent
         Min: 2 #Minimum percent
     FailedDust:
-      Item: '289' #Item the dust is
+      Item: 'gunpowder' #Item the dust is
       Name: '&7Failed Dust' #Name of the dust
       Lore: #Lore for the dust
         - '&7This dust has failed.'
         - '&7It is now useless unless you'
         - '&7needed to make TNT or a throwable potion.'
   BlackScroll: #Settings for the black scrolls
-    Item: '351' #The item the black scroll can be
+    Item: 'ink_sac' #The item the black scroll can be
     Name: '&aBlack Scroll' #The name of the black scroll
     Item-Lore: #The lore that will be on the black scroll.
       - '&7'
@@ -234,7 +234,7 @@ Settings:
       Max: 25 #The Max percent
       Min: 5 #The Minimum percent
   WhiteScroll:
-    Item: '339' #The item the white scroll is.
+    Item: 'paper' #The item the white scroll is.
     Name: '&aWhite Scroll' #The name of the white scrolls.
     Item-Lore: #The lore that will be on the white scroll.
       - '&7'
@@ -257,7 +257,7 @@ Settings:
       - '&8&l» &eClick to buy'
     ProtectedName: '&b&lPROTECTED' #The lore that is added to protect an item.
   TransmogScroll:
-    Item: '406' #The item the scroll is.
+    Item: 'quartz' #The item the scroll is.
     Name: '&d&lTransmog Scroll' #The name of the scroll.
     Item-Lore: #The lore that will be on the scroll.
       - '&7This scroll allows you to organize'
@@ -381,34 +381,34 @@ Settings:
   #Placeholders: %vault% %xp_level% %xp_total%
   #####################
   GUICustomization: #This allows you to customize unclickable items into you GUI.
-    - 'Slot:1, Item:160:7, Name: '
-    - 'Slot:2, Item:160:7, Name: '
-    - 'Slot:3, Item:160:7, Name: '
-    - 'Slot:4, Item:160:7, Name: '
-    - 'Slot:5, Item:160:7, Name: '
-    - 'Slot:6, Item:160:7, Name: '
-    - 'Slot:7, Item:160:7, Name: '
-    - 'Slot:8, Item:160:7, Name: '
-    - 'Slot:9, Item:160:7, Name: ' 
-    - 'Slot:10, Item:160:7, Name: '
-    - 'Slot:18, Item:160:7, Name: '
-    - 'Slot:19, Item:160:7, Name: '
-    - 'Slot:27, Item:160:7, Name: '
-    - 'Slot:28, Item:160:7, Name: '
-    - 'Slot:29, Item:160:7, Name: '
-    - 'Slot:30, Item:160:7, Name: '
-    - 'Slot:31, Item:160:7, Name: '
-    - 'Slot:32, Item:160:7, Name: '
-    - 'Slot:33, Item:160:7, Name: '
-    - 'Slot:34, Item:160:7, Name: '
-    - 'Slot:35, Item:160:7, Name: '
-    - 'Slot:36, Item:160:7, Name: '
-    - 'Slot:11, Item:160:5, Name: '
-    - 'Slot:13, Item:160:13, Name: '
-    - 'Slot:15, Item:160:13, Name: '
-    - 'Slot:17, Item:160:5, Name: '    
-    - 'Slot:20, Item:160:5, Name: '
-    - 'Slot:26, Item:160:5, Name: '
+    - 'Slot:1, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:2, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:3, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:4, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:5, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:6, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:7, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:8, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:9, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:10, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:18, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:19, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:27, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:28, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:29, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:30, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:31, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:32, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:33, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:34, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:35, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:36, Item:gray_stained_glass_pane, Name: '
+    - 'Slot:11, Item:yellow_stained_glass_pane, Name: '
+    - 'Slot:13, Item:green_stained_glass_pane, Name: '
+    - 'Slot:15, Item:green_stained_glass_pane, Name: '
+    - 'Slot:17, Item:yellow_stained_glass_pane, Name: '
+    - 'Slot:20, Item:yellow_stained_glass_pane, Name: '
+    - 'Slot:26, Item:yellow_stained_glass_pane, Name: '
 Categories: #You can make as many different categories as you want
   Common: #Name of the category
     Name: '&aCommon' #Name in the GUI
@@ -422,7 +422,7 @@ Categories: #You can make as many different categories as you want
       - '&7Price: &b20 XP'
       - '&7'
       - '&8&l» &eClick to buy'
-    Item: '351:10' #The id for the item
+    Item: 'lime_dye' #The id for the item
     Glowing: true #If the item is glowing in the GUI.
     Cost: 20 #How much each book will cost to buy.
     Currency: XP_Level #The currency you wish to use. https://github.com/kicjow/Crazy-Enchantments/wiki/Currency-Types
@@ -430,7 +430,7 @@ Categories: #You can make as many different categories as you want
     LostBook: #Controls the Lost Book shop for this tier
       InGUI: false #If it shows in the /CE Gui
       Slot: 1 #Slot it will be in
-      Item: '340' #The item that is shown in the GUI
+      Item: 'book' #The item that is shown in the GUI
       Glowing: false #Is it enchanted
       Name: '&aCommon Book' #Name of the item
       Lore: #Lore on the item
@@ -473,7 +473,7 @@ Categories: #You can make as many different categories as you want
       - '&7Price: &b40 XP'
       - '&7'
       - '&8&l» &eClick to buy'
-    Item: '351:5'
+    Item: 'purple_dye'
     Glowing: true
     Cost: 40
     Currency: XP_Level
@@ -481,7 +481,7 @@ Categories: #You can make as many different categories as you want
     LostBook:
       InGUI: false
       Slot: 2
-      Item: '340'
+      Item: 'book'
       Glowing: false
       Name: '&9Rare Book'
       Lore:
@@ -519,7 +519,7 @@ Categories: #You can make as many different categories as you want
       - '&7Price: &b60 XP'
       - '&7'
       - '&8&l» &eClick to buy'
-    Item: '351:14'
+    Item: 'orange_dye'
     Glowing: true
     Cost: 60
     Currency: XP_Level
@@ -527,7 +527,7 @@ Categories: #You can make as many different categories as you want
     LostBook:
       InGUI: false
       Slot: 3
-      Item: '340'
+      Item: 'book'
       Glowing: false
       Name: '&6Legendary Book'
       Lore:

@@ -2,7 +2,10 @@ version: 4.0
 players:
   043245b2-c296-490f-91c4-793e200eb3a3:
     compat_logged_in_flight: false
-    logged_in_flight: false
+    logged_in_flight: true
     last_daily_bonus: 1629036490424
-    time: 724.0
-    speed: 1.0
+    time: 133.0
+    speed: 10.0
+  c4bcbea0-88b9-4a01-b8dd-4c43a5661d28:
+    logged_in_flight: false
+    compat_logged_in_flight: false

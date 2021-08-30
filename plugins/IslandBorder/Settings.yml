@@ -1,3 +1,15 @@
+Command-Aliases:
+- ib
+- islandborder
+- aiborder
+- bbborder
+- bsborder
+- usborder
+- iwborder
+- ssborder
+Toggle-Cooldown:
+  Enabled: true
+  Seconds: 5
 Language: EN
 Default:
   Border:

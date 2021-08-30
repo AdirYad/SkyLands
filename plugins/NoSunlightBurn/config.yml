@@ -1,0 +1,5 @@
+# -------------------------------------------------------------
+#                  No Sunlight Burn Plugin
+# -------------------------------------------------------------
+Disable-ZombieBurning: true
+Disable-SkeletonBurning: true

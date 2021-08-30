@@ -1,3 +1,17 @@
+check-update: true
+holograms:
+  use: false
+  lines:
+  - -- &c%player_name% &fSkills Stat --
+  - ' '
+  - 'Strength level is: &a%strength_lvl%'
+  - 'Criticals level is: &a%criticals_lvl%'
+  - 'Archery level is: &a%archery_lvl%'
+  - 'Health level is: &a%health_lvl%'
+  - 'Resistance level is: &a%resistance_lvl%'
+permissions:
+  use: false
+  level-perms: false
 points:
   restriction: false
   restriction-per: 10

@@ -6,7 +6,7 @@ DiamondSpawner5:
   Z: -1142
   Radius: 0
   UseTimer: true
-  MaxMobs: 1
+  MaxMobs: '1'
   MobLevel: '1'
   MobsPerSpawn: 1
   Cooldown: 20
@@ -15,6 +15,7 @@ DiamondSpawner5:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 18
+  ScalingRange: 25.0
   LeashRange: 0
   HealOnLeash: false
   ResetThreatOnLeash: false

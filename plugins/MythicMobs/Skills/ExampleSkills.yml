@@ -23,14 +23,14 @@ SummonMinions:
   - delay 20
   - summon{mob=DungeonZombie;amount=2;noise=5} @Self
 SummonVexes:
-  Cooldown: 50
+  Cooldown: 30
   Skills:
   - delay 20
-  - summon{mob=Vex;amount=2;noise=5} @Self
+  - summon{mob=KahunaGuardian;amount=2;noise=5} @Self
   - delay 20
-  - summon{mob=Vex;amount=1;noise=5} @Self
+  - summon{mob=KahunaGuardian;amount=1;noise=5} @Self
   - delay 20
-  - summon{mob=Vex;amount=1;noise=5} @Self
+  - summon{mob=KahunaGuardian;amount=1;noise=5} @Self
 removeBossWithoutHit:
   Skills:
   - delay 6000

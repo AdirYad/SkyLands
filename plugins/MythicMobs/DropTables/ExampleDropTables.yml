@@ -10,9 +10,9 @@ RedstoneZombieItemDrops:
   MaxItems: 2
   Drops:
   #Fragments & RottenFlesh
-  - ZombieFragment 1 5
-  - ZombieFragment 2 1
-  - RottenFlesh 1-8 50
+  - ZombieFragment 1 1
+  - ZombieFragment 2 .5
+  - RottenFlesh 1-3 50
   #Armor
   - LapisHelmet 1 0.1
   - RedstoneChestplate 1 0.1
@@ -32,9 +32,9 @@ DiamondZombieItemDrops:
   MaxItems: 2
   Drops:
   #Fragments & RottenFlesh
-  - ZombieFragment 1 1
-  - ZombieFragment 2 0.5
-  - RottenFlesh 1-8 50
+  - ZombieFragment 1 3
+  - ZombieFragment 2 1
+  - RottenFlesh 1-6 50
   #Armor
   - DiamondHelmet 1 0.1
   - DiamondChestplate 1 0.1
@@ -82,7 +82,7 @@ ValleyDefenderDrops:
   MaxItems: 2
   Drops:
   #Items
-  - GoldNugget 1-8 50
+  - GoldNugget 1-6 50
   #Armor
   - OrcHead 0.5
   - OrcChestplate 0.5
@@ -102,7 +102,7 @@ ValleyDefender2Drops:
   MaxItems: 2
   Drops:
   #Items
-  - GoldNugget 1-8 50
+  - GoldNugget 1-6 50
   #Armor
   - ElfHead 0.5
   - ElfChestplate 0.5

@@ -4,7 +4,7 @@
 #						BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/					#
 #-----------------------------------------------------------------------------------------------------------#
 LANGUAGE:
- PREFIX: "&7MyCmd&8>&r "
+ PREFIX: "&3MYCMD &8&l» &f"
  ECONOMY_COST: "&6This command cost %s. New balance %s"
  ECONOMY_NO_MONEY: "&6You need &e%s&6$ for run this command."
  DEBUG_EXECUTE: "Executing: "

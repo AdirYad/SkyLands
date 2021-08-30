@@ -12,75 +12,79 @@ kits:
   Skyzen:
     delay: 100000000000
     items:
-      - 267 1 sharpness:3 looting:1 name:&7Skyzen
-      - 322 8 name:&7Skyzen
-      - 257 1 efficiency:2 fortune:1 name:&7Skyzen
-      - 258 1 efficiency:2 name:&7Skyzen
-      - 306 1 protection:2 thorns:1 name:&7Skyzen
-      - 307 1 protection:2 thorns:1 name:&7Skyzen
-      - 308 1 protection:2 thorns:1 name:&7Skyzen
-      - 309 1 protection:2 thorns:1 name:&7Skyzen
+      - iron_sword 1 sharpness:3 looting:1 unbreaking:2 name:&7Skyzen Sword
+      - iron_shovel 1 efficiency:2 unbreaking:2 name:&7Skyzen Shovel
+      - iron_pickaxe 1 efficiency:2 fortune:1 unbreaking:2 name:&7Skyzen Pickaxe
+      - iron_axe 1 efficiency:2 unbreaking:2 name:&7Skyzen Axe
+      - iron_helmet 1 protection:2 thorns:1 unbreaking:2 name:&7Skyzen Helmet
+      - iron_chestplate 1 protection:2 thorns:1 unbreaking:2 name:&7Skyzen Chestplate
+      - iron_leggings 1 protection:2 thorns:1 unbreaking:2 name:&7Skyzen Leggings
+      - iron_boots 1 protection:2 thorns:1 unbreaking:2 name:&7Skyzen Boots
+      - golden_apple 8
   Weekly:
     delay: 604800
     items:
-    - 322:0 20 name:§7Kit_§8|_§fWeekly
-    - 326:0 1 name:§7Kit_§8|_§fWeekly
-    - 327:0 1 name:§7Kit_§8|_§fWeekly
-    - 54:0 6 name:§7Kit_§8|_§fWeekly
-    - 61:0 1 name:§7Kit_§8|_§fWeekly
-    - 58:0 1 name:§7Kit_§8|_§fWeekly
-    - 6:0 4 name:§7Kit_§8|_§fWeekly
+    - golden_apple 20
+    - water_bucket 1
+    - lava_bucket 1
+    - chest 6
+    - furnace 1
+    - crafting_table 1
+    - oak_sapling 4
   Special:
     delay: 2064000
     items:
-    - 57:0 16 name:§5Kit_§8|_§dSpecial
-    - 133:0 16 name:§5Kit_§8|_§dSpecial
-    - 41:0 16 name:§5Kit_§8|_§dSpecial
-    - 42:0 16 name:§5Kit_§8|_§dSpecial
-    - 322:0 64 name:§5Kit_§8|_§dSpecial
-    - 322:0 64 name:§5Kit_§8|_§dSpecial
-    - 322:1 2 name:§5Kit_§8|_§dSpecial
+    - diamond_block 16
+    - emerald_block 16
+    - gold_block 16
+    - iron_block 16
+    - golden_apple 64
+    - golden_apple 64
+    - enchanted_golden_apple 2
   SkyHero:
     delay: 100000000000
     items:
-    - 267:0 1 damage_all:4 loot_bonus_mobs:2 name:§2Kit_§8|_§aSkyHero
-    - 322:0 16 name:§2Kit_§8|_§aSkyHero
-    - 257:0 1 dig_speed:3 loot_bonus_blocks:1 name:§2Kit_§8|_§aSkyHero
-    - 258:0 1 dig_speed:3 name:§2Kit_§8|_§aSkyHero
-    - 306:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
-    - 307:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
-    - 308:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
-    - 309:0 1 protection_environmental:3 thorns:2 name:§2Kit_§8|_§aSkyHero
+    - iron_sword 1 damage_all:4 loot_bonus_mobs:2 unbreaking:2 name:§aSkyHero Sword
+    - iron_shovel 1 dig_speed:3 unbreaking:2 name:§aSkyHero Shovel
+    - iron_pickaxe 1 dig_speed:3 loot_bonus_blocks:1 unbreaking:2 name:§aSkyHero Pickaxe
+    - iron_axe 1 dig_speed:3 unbreaking:2 name:§aSkyHero Axe
+    - iron_helmet 1 protection_environmental:3 thorns:2 unbreaking:2 name:§aSkyHero Helmet
+    - iron_chestplate 1 protection_environmental:3 thorns:2 unbreaking:2 name:§aSkyHero Chestplate
+    - iron_leggings 1 protection_environmental:3 thorns:2 unbreaking:2 name:§aSkyHero Leggings
+    - iron_boots 1 protection_environmental:3 thorns:2 unbreaking:2 name:§aSkyHero Boots
+    - golden_apple 16
   SkyLegend:
     delay: 100000000000
     items:
-    - 267:0 1 damage_all:5 loot_bonus_mobs:3 name:§2Kit_§8|_§eSkyLegend
-    - 322:0 32 name:§2Kit_§8|_§eSkyLegend
-    - 257:0 1 dig_speed:4 loot_bonus_blocks:2 name:§2Kit_§8|_§eSkyLegend
-    - 258:0 1 dig_speed:4 name:§2Kit_§8|_§aSkyHero§e+
-    - 306:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
-    - 307:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
-    - 308:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
-    - 309:0 1 protection_environmental:4 thorns:2 name:§2Kit_§8|_§eSkyLegend
+    - iron_sword 1 damage_all:5 loot_bonus_mobs:3 unbreaking:2 name:§eSkyLegend Sword
+    - golden_apple 32
+    - iron_pickaxe 1 dig_speed:4 loot_bonus_blocks:2 unbreaking:2 name:§eSkyLegend Pickaxe
+    - iron_axe 1 dig_speed:4 name:§aSkyHero§e+
+    - iron_helmet 1 protection_environmental:4 thorns:2 unbreaking:2 name:§eSkyLegend Helmet
+    - iron_chestplate 1 protection_environmental:4 thorns:2 unbreaking:2 name:§eSkyLegend Chestplate
+    - iron_leggings 1 protection_environmental:4 thorns:2 unbreaking:2 name:§eSkyLegend Leggings
+    - iron_boots 1 protection_environmental:4 thorns:2 unbreaking:2 name:§eSkyLegend Boots
   SkyLord:
     delay: 100000000000
     items:
-    - 276:0 1 damage_all:3 loot_bonus_mobs:2 name:§3Kit_§8|_§c§lSkyLord
-    - 322:0 64 name:§3Kit_§8|_§c§lSkyLord
-    - 278:0 1 dig_speed:3 loot_bonus_blocks:1 name:§3Kit_§8|_§c§lSkyLord
-    - 279:0 1 dig_speed:3 name:§3Kit_§8|_§c§lSkyLord
-    - 310:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
-    - 311:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
-    - 312:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
-    - 313:0 1 protection_environmental:2 thorns:1 name:§3Kit_§8|_§c§lSkyLord
+    - diamond_sword 1 damage_all:3 loot_bonus_mobs:2 unbreaking:3 name:§c§lSkyLord Sword
+    - diamond_shovel 1 dig_speed:3 unbreaking:3 name:§c§lSkyLord Shovel
+    - diamond_pickaxe 1 dig_speed:3 loot_bonus_blocks:1 unbreaking:3 name:§c§lSkyLord Pickaxe
+    - diamond_axe 1 dig_speed:3 unbreaking:3 name:§c§lSkyLord Axe
+    - diamond_helmet 1 protection_environmental:2 thorns:1 unbreaking:3 name:§c§lSkyLord Helmet
+    - diamond_chestplate 1 protection_environmental:2 thorns:1 unbreaking:3 name:§c§lSkyLord Chestplate
+    - diamond_leggings 1 protection_environmental:2 thorns:1 unbreaking:3 name:§c§lSkyLord Leggings
+    - diamond_boots 1 protection_environmental:2 thorns:1 unbreaking:3 name:§c§lSkyLord Boots
+    - golden_apple 64
   SkyGod:
     delay: 100000000000
     items:
-    - 276:0 1 damage_all:4 loot_bonus_mobs:3 name:§3Kit_§b§lSky§a§lGod
-    - 322:0 64 name:§3Kit_§b§lSky§a§lGod
-    - 278:0 1 dig_speed:4 loot_bonus_blocks:2 name:§3Kit_§b§lSky§a§lGod
-    - 279:0 1 dig_speed:4 name:§3Kit_§b§lSky§a§lGod
-    - 310:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
-    - 311:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
-    - 312:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
-    - 313:0 1 protection_environmental:3 thorns:2 name:§3Kit_§b§lSky§a§lGod
+    - diamond_sword 1 damage_all:4 loot_bonus_mobs:3 unbreaking:3 name:§b§lSky§a§lGod Sword
+    - diamond_shovel 1 dig_speed:4 unbreaking:3 name:§b§lSky§a§lGod Shovel
+    - diamond_pickaxe 1 dig_speed:4 loot_bonus_blocks:2 unbreaking:3 name:§b§lSky§a§lGod Pickaxe
+    - diamond_axe 1 dig_speed:4 unbreaking:3 name:§b§lSky§a§lGod Axe
+    - diamond_helmet 1 protection_environmental:3 thorns:2 unbreaking:3 name:§b§lSky§a§lGod Helmet
+    - diamond_chestplate 1 protection_environmental:3 thorns:2 unbreaking:3 name:§b§lSky§a§lGod Chestplate
+    - diamond_leggings 1 protection_environmental:3 thorns:2 unbreaking:3 name:§b§lSky§a§lGod Leggings
+    - diamond_boots 1 protection_environmental:3 thorns:2 unbreaking:3 name:§b§lSky§a§lGod Boots
+    - golden_apple 64

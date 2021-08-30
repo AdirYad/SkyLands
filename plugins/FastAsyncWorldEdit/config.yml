@@ -1,30 +1,29 @@
 # These first 6 aren't configurable
-issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
-wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "12 Dec 2019 22:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1282"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/5505943"
-platform: "bukkit"
-# Options: cn, de, es, fr, it, nl, ru, tr
-# Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
-language: ''
-# Enable or disable automatic updates
-#  - true = update automatically in the background
-#  - confirm = prompt an admin to confirm each update
-#  - false = do not update the plugin
-update: "confirm"
-# Send anonymous usage statistics
-metrics: true
+issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
+wiki: "https://github.com/IntellectualSites/FastAsyncWorldEdit-Documentation/wiki"
+date: "Thu Sep 23 00:00:00 IDT 2021"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/176"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f8265437"
+platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
 region-restrictions: true
-# FAWE will skip chunks when there's not enough memory available
-prevent-crashes: false
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
 max-memory-percent: 95
+
+# Enable or disable core components
+enabled-components:
+  commands: true
+  # Disable the FAWE-PlotSquared hook to take over most intense P2 queueing
+  # Specific aspects can be turned on and off further below
+  # Only disables/enables the hook with v4. For v6, see PlotSquared settings.yml
+  plotsquared-v4-hook: true
+  # Show additional information in console. It helps us at IntellectualSites to find out more about an issue.
+  # Leave it off if you don't need it, it can spam your console.
+  debug: false
 
 clipboard:
   # Store the clipboard on disk instead of memory
@@ -70,18 +69,17 @@ tick-limiter:
   fireworks-load-chunks: false
 
 web:
-  # Should download urls be shortened?
-  #  - Links are less secure as they could be brute forced
-  shorten-urls: false
   # The web interface for clipboards
   #  - All schematics are anonymous and private
   #  - Downloads can be deleted by the user
   #  - Supports clipboard uploads, downloads and saves
   url: "https://empcraft.com/fawe/"
-  # The web interface for assets
-  #  - All schematics are organized and public
-  #  - Assets can be searched, selected and downloaded
-  assets: "https://empcraft.com/assetpack/"
+
+plotsquared-integration:
+  # Only disables/enables the components with PlotSquared v4.
+  # For v6, see PlotSquared settings.yml
+  clear: true
+  copy-and-swap: true
 
 extent:
   # Don't bug console when these plugins slow down WorldEdit operations
@@ -98,32 +96,36 @@ experimental:
   #  - IMPROPER USE CAN CAUSE WORLD CORRUPTION!
   anvil-queue-mode: false
   # [SAFE] Dynamically increase the number of chunks rendered
-  #  - Requires Paper: ci.destroystokyo.com/job/PaperSpigot/
-  #  - Set your server view distance to 3 (spigot.yml, server.properties)
+  #  - Requires Paper
+  #  - Set your server view distance to 1 (spigot.yml, server.properties)
   #  - Based on tps and player movement
-  #  - Please provide feedback
+  #  - Note: If entities become hidden, increase the server view distance to 3
   dynamic-chunk-rendering: -1
-  # [SAFE] Allows brushes to be persistent
+  # Allows brushes to be persistent (default: true)
   persistent-brushes: false
-  # [SAFE] Enable CUI without needing the mod installed (Requires ProtocolLib)
-  vanilla-cui: false
   # Disable using native libraries
   disable-natives: false
   # [SAFE] Keep entities that are positioned in non-air blocks when editing an area
   # Might cause client-side FPS lagg in some situations
   keep-entities-in-blocks: false
-  # [SAFE] Experimental scripting support for Java 9
-  #  - 
-  modern-craftscripts: false
-  # [SAFE] Experimental freebuild region restrictions
-  #  - PERM: fawe.freebuild
-  #  - PERM: fawe.freebuild.<plugin>
-  freebuild: false
+  # Other experimental features
+  other: false
+  # Allow blocks placed by WorldEdit to tick. This could cause the big lags.
+  # This has no effect on existing blocks one way or the other.
+  allow-tick-placed: false
+  # Force re-ticking of existing blocks not edited by FAWE.
+  # This will increase time taken slightly.
+  allow-tick-existing: true
+  # Sets a maximum limit (in kb) for the size of a player's schematics directory (per-player mode only)
+  # Set to -1 to disable
+  per-player-file-size-limit: -1
+  # Sets a maximum limit for the amount of schematics in a player's schematics directory (per-player mode only)
+  # Set to -1 to disable
+  per-player-file-num-limit: -1
 
 # This relates to how FAWE places chunks
 queue:
   # This should equal the number of processors you have
-  #  - Set this to 1 if you need reliable `/timings`
   parallel-threads: 2
   progress:
     # Display constant titles about the progress of a user's edit
@@ -149,17 +151,25 @@ queue:
   # Increase or decrease queue intensity (ms) [-50,50]:
   #     0 = balance of performance / stability
   #     -10 = Allocate 10ms less for chunk placement
-  # Too high will can cause lag spikes (you might be okay with this)
+  # Too high can cause lag spikes (you might be okay with this)
   # Too low will result in slow edits
   extra-time-ms: 0
   # Loading the right amount of chunks beforehand can speed up operations
   #  - Low values may result in FAWE waiting on requests to the main thread
   #  - Higher values use more memory and isn't noticeably faster
-  preload-chunks: 32
+  #  - A good (relatively) safe way to set this is
+  #  - Use 32 x GB of RAM / number of players expected to be using WE at the same time
+  #  - Paper and derivatives only.
+  preload-chunk-count: 128
+  # If pooling is enabled (reduces GC, higher memory usage)
+  #  - Enable to improve performance at the expense of memory
+  pool: true
   # Discard edits which have been idle for a certain amount of time (ms)
   #  - E.g. A plugin creates an EditSession but never does anything with it
   #  - This only applies to plugins improperly using WorldEdit's legacy API
   discard-after-ms: 60000
+  # When using fastmode also do not bother to fix existing ticking blocks
+  no-tick-fastmode: true
 
 history:
   # Should history be saved on disk:
@@ -176,6 +186,10 @@ history:
   #  - Much faster as it avoids duplicate block checks
   #  - Slightly worse compression since dispatch order is different
   combine-stages: true
+  # Do not wait for a chunk's history to save before sending it
+  #  - Undo/redo commands will wait until the history has been written to disk before executing
+  #  - Requires combine-stages = true
+  send-before-history: true
   # Higher compression reduces the size of history at the expense of CPU
   # 0 = Uncompressed byte array (fastest)
   # 1 = 1 pass fast compressor (default)
@@ -226,7 +240,6 @@ history:
 
 # Paths for various directories
 paths:
-  tokens: "tokens"
   # Put any minecraft or mod jars for FAWE to be aware of block textures
   textures: "textures"
   heightmap: "heightmap"
@@ -234,9 +247,8 @@ paths:
   # Multiple servers can use the same clipboards
   #  - Use a shared directory or NFS/Samba
   clipboard: "clipboard"
-  # Each player has their own sub directory for schematics
+  # Each player has his or her own sub directory for schematics
   per-player-schematics: true
-  commands: "commands"
 
 # Region restriction settings
 region-restrictions-options:
@@ -272,7 +284,7 @@ limits:
     # Maximum time in milliseconds //calc can execute
     max-expression-ms: 50
     # Cinematic block placement:
-    #  - Adds a delay to block placement (ms/block)
+    #  - Adds a delay to block placement (nanoseconds/block)
     #  - Having an artificial delay will use more CPU/Memory
     speed-reduction: 0
     # Place chunks instead of individual blocks:
@@ -286,5 +298,8 @@ limits:
     inventory-mode: 0
     # Should large edits require confirmation (>16384 chunks)
     confirm-large: true
+    # If undo and redo commands should be restricted to allowed regions
+    #  - Prevents scenarios where players can delete/reset a region, and then continue to undo/redo on it
+    restrict-history-to-regions: true
     # List of blocks to strip nbt from
     strip-nbt: []

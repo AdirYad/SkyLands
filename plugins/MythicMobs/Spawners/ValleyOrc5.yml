@@ -6,7 +6,7 @@ ValleyOrc5:
   Z: 697
   Radius: 0
   UseTimer: true
-  MaxMobs: 1
+  MaxMobs: '1'
   MobLevel: '1'
   MobsPerSpawn: 1
   Cooldown: 0
@@ -15,6 +15,7 @@ ValleyOrc5:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 40
+  ScalingRange: 25.0
   LeashRange: 50
   HealOnLeash: false
   ResetThreatOnLeash: false

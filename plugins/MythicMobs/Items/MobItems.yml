@@ -1,179 +1,103 @@
 #//--//--//--//--//--//--//--//#
-CorruptedSword:
-  Id: IRON_SWORD
-  Display: '&2Corrupted Sword'
-  Lore:
-  - '&2&lUNCOMMON'
-  Enchantments:
-  - DAMAGE_ALL:6
-  - DAMAGE_UNDEAD:4
-  - KNOCKBACK: 2
-#//--//--//--//--//--//--//--//#
-LapisHelmet:
+MobLapisHelmet:
   Id: LEATHER_HELMET
   Display: '&aLapis Helmet'
   Lore:
   - '&a&lCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:3
   Options:
     Color: 70,130,180
-RedstoneChestplate:
+MobRedstoneChestplate:
   Id: LEATHER_CHESTPLATE
   Display: '&aRedstone Chestplate'
   Lore:
   - '&a&lCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:3
   Options:
     Color: 255,40,40
-RedstoneLeggings:
+MobRedstoneLeggings:
   Id: LEATHER_LEGGINGS
   Display: '&aRedstone Leggings'
   Lore:
   - '&a&lCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:3
   Options:
     Color: 255,40,40
-LapisBoots:
+MobLapisBoots:
   Id: LEATHER_BOOTS
   Display: '&aLapis Boots'
   Lore:
   - '&a&lCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:3
   Options:
     Color: 70,130,180
 RottenFlesh:
   Id: ROTTEN_FLESH
-ZombieFragment:
-  Id: ROTTEN_FLESH
-  Data: 0
-  Display: '&aZombie Fragment'
-  Lore:
-  - '&a&lCOMMON'
-  Enchantments:
-  - DURABILITY:1
-  Hide:
-  - ENCHANTS
 #//--//--//--//--//--//--//--//#
-DiamondSword:
-  Id: DIAMOND_SWORD
-  Display: '&9Diamond Sword'
-  Lore:
-  - '&9&lRARE'
-  Enchantments:
-  - DAMAGE_ALL:7
-  - KNOCKBACK:2
-#//--//--//--//--//--//--//--//#
-DiamondHelmet:
+MobDiamondHelmet:
   Id: DIAMOND_HELMET
   Display: '&2Diamond Helmet'
   Lore:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:4
-  - THORNS:4
-DiamondChestplate:
+MobDiamondChestplate:
   Id: DIAMOND_CHESTPLATE
   Display: '&2Diamond Chestplate'
   Lore:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:4
-  - THORNS:4
-DiamondLeggings:
+MobDiamondLeggings:
   Id: DIAMOND_LEGGINGS
   Display: '&2Diamond Leggings'
   Lore:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:4
-  - THORNS:4
-DiamondBoots:
+MobDiamondBoots:
   Id: DIAMOND_BOOTS
   Display: '&2Diamond Boots'
   Lore:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:4
-  - THORNS:4
 #//--//--//--//--//--//--//--//#
-SlimeBall:
-  Id: SLIME_BALL
-SlimeFragment:
-  Id: SLIME_BALL
-  Data: 0
-  Display: '&aSlime Fragment'
-  Lore:
-  - '&a&lCOMMON'
-  Enchantments:
-  - DURABILITY:1
-  Hide:
-  - ENCHANTS
-SlimeBow:
-  Id: BOW
-  Display: '&2Slime Bow'
-  Lore:
-  - '&2&lUNCOMMON'
-  Enchantments:
-  - ARROW_DAMAGE:6
-  - ARROW_KNOCKBACK:4
-  - ARROW_FIRE:1  
-  - ARROW_INFINITY:1
-#//--//--//--//--//--//--//--//#
-ZombieSword:
-  Id: DIAMOND_SWORD
-  Display: '&5Zombie Sword'
-  Lore:
-  - '&5&lEPIC'
-  Enchantments:
-  - DAMAGE_ALL:15
-  - DAMAGE_UNDEAD:10
-#//--//--//--//--//--//--//--//#
-ZombieHelmet:
+MobZombieHelmet:
   Id: DIAMOND_HELMET
   Display: '&9Zombie Helmet'
   Lore:
   - '&9&lRARE'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:6
-ZombieChestplate:
+MobZombieChestplate:
   Id: DIAMOND_CHESTPLATE
   Display: '&9Zombie Chestplate'
   Lore:
   - '&9&lRARE'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:6
-ZombieLeggings:
+MobZombieLeggings:
   Id: DIAMOND_LEGGINGS
   Display: '&9Zombie Leggings'
   Lore:
   - '&9&lRARE'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:6
-ZombieBoots:
+MobZombieBoots:
   Id: DIAMOND_BOOTS
   Display: '&9Zombie Boots'
   Lore:
   - '&9&lRARE'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:6
 #//--//--//--//--//--//--//--//#
-GoldNugget:
-  Id: GOLD_NUGGET
-#//--//--//--//--//--//--//--//#
-RustyAxe:
-  Id: STONE_AXE
+MobRustyAxe:
+  Id: IRON_AXE
   Display: '&9Rusty Axe'
   Lore:
   - '&9&lRARE'
@@ -181,7 +105,7 @@ RustyAxe:
   - DAMAGE_ALL:10
   - KNOCKBACK:2
 #//--//--//--//--//--//--//--//#
-OrcHead:
+MobOrcHead:
   Id: 397
   Data: 3
   Options:
@@ -191,8 +115,7 @@ OrcHead:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-OrcChestplate:
+MobOrcChestplate:
   Id: 307
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -201,8 +124,7 @@ OrcChestplate:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-OrcLeggings:
+MobOrcLeggings:
   Id: 304
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -211,8 +133,7 @@ OrcLeggings:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-OrcBoots:
+MobOrcBoots:
   Id: 309
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -221,20 +142,8 @@ OrcBoots:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
 #//--//--//--//--//--//--//--//#
-MagicBow:
-  Id: BOW
-  Display: '&9Magic Bow'
-  Lore:
-  - '&9&lRARE'
-  Enchantments:
-  - ARROW_DAMAGE:8
-  - ARROW_KNOCKBACK:2
-  - ARROW_FIRE:1  
-  - ARROW_INFINITY:1
-#//--//--//--//--//--//--//--//#
-ElfHead:
+MobElfHead:
   Id: 397
   Data: 3
   Options:
@@ -244,8 +153,7 @@ ElfHead:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-ElfChestplate:
+MobElfChestplate:
   Id: 307
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -254,8 +162,7 @@ ElfChestplate:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-ElfLeggings:
+MobElfLeggings:
   Id: 304
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -264,8 +171,7 @@ ElfLeggings:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
-ElfBoots:
+MobElfBoots:
   Id: 309
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -274,18 +180,8 @@ ElfBoots:
   - '&2&lUNCOMMON'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:8
-  - THORNS:4
 #//--//--//--//--//--//--//--//#
-KahunaSword:
-  Id: DIAMOND_SWORD
-  Display: '&6Kahuna Sword'
-  Lore:
-  - '&6&lLEGENDARY'
-  Enchantments:
-  - DAMAGE_ALL:18
-  - DAMAGE_UNDEAD:16
-#//--//--//--//--//--//--//--//#
-KahunaHead:
+MobKahunaHead:
   Id: 397
   Data: 3
   Options:
@@ -295,8 +191,7 @@ KahunaHead:
   - '&5&lEPIC'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:13
-  - THORNS:4
-KahunaChestplate:
+MobKahunaChestplate:
   Id: 311
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -305,8 +200,7 @@ KahunaChestplate:
   - '&5&lEPIC'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:5
-  - THORNS:4
-KahunaLeggings:
+MobKahunaLeggings:
   Id: 308
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -315,8 +209,7 @@ KahunaLeggings:
   - '&5&lEPIC'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:13
-  - THORNS:4
-KahunaBoots:
+MobKahunaBoots:
   Id: 313
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
@@ -325,5 +218,4 @@ KahunaBoots:
   - '&5&lEPIC'
   Enchantments:
   - PROTECTION_ENVIRONMENTAL:7
-  - THORNS:4
 #//--//--//--//--//--//--//--//#

@@ -1,0 +1,356 @@
+#//--//--//--//--//--//--//--//#
+CorruptedSword:
+  Id: IRON_SWORD
+  Display: '&2Corrupted Sword'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:2
+  - DAMAGE_ALL:6
+  - DAMAGE_UNDEAD:4
+#//--//--//--//--//--//--//--//#
+LapisHelmet:
+  Id: LEATHER_HELMET
+  Display: '&aLapis Helmet'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:2
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Options:
+    Color: 70,130,180
+RedstoneChestplate:
+  Id: LEATHER_CHESTPLATE
+  Display: '&aRedstone Chestplate'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:2
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Options:
+    Color: 255,40,40
+RedstoneLeggings:
+  Id: LEATHER_LEGGINGS
+  Display: '&aRedstone Leggings'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:2
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Options:
+    Color: 255,40,40
+LapisBoots:
+  Id: LEATHER_BOOTS
+  Display: '&aLapis Boots'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:2
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Options:
+    Color: 70,130,180
+RottenFlesh:
+  Id: ROTTEN_FLESH
+ZombieFragment:
+  Id: ROTTEN_FLESH
+  Data: 0
+  Display: '&aZombie Fragment'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+#//--//--//--//--//--//--//--//#
+DiamondSword:
+  Id: DIAMOND_SWORD
+  Display: '&9Diamond Sword'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:3
+  - DAMAGE_ALL:7
+  - KNOCKBACK:2
+#//--//--//--//--//--//--//--//#
+DiamondHelmet:
+  Id: DIAMOND_HELMET
+  Display: '&2Diamond Helmet'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+DiamondChestplate:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&2Diamond Chestplate'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+DiamondLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&2Diamond Leggings'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+DiamondBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&2Diamond Boots'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+#//--//--//--//--//--//--//--//#
+SlimeBall:
+  Id: SLIME_BALL
+SlimeFragment:
+  Id: SLIME_BALL
+  Data: 0
+  Display: '&aSlime Fragment'
+  Lore:
+  - '&a&lCOMMON'
+  Enchantments:
+  - DURABILITY:1
+  Hide:
+  - ENCHANTS
+SlimeBow:
+  Id: BOW
+  Display: '&2Slime Bow'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - ARROW_DAMAGE:6
+  - ARROW_KNOCKBACK:4
+  - ARROW_FIRE:1
+  - ARROW_INFINITY:1
+#//--//--//--//--//--//--//--//#
+ZombieSword:
+  Id: DIAMOND_SWORD
+  Display: '&5Zombie Sword'
+  Lore:
+  - '&5&lEPIC'
+  Enchantments:
+  - DURABILITY:3
+  - DAMAGE_ALL:15
+  - DAMAGE_UNDEAD:10
+#//--//--//--//--//--//--//--//#
+ZombieHelmet:
+  Id: DIAMOND_HELMET
+  Display: '&9Zombie Helmet'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+ZombieChestplate:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&9Zombie Chestplate'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+ZombieLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&9Zombie Leggings'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+ZombieBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&9Zombie Boots'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:2
+  - PROTECTION_ENVIRONMENTAL:4
+  - THORNS:4
+#//--//--//--//--//--//--//--//#
+GoldNugget:
+  Id: GOLD_NUGGET
+#//--//--//--//--//--//--//--//#
+RustyAxe:
+  Id: IRON_AXE
+  Display: '&9Rusty Axe'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:2
+  - DAMAGE_ALL:10
+  - KNOCKBACK:2
+#//--//--//--//--//--//--//--//#
+OrcHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Orc Head'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+OrcChestplate:
+  Id: 307
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Orc Chesplate'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+OrcLeggings:
+  Id: 304
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Orc Leggings'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+OrcBoots:
+  Id: 309
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Orc Boots'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+#//--//--//--//--//--//--//--//#
+MagicBow:
+  Id: BOW
+  Display: '&9Magic Bow'
+  Lore:
+  - '&9&lRARE'
+  Enchantments:
+  - DURABILITY:3
+  - ARROW_DAMAGE:8
+  - ARROW_KNOCKBACK:2
+  - ARROW_FIRE:1
+  - ARROW_INFINITY:1
+#//--//--//--//--//--//--//--//#
+ElfHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+  Display: '&2Elf Head'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+ElfChestplate:
+  Id: 307
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Elf Chesplate'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+ElfLeggings:
+  Id: 304
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Elf Leggings'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+ElfBoots:
+  Id: 309
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&2Elf Boots'
+  Lore:
+  - '&2&lUNCOMMON'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:8
+  - THORNS:4
+#//--//--//--//--//--//--//--//#
+KahunaSword:
+  Id: DIAMOND_SWORD
+  Display: '&6&lKahuna Sword'
+  Lore:
+  - '&6&lLEGENDARY'
+  Enchantments:
+  - DURABILITY:3
+  - DAMAGE_ALL:18
+  - DAMAGE_UNDEAD:14
+#//--//--//--//--//--//--//--//#
+KahunaHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRhNjJiZGEzYmM3ZmNmMWMxNTBmNGI0YzhjZWNhYzJkNGU0Mjk1MjNjNTE1MDk1MzRhYWYyNzNhODEifX19
+  Display: '&6&lKahuna Head'
+  Lore:
+  - '&5&lEPIC'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:13
+  - THORNS:5
+KahunaChestplate:
+  Id: 311
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&6&lKahuna Chesplate'
+  Lore:
+  - '&5&lEPIC'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:6
+  - THORNS:5
+KahunaLeggings:
+  Id: 308
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&6&lKahuna Leggings'
+  Lore:
+  - '&5&lEPIC'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:13
+  - THORNS:5
+KahunaBoots:
+  Id: 313
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+  Display: '&6&lKahuna Boots'
+  Lore:
+  - '&5&lEPIC'
+  Enchantments:
+  - DURABILITY:3
+  - PROTECTION_ENVIRONMENTAL:7
+  - THORNS:5
+#//--//--//--//--//--//--//--//#

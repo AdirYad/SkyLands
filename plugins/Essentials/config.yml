@@ -91,7 +91,6 @@ player-commands:
 - rules
 - realname
 - seen
-- sell
 - sethome
 - setxmpp
 - signs.create.protection
@@ -127,6 +126,27 @@ player-commands:
 - world
 - worth
 - xmpp
+
+enabledSigns:
+- color
+- balance
+- buy
+- sell
+- trade
+- free
+- disposal
+- warp
+- kit
+- mail
+- enchant
+- gamemode
+- heal
+- info
+- spawnmob
+- repair
+- time
+- weather
+
 skip-used-one-time-kits-from-kit-list: false
 pastebin-createkit: false
 sign-use-per-second: 4
@@ -139,16 +159,16 @@ debug: false
 locale: en
 remove-god-on-disconnect: false
 auto-afk: -1
-auto-afk-kick: 900
+auto-afk-kick: -1
 freeze-afk-players: false
 disable-item-pickup-while-afk: false
 cancel-afk-on-interact: true
 cancel-afk-on-move: true
 afk-list-name: none
-death-messages: true
+death-messages: false
 allow-silent-join-quit: false
-custom-join-message: none
-custom-quit-message: none
+custom-join-message: ''
+custom-quit-message: ''
 world-teleport-permissions: false
 default-stack-size: -1
 oversized-stacksize: 64
@@ -188,7 +208,7 @@ non-ess-in-help: true
 hide-permissionless-help: true
 chat:
   radius: 0
-  format: '{deluxetags_tag}{DISPLAYNAME} §7§l» &f{MESSAGE}'
+  format: '{deluxetags_tag}{DISPLAYNAME} §8§l» &f{MESSAGE}'
 protect:
   prevent:
     lava-flow: false

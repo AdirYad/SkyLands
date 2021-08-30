@@ -4,14 +4,14 @@
 
 RedlapizZombie:
   Type: ZOMBIE
-  Display: '&8[&f*&8] &cRedlapiz Zombie &8[&f*&8]'
-  Health: 10
-  Damage: 15
+  Display: '&cRedlapiz Zombie'
+  Health: 35
+  Damage: 20
   Equipment:
-  - LapisHelmet HEAD
-  - RedstoneChestplate CHEST
-  - RedstoneLeggings LEGS
-  - LapisBoots FEET
+  - MobLapisHelmet HEAD
+  - MobRedstoneChestplate CHEST
+  - MobRedstoneLeggings LEGS
+  - MobLapisBoots FEET
   - CorruptedSword HAND
   Drops:
   - RedstoneZombieDrops
@@ -20,16 +20,17 @@ RedlapizZombie:
     MovementSpeed: 0.2
     MaxCombatDistance: 25
     PreventOtherDrops: true
+    PreventSunburn: true
 DiamondZombie:
   Type: ZOMBIE
-  Display: '&8[&f*&8] &cDiamond Zombie &8[&f*&8]'
-  Health: 20
-  Damage: 15
+  Display: '&cDiamond Zombie'
+  Health: 60
+  Damage: 25
   Equipment:
-  - DiamondHelmet HEAD
-  - DiamondChestplate CHEST
-  - DiamondLeggings LEGS
-  - DiamondBoots FEET
+  - MobDiamondHelmet HEAD
+  - MobDiamondChestplate CHEST
+  - MobDiamondLeggings LEGS
+  - MobDiamondBoots FEET
   - DiamondSword HAND
   Drops:
   - DiamondZombieDrops
@@ -38,11 +39,12 @@ DiamondZombie:
     MovementSpeed: 0.3
     MaxCombatDistance: 20
     PreventOtherDrops: true
+    PreventSunburn: true
 EmeraldDefender:
   Type: SLIME
-  Display: '&8[&f*&8] &cEmerald Defender &8[&f*&8]'
-  Health: 300
-  Damage: 100
+  Display: '&cEmerald Defender'
+  Health: 400
+  Damage: 50
   Drops:
   - EmeraldDefenderDrops
   Options:
@@ -52,24 +54,26 @@ EmeraldDefender:
     PreventOtherDrops: true 
 DungeonZombie:
   Type: ZOMBIE
-  Display: '&8[&f*&8] &cDungeon Zombie &8[&f*&8]'
-  Health: 20
+  Display: '&cDungeon Zombie'
+  Health: 30
   Damage: 10
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.3
     MaxCombatDistance: 15
     PreventOtherDrops: false
+    PreventSunburn: true
 DungeonSkeleton:
   Type: SKELETON
-  Display: '&8[&f*&8] &cDugeon Skeleton &8[&f*&8]'
-  Health: 20
+  Display: '&cDugeon Skeleton'
+  Health: 30
   Damage: 10
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.3
     MaxCombatDistance: 15
     PreventOtherDrops: false
+    PreventSunburn: true
 ZombieBoss:
   Type: ZOMBIE
   Display: '&d&lZOMBIE BOSS'
@@ -78,13 +82,13 @@ ZombieBoss:
     Range: 20
     Color: BLUE
     Style: SOLID
-  Health: 50
-  Damage: 50
+  Health: 500
+  Damage: 15
   Equipment:
-  - ZombieHelmet HEAD
-  - ZombieChestplate CHEST
-  - ZombieLeggings LEGS
-  - ZombieBoots FEET
+  - MobZombieHelmet HEAD
+  - MobZombieChestplate CHEST
+  - MobZombieLeggings LEGS
+  - MobZombieBoots FEET
   - ZombieSword HAND
   Skills:
   - skill{s=SummonMinions} @self 0.1
@@ -102,17 +106,18 @@ ZombieBoss:
     PreventOtherDrops: true
     RepeatAllSkills: true
     Despawn: false
-    FollowRange: 20
+    PreventSunburn: true
+    Persistent: false
 ValleyDefender:
   Type: ZOMBIE
-  Display: '&8[&f*&8] &cOrc &8[&f*&8]' 
-  Health: 25
-  Damage: 15
+  Display: '&cOrc'
+  Health: 50
+  Damage: 10
   Equipment:
-  - OrcHead HEAD
-  - OrcChestplate CHEST
-  - OrcLeggings LEGS
-  - OrcBoots FEET
+  - MobOrcHead HEAD
+  - MobOrcChestplate CHEST
+  - MobOrcLeggings LEGS
+  - MobOrcBoots FEET
   - RustyAxe HAND
   Drops:
   - ValleyDefenderDrops
@@ -121,16 +126,17 @@ ValleyDefender:
     MovementSpeed: 0.3
     MaxCombatDistance: 20
     PreventOtherDrops: true
+    PreventSunburn: true
 ValleyDefender2:
   Type: SKELETON
-  Display: '&8[&f*&8] &cElf &8[&f*&8]' 
-  Health: 15
+  Display: '&cElf'
+  Health: 35
   Damage: 65
   Equipment:
-  - ElfHead HEAD
-  - ElfChestplate CHEST
-  - ElfLeggings LEGS
-  - ElfBoots FEET
+  - MobElfHead HEAD
+  - MobElfChestplate CHEST
+  - MobElfLeggings LEGS
+  - MobElfBoots FEET
   - MagicBow HAND
   Drops:
   - ValleyDefender2Drops
@@ -139,6 +145,7 @@ ValleyDefender2:
     MovementSpeed: 0.3
     MaxCombatDistance: 20
     PreventOtherDrops: true
+    PreventSunburn: true
 KahunaBoss:
   Type: EVOKER
   Display: '&d&lTHE KAHUNA'
@@ -147,13 +154,13 @@ KahunaBoss:
     Range: 20
     Color: BLUE
     Style: SOLID
-  Health: 220
-  Damage: 100
+  Health: 1000
+  Damage: 200
   Equipment:
-  - KahunaHead HEAD
-  - KahunaChestplate CHEST
-  - KahunaLeggings LEGS
-  - KahunaBoots FEET
+  - MobKahunaHead HEAD
+  - MobKahunaChestplate CHEST
+  - MobKahunaLeggings LEGS
+  - MobKahunaBoots FEET
   - KahunaSword HAND
   Skills:
     - skill{s=SummonVexes} @self 0.1
@@ -172,10 +179,10 @@ KahunaBoss:
     RepeatAllSkills: true
     Despawn: false
     FollowRange: 20
-Vex:
+KahunaGuardian:
   Type: VEX
   Display: '&c&lKahuna Guardian'
-  Health: 35
+  Health: 50
   Damage: 15
   Options:
     AlwaysShowName: true

@@ -249,6 +249,6 @@ spawnerbreakmaterial:
     1: DIAMOND_PICKAXE
     silk1: true
     2: IRON_PICKAXE
-    silk2: false
+    silk2: true
 
 # NOTE: When SilkSpawner compatibility is enabled and is setup, this options will not work (SilkSpawners controls these options)

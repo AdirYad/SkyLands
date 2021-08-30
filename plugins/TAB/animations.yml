@@ -1,15 +1,13 @@
-#usage: %animation:NAME%
-animations:
-  SkyLands:
-    change-interval: 200
-    texts:
-      - "&b&lSKY&a&lLANDS"
-      - "&b&lS&3&lK&f&lYLANDS"
-      - "&b&lSK&3&lY&f&lLANDS"
-      - "&b&lSKY&2&lL&f&lANDS"
-      - "&b&lSKY&a&lL&2&lA&f&lNDS"
-      - "&b&lSKY&a&lLA&2&lN&f&lDS"
-      - "&b&lSKY&a&lLAND&2&lS"
-      - "&b&lSKY&a&lLANDS"
-      - "&3&lSKY&2&lLANDS"
-      - "&f&lSKYLANDS"
+SkyLands:
+  change-interval: 200
+  texts:
+  - '&b&lSKY&a&lLANDS'
+  - '&b&lS&3&lK&f&lYLANDS'
+  - '&b&lSK&3&lY&f&lLANDS'
+  - '&b&lSKY&2&lL&f&lANDS'
+  - '&b&lSKY&a&lL&2&lA&f&lNDS'
+  - '&b&lSKY&a&lLA&2&lN&f&lDS'
+  - '&b&lSKY&a&lLAND&2&lS'
+  - '&b&lSKY&a&lLANDS'
+  - '&3&lSKY&2&lLANDS'
+  - '&f&lSKYLANDS'

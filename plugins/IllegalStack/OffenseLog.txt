@@ -23,3 +23,19 @@ March 25 2020 (5:31:15) - Illegal stack of items removed: IRON_CHESTPLATE (64) f
 March 25 2020 (5:31:15) - Illegal stack of items removed: IRON_LEGGINGS (64) from player: xNickax at item scan.
 March 25 2020 (5:31:15) - Illegal stack of items removed: IRON_BOOTS (64) from player: xNickax at item scan.
 March 25 2020 (5:31:15) - Illegal stack of items removed: STONE_SWORD (2) from player: xNickax at item scan.
+July 18 2021 (11:49:0) - Illegal stack of items removed: STONE_PICKAXE (64) from player: AdirYad at item scan.
+July 18 2021 (4:14:16) - Illegal stack of items removed: SIGN (64) from player: AdirYad at item scan.
+July 18 2021 (4:14:16) - Illegal stack of items removed: SIGN (64) from player: AdirYad at item scan.
+July 20 2021 (3:35:0) - Fixed durability on: OAK_LOG triggered by player: AdirYad.
+July 20 2021 (3:35:0) - Fixed durability on: OAK_LOG triggered by player: AdirYad.
+July 20 2021 (4:26:21) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 20 2021 (4:30:6) - Illegal stack of items removed: SKULL_BANNER_PATTERN (64) from player: AdirYad at item scan.
+July 20 2021 (4:30:6) - Illegal stack of items removed: SKULL_BANNER_PATTERN (64) from player: AdirYad at item scan.
+July 21 2021 (3:39:37) - Illegal stack of items removed: FLINT_AND_STEEL (64) from player: AdirYad at item scan.
+July 25 2021 (0:51:33) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 25 2021 (2:11:28) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 25 2021 (2:11:28) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 25 2021 (2:11:28) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 25 2021 (3:32:50) - Fixed durability on: PLAYER_HEAD triggered by player: AdirYad.
+July 25 2021 (3:32:50) - Illegal stack of items removed: FLOWER_BANNER_PATTERN (64) from player: AdirYad at item scan.
+July 27 2021 (7:42:50) - Illegal stack of items removed: MILK_BUCKET (64) from player: AdirYad at item scan.

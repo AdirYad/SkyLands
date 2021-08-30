@@ -1,55 +1,55 @@
-Locations:
+locations:
   rewards:
-    World: Spawn
-    X: 13
-    Y: 15
-    Z: -6
-    Particle: Music
+    world: Spawn
+    x: 13
+    y: 15
+    z: -6
+    particle: Music
   Banker:
-    World: Spawn
-    X: -59
-    Y: 15
-    Z: -34
-    Particle: Rainbow
+    world: Spawn
+    x: -59
+    y: 15
+    z: -34
+    particle: Rainbow
   enchanter:
-    World: Spawn
-    X: -46
-    Y: 15
-    Z: -11
-    Particle: Rainbow
+    world: Spawn
+    x: -46
+    y: 15
+    z: -11
+    particle: Rainbow
   auctioner:
-    World: Spawn
-    X: -39
-    Y: 16
-    Z: -52
-    Particle: Rainbow
+    world: Spawn
+    x: -39
+    y: 16
+    z: -52
+    particle: Rainbow
   legendary:
-    World: Spawn
-    X: -27
-    Y: 16
-    Z: 3
-    Particle: DoubleWitch
+    world: Spawn
+    x: -27
+    y: 16
+    z: 3
+    particle: DoubleWitch
   vote:
-    World: Spawn
-    X: -19
-    Y: 17
-    Z: 3
-    Particle: Magic
+    world: Spawn
+    x: -19
+    y: 17
+    z: 3
+    particle: Magic
   mega:
-    World: Spawn
-    X: -23
-    Y: 17
-    Z: 3
-    Particle: Music
+    world: Spawn
+    x: -23
+    y: 17
+    z: 3
+    particle: Music
   boss:
-    World: Spawn
-    X: -90
-    Y: 14
-    Z: 149
-    Particle: DoubleWitch
+    world: Spawn
+    x: -90
+    y: 14
+    z: 149
+    particle: DoubleWitch
   boss2:
-    World: Dungeon
-    X: -383
-    Y: 70
-    Z: 706
-    Particle: DoubleWitch
+    world: Dungeon
+    x: -383
+    y: 70
+    z: 706
+    particle: DoubleWitch

@@ -4,8 +4,7 @@
     items:
       'Decoration':
         display_name: '&7'
-        material: 160
-        data: 7
+        material: gray_stained_glass_pane
         slots:
         - 2
         - 4
@@ -28,8 +27,7 @@
         - 42
       'Decoration-1':
         display_name: '&7'
-        material: 160
-        data: 15
+        material: black_stained_glass_pane
         slots: 
         - 0
         - 1
@@ -58,26 +56,24 @@
       'Back':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
         slot: 40
-        display_name: '&2[*] &aBack'
+        display_name: '&aBack'
         lore: ''
         left_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] challenges'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
         right_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] challenges'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
       'nomoreWheatlev9':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 1
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 40000
             Pex:
               type: has permission
@@ -85,7 +81,7 @@
         lore:
         - '&8Lv 9 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8&l▪ &7Status: &a&lCOMPLETED'
@@ -95,12 +91,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 2
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 40000
             Pex:
               type: has permission
@@ -108,7 +104,7 @@
         lore:
         - '&8Lv 9 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -131,12 +127,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 3
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 20000
             Pex:
               type: has permission
@@ -144,7 +140,7 @@
         lore:
         - '&8Lv 9 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&240000'
         - '&8* &7Level: &b9&7/&39'
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -155,12 +151,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 4
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 20000
             Pex:
               type: has permission
@@ -168,7 +164,7 @@
         lore:
         - '&8Lv 8 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&220000'
         - '&8* &7Level: &b8&7/&39' 
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -191,12 +187,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 5
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 10000
             Pex:
               type: has permission
@@ -204,7 +200,7 @@
         lore:
         - '&8Lv 8 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&220000'
         - '&8* &7Level: &b8&7/&39'
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -215,12 +211,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 6
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 10000
             Pex:
               type: has permission
@@ -228,7 +224,7 @@
         lore:
         - '&8Lv 7 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&210000'
         - '&8* &7Level: &b7&7/&39' 
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -251,12 +247,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 7
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 5000
             Pex:
               type: has permission
@@ -264,7 +260,7 @@
         lore:
         - '&8Lv 7 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&210000'
         - '&8* &7Level: &b7&7/&39'
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -275,12 +271,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 8
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 5000
             Pex:
               type: has permission
@@ -288,7 +284,7 @@
         lore:
         - '&8Lv 6 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&25000'
         - '&8* &7Level: &b6&7/&39' 
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -311,12 +307,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 9
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 2000
             Pex:
               type: has permission
@@ -324,7 +320,7 @@
         lore:
         - '&8Lv 6 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&25000'
         - '&8* &7Level: &b6&7/&39'
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -335,12 +331,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 10
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 2000
             Pex:
               type: has permission
@@ -348,7 +344,7 @@
         lore:
         - '&8Lv 5 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&22000'
         - '&8* &7Level: &b5&7/&39' 
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -371,12 +367,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 11
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 1000
             Pex:
               type: has permission
@@ -384,7 +380,7 @@
         lore:
         - '&8Lv 5 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&22000'
         - '&8* &7Level: &b5&7/&39'
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -395,12 +391,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 12
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 1000
             Pex:
               type: has permission
@@ -408,7 +404,7 @@
         lore:
         - '&8Lv 4 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&21000'
         - '&8* &7Level: &b4&7/&39' 
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -431,12 +427,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 13
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 500
             Pex:
               type: has permission
@@ -444,7 +440,7 @@
         lore:
         - '&8Lv 4 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&21000'
         - '&8* &7Level: &b4&7/&39'
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -455,12 +451,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 14
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 500
             Pex:
               type: has permission
@@ -468,7 +464,7 @@
         lore:
         - '&8Lv 3 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2500'
         - '&8* &7Level: &b3&7/&39' 
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -491,12 +487,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 15
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 250
             Pex:
               type: has permission
@@ -504,7 +500,7 @@
         lore:
         - '&8Lv 3 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2500'
         - '&8* &7Level: &b3&7/&39'
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -515,12 +511,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 16
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 250
             Pex:
               type: has permission
@@ -528,7 +524,7 @@
         lore:
         - '&8Lv 2 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2250'
         - '&8* &7Level: &b2&7/&39' 
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -551,12 +547,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 17
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 100
             Pex:
               type: has permission
@@ -564,7 +560,7 @@
         lore:
         - '&8Lv 2 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2250'
         - '&8* &7Level: &b2&7/&39'
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -575,17 +571,17 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 18
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_59:7%'
+              input: '%statistic_mine_block:wheat%'
               output: 100
         lore:
         - '&8Lv 1 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2100'
         - '&8* &7Level: &b1&7/&39' 
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -608,11 +604,11 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
         priority: 19
         slot: 11
-        display_name: '&2[*] &aWheat Challenge'
+        display_name: '&aWheat Challenge'
         lore:
         - '&8Lv 1 Wheat Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_59:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_mine_block:wheat%&7/&2100'
         - '&8* &7Level: &b1&7/&39'
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -623,12 +619,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 1
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 40000
             Pex:
               type: has permission
@@ -636,7 +632,7 @@
         lore:
         - '&8Lv 9 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8&l▪ &7Status: &a&lCOMPLETED'
@@ -646,12 +642,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 2
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 40000
             Pex:
               type: has permission
@@ -659,7 +655,7 @@
         lore:
         - '&8Lv 9 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -682,12 +678,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 3
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 20000
             Pex:
               type: has permission
@@ -695,7 +691,7 @@
         lore:
         - '&8Lv 9 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&240000'
         - '&8* &7Level: &b9&7/&39'
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -706,12 +702,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 4
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 20000
             Pex:
               type: has permission
@@ -719,7 +715,7 @@
         lore:
         - '&8Lv 8 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&220000'
         - '&8* &7Level: &b8&7/&39' 
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -742,12 +738,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 5
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 10000
             Pex:
               type: has permission
@@ -755,7 +751,7 @@
         lore:
         - '&8Lv 8 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&220000'
         - '&8* &7Level: &b8&7/&39'
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -766,12 +762,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 6
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 10000
             Pex:
               type: has permission
@@ -779,7 +775,7 @@
         lore:
         - '&8Lv 7 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&210000'
         - '&8* &7Level: &b7&7/&39' 
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -802,12 +798,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 7
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 5000
             Pex:
               type: has permission
@@ -815,7 +811,7 @@
         lore:
         - '&8Lv 7 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&210000'
         - '&8* &7Level: &b7&7/&39'
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -826,12 +822,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 8
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 5000
             Pex:
               type: has permission
@@ -839,7 +835,7 @@
         lore:
         - '&8Lv 6 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&25000'
         - '&8* &7Level: &b6&7/&39' 
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -862,12 +858,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 9
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 2000
             Pex:
               type: has permission
@@ -875,7 +871,7 @@
         lore:
         - '&8Lv 6 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&25000'
         - '&8* &7Level: &b6&7/&39'
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -886,12 +882,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 10
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 2000
             Pex:
               type: has permission
@@ -899,7 +895,7 @@
         lore:
         - '&8Lv 5 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&22000'
         - '&8* &7Level: &b5&7/&39' 
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -922,12 +918,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 11
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 1000
             Pex:
               type: has permission
@@ -935,7 +931,7 @@
         lore:
         - '&8Lv 5 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&22000'
         - '&8* &7Level: &b5&7/&39'
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -946,12 +942,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 12
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 1000
             Pex:
               type: has permission
@@ -959,7 +955,7 @@
         lore:
         - '&8Lv 4 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&21000'
         - '&8* &7Level: &b4&7/&39' 
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -982,12 +978,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 13
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 500
             Pex:
               type: has permission
@@ -995,7 +991,7 @@
         lore:
         - '&8Lv 4 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&21000'
         - '&8* &7Level: &b4&7/&39'
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -1006,12 +1002,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 14
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 500
             Pex:
               type: has permission
@@ -1019,7 +1015,7 @@
         lore:
         - '&8Lv 3 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2500'
         - '&8* &7Level: &b3&7/&39' 
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -1042,12 +1038,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 15
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 250
             Pex:
               type: has permission
@@ -1055,7 +1051,7 @@
         lore:
         - '&8Lv 3 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2500'
         - '&8* &7Level: &b3&7/&39'
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -1066,12 +1062,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 16
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 250
             Pex:
               type: has permission
@@ -1079,7 +1075,7 @@
         lore:
         - '&8Lv 2 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2250'
         - '&8* &7Level: &b2&7/&39' 
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -1102,12 +1098,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 17
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 100
             Pex:
               type: has permission
@@ -1115,7 +1111,7 @@
         lore:
         - '&8Lv 2 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2250'
         - '&8* &7Level: &b2&7/&39'
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -1126,17 +1122,17 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 18
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_141:7%'
+              input: '%statistic_use_item:carrot%'
               output: 100
         lore:
         - '&8Lv 1 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2100'
         - '&8* &7Level: &b1&7/&39' 
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -1159,11 +1155,11 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
         priority: 19
         slot: 12
-        display_name: '&2[*] &aCarrots Challenge'
+        display_name: '&aCarrots Challenge'
         lore:
         - '&8Lv 1 Carrots Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_141:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_use_item:carrot%&7/&2100'
         - '&8* &7Level: &b1&7/&39'
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -1174,12 +1170,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 1
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 40000
             Pex:
               type: has permission
@@ -1187,7 +1183,7 @@
         lore:
         - '&8Lv 9 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8&l▪ &7Status: &a&lCOMPLETED'
@@ -1197,12 +1193,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 2
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 40000
             Pex:
               type: has permission
@@ -1210,7 +1206,7 @@
         lore:
         - '&8Lv 9 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -1233,12 +1229,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 3
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 20000
             Pex:
               type: has permission
@@ -1246,7 +1242,7 @@
         lore:
         - '&8Lv 9 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&240000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&240000'
         - '&8* &7Level: &b9&7/&39'
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -1257,12 +1253,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 4
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 20000
             Pex:
               type: has permission
@@ -1270,7 +1266,7 @@
         lore:
         - '&8Lv 8 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&220000'
         - '&8* &7Level: &b8&7/&39' 
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -1293,12 +1289,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 5
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 10000
             Pex:
               type: has permission
@@ -1306,7 +1302,7 @@
         lore:
         - '&8Lv 8 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&220000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&220000'
         - '&8* &7Level: &b8&7/&39'
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -1317,12 +1313,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 6
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 10000
             Pex:
               type: has permission
@@ -1330,7 +1326,7 @@
         lore:
         - '&8Lv 7 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&210000'
         - '&8* &7Level: &b7&7/&39' 
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -1353,12 +1349,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 7
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 5000
             Pex:
               type: has permission
@@ -1366,7 +1362,7 @@
         lore:
         - '&8Lv 7 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&210000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&210000'
         - '&8* &7Level: &b7&7/&39'
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -1377,12 +1373,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 8
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 5000
             Pex:
               type: has permission
@@ -1390,7 +1386,7 @@
         lore:
         - '&8Lv 6 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&25000'
         - '&8* &7Level: &b6&7/&39' 
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -1413,12 +1409,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 9
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 2000
             Pex:
               type: has permission
@@ -1426,7 +1422,7 @@
         lore:
         - '&8Lv 6 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&25000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&25000'
         - '&8* &7Level: &b6&7/&39'
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -1437,12 +1433,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 10
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 2000
             Pex:
               type: has permission
@@ -1450,7 +1446,7 @@
         lore:
         - '&8Lv 5 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&22000'
         - '&8* &7Level: &b5&7/&39' 
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -1473,12 +1469,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 11
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 1000
             Pex:
               type: has permission
@@ -1486,7 +1482,7 @@
         lore:
         - '&8Lv 5 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&22000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&22000'
         - '&8* &7Level: &b5&7/&39'
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -1497,12 +1493,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 12
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 1000
             Pex:
               type: has permission
@@ -1510,7 +1506,7 @@
         lore:
         - '&8Lv 4 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&21000'
         - '&8* &7Level: &b4&7/&39' 
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -1533,12 +1529,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 13
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 500
             Pex:
               type: has permission
@@ -1546,7 +1542,7 @@
         lore:
         - '&8Lv 4 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&21000'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&21000'
         - '&8* &7Level: &b4&7/&39'
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -1557,12 +1553,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 14
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 500
             Pex:
               type: has permission
@@ -1570,7 +1566,7 @@
         lore:
         - '&8Lv 3 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2500'
         - '&8* &7Level: &b3&7/&39' 
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -1593,12 +1589,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 15
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 250
             Pex:
               type: has permission
@@ -1606,7 +1602,7 @@
         lore:
         - '&8Lv 3 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2500'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2500'
         - '&8* &7Level: &b3&7/&39'
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -1617,12 +1613,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 16
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 250
             Pex:
               type: has permission
@@ -1630,7 +1626,7 @@
         lore:
         - '&8Lv 2 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2250'
         - '&8* &7Level: &b2&7/&39' 
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -1653,12 +1649,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 17
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 100
             Pex:
               type: has permission
@@ -1666,7 +1662,7 @@
         lore:
         - '&8Lv 2 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2250'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2250'
         - '&8* &7Level: &b2&7/&39'
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -1677,17 +1673,17 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 18
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statz_blocks_broken_142:7%'
+              input: '%statistic_use_item:potato%'
               output: 100
         lore:
         - '&8Lv 1 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2100'
         - '&8* &7Level: &b1&7/&39' 
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -1710,11 +1706,11 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
         priority: 19
         slot: 13
-        display_name: '&2[*] &aPotatoes Challenge'
+        display_name: '&aPotatoes Challenge'
         lore:
         - '&8Lv 1 Potatoes Challenge'
         - ''
-        - '&8* &7Progress: &a%statz_blocks_broken_142:7%&7/&2100'
+        - '&8* &7Progress: &a%statistic_use_item:potato%&7/&2100'
         - '&8* &7Level: &b1&7/&39'
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -1725,12 +1721,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 1
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 40000
             Pex:
               type: has permission
@@ -1738,7 +1734,7 @@
         lore:
         - '&8Lv 9 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8&l▪ &7Status: &a&lCOMPLETED'
@@ -1748,12 +1744,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 2
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 40000
             Pex:
               type: has permission
@@ -1761,7 +1757,7 @@
         lore:
         - '&8Lv 9 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&240000'
         - '&8* &7Level: &b9&7/&39' 
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -1784,12 +1780,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 3
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 20000
             Pex:
               type: has permission
@@ -1797,7 +1793,7 @@
         lore:
         - '&8Lv 9 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&240000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&240000'
         - '&8* &7Level: &b9&7/&39'
         - ''
         - '&8* &7Reward: &d80000 &5⛁'
@@ -1808,12 +1804,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 4
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 20000
             Pex:
               type: has permission
@@ -1821,7 +1817,7 @@
         lore:
         - '&8Lv 8 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&220000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&220000'
         - '&8* &7Level: &b8&7/&39' 
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -1844,12 +1840,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 5
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 10000
             Pex:
               type: has permission
@@ -1857,7 +1853,7 @@
         lore:
         - '&8Lv 8 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&220000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&220000'
         - '&8* &7Level: &b8&7/&39'
         - ''
         - '&8* &7Reward: &d40000 &5⛁'
@@ -1868,12 +1864,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 6
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 10000
             Pex:
               type: has permission
@@ -1881,7 +1877,7 @@
         lore:
         - '&8Lv 7 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&210000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&210000'
         - '&8* &7Level: &b7&7/&39' 
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -1904,12 +1900,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 7
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 5000
             Pex:
               type: has permission
@@ -1917,7 +1913,7 @@
         lore:
         - '&8Lv 7 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&210000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&210000'
         - '&8* &7Level: &b7&7/&39'
         - ''
         - '&8* &7Reward: &d20000 &5⛁'
@@ -1928,12 +1924,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 8
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 5000
             Pex:
               type: has permission
@@ -1941,7 +1937,7 @@
         lore:
         - '&8Lv 6 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&25000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&25000'
         - '&8* &7Level: &b6&7/&39' 
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -1964,12 +1960,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 9
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 2000
             Pex:
               type: has permission
@@ -1977,7 +1973,7 @@
         lore:
         - '&8Lv 6 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&25000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&25000'
         - '&8* &7Level: &b6&7/&39'
         - ''
         - '&8* &7Reward: &d10000 &5⛁'
@@ -1988,12 +1984,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 10
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 2000
             Pex:
               type: has permission
@@ -2001,7 +1997,7 @@
         lore:
         - '&8Lv 5 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&22000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&22000'
         - '&8* &7Level: &b5&7/&39' 
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -2024,12 +2020,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 11
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 1000
             Pex:
               type: has permission
@@ -2037,7 +2033,7 @@
         lore:
         - '&8Lv 5 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&22000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&22000'
         - '&8* &7Level: &b5&7/&39'
         - ''
         - '&8* &7Reward: &d4000 &5⛁'
@@ -2048,12 +2044,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 12
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 1000
             Pex:
               type: has permission
@@ -2061,7 +2057,7 @@
         lore:
         - '&8Lv 4 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&21000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&21000'
         - '&8* &7Level: &b4&7/&39' 
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -2084,12 +2080,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 13
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 500
             Pex:
               type: has permission
@@ -2097,7 +2093,7 @@
         lore:
         - '&8Lv 4 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&21000'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&21000'
         - '&8* &7Level: &b4&7/&39'
         - ''
         - '&8* &7Reward: &d2500 &5⛁'
@@ -2108,12 +2104,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 14
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 500
             Pex:
               type: has permission
@@ -2121,7 +2117,7 @@
         lore:
         - '&8Lv 3 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2500'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2500'
         - '&8* &7Level: &b3&7/&39' 
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -2144,12 +2140,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 15
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 250
             Pex:
               type: has permission
@@ -2157,7 +2153,7 @@
         lore:
         - '&8Lv 3 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2500'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2500'
         - '&8* &7Level: &b3&7/&39'
         - ''
         - '&8* &7Reward: &d1500 &5⛁'
@@ -2168,12 +2164,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 16
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 250
             Pex:
               type: has permission
@@ -2181,7 +2177,7 @@
         lore:
         - '&8Lv 2 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2250'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2250'
         - '&8* &7Level: &b2&7/&39' 
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -2204,12 +2200,12 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 17
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 100
             Pex:
               type: has permission
@@ -2217,7 +2213,7 @@
         lore:
         - '&8Lv 2 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2250'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2250'
         - '&8* &7Level: &b2&7/&39'
         - ''
         - '&8* &7Reward: &d800 &5⛁'
@@ -2228,17 +2224,17 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 18
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         view_requirement:
           requirements:
             HasMine:
               type: '>='
-              input: '%statistic_mine_block:melon_block%'
+              input: '%statistic_mine_block:melon%'
               output: 100
         lore:
         - '&8Lv 1 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2100'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2100'
         - '&8* &7Level: &b1&7/&39' 
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -2261,11 +2257,11 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
         priority: 19
         slot: 14
-        display_name: '&2[*] &aMelon Challenge'
+        display_name: '&aMelon Challenge'
         lore:
         - '&8Lv 1 Melon Challenge'
         - ''
-        - '&8* &7Progress: &a%statistic_mine_block:melon_block%&7/&2100'
+        - '&8* &7Progress: &a%statistic_mine_block:melon%&7/&2100'
         - '&8* &7Level: &b1&7/&39'
         - ''
         - '&8* &7Reward: &d300 &5⛁'
@@ -2276,7 +2272,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 1
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2299,7 +2295,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 2
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2335,7 +2331,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 3
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2359,7 +2355,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 4
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2395,7 +2391,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 5
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2419,7 +2415,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 6
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2455,7 +2451,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 7
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2479,7 +2475,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 8
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2515,7 +2511,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 9
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2539,7 +2535,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 10
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2575,7 +2571,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 11
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2599,7 +2595,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 12
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2635,7 +2631,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 13
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2659,7 +2655,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 14
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2695,7 +2691,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 15
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2719,7 +2715,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 16
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2755,7 +2751,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 17
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2779,7 +2775,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 18
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2812,7 +2808,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
         priority: 19
         slot: 15
-        display_name: '&2[*] &aPumpkin Challenge'
+        display_name: '&aPumpkin Challenge'
         lore:
         - '&8Lv 1 Pumpkin Challenge'
         - ''

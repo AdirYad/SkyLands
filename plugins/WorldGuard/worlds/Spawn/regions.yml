@@ -11,398 +11,443 @@
 #
 regions:
     pvp-20:
-        min: {x: -134.0, y: 15.0, z: -34.0}
-        max: {x: -82.0, y: 20.0, z: -33.0}
+        min: {x: -134, y: 15, z: -34}
+        max: {x: -82, y: 20, z: -33}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-22:
-        min: {x: -132.0, y: 15.0, z: -31.0}
-        max: {x: -84.0, y: 20.0, z: -30.0}
+        min: {x: -132, y: 15, z: -31}
+        max: {x: -84, y: 20, z: -30}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
+    mineteleport:
+        min: {x: 7, y: 14, z: 7}
+        max: {x: 11, y: 14, z: 11}
+        members: {}
+        flags:
+            command-on-entry: [/warp mine]
+        owners: {}
+        type: cuboid
+        priority: 0
     pvp-21:
-        min: {x: -133.0, y: 15.0, z: -32.0}
-        max: {x: -83.0, y: 20.0, z: -32.0}
+        min: {x: -133, y: 15, z: -32}
+        max: {x: -83, y: 20, z: -32}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-24:
-        min: {x: -130.0, y: 15.0, z: -28.0}
-        max: {x: -86.0, y: 20.0, z: -27.0}
+        min: {x: -130, y: 15, z: -28}
+        max: {x: -86, y: 20, z: -27}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-23:
-        min: {x: -131.0, y: 15.0, z: -29.0}
-        max: {x: -85.0, y: 20.0, z: -29.0}
+        min: {x: -131, y: 15, z: -29}
+        max: {x: -85, y: 20, z: -29}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-26:
-        min: {x: -128.0, y: 15.0, z: -25.0}
-        max: {x: -88.0, y: 20.0, z: -25.0}
+        min: {x: -128, y: 15, z: -25}
+        max: {x: -88, y: 20, z: -25}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-25:
-        min: {x: -129.0, y: 15.0, z: -26.0}
-        max: {x: -87.0, y: 20.0, z: -26.0}
+        min: {x: -129, y: 15, z: -26}
+        max: {x: -87, y: 20, z: -26}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-28:
-        min: {x: -125.0, y: 15.0, z: -23.0}
-        max: {x: -91.0, y: 20.0, z: -23.0}
+        min: {x: -125, y: 15, z: -23}
+        max: {x: -91, y: 20, z: -23}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-27:
-        min: {x: -126.0, y: 15.0, z: -24.0}
-        max: {x: -90.0, y: 20.0, z: -24.0}
+        min: {x: -126, y: 15, z: -24}
+        max: {x: -90, y: 20, z: -24}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-29:
-        min: {x: -123.0, y: 15.0, z: -22.0}
-        max: {x: -93.0, y: 20.0, z: -22.0}
+        min: {x: -123, y: 15, z: -22}
+        max: {x: -93, y: 20, z: -22}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
-    pvp-2:
-        min: {x: -136.0, y: 15.0, z: -56.0}
-        max: {x: -80.0, y: 20.0, z: -53.0}
+    teleport-to-outside-dungeon:
+        min: {x: -148, y: 12, z: 43}
+        max: {x: -135, y: 37, z: 56}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
+            command-on-entry: [/warp dungeon]
+        owners: {}
+        type: cuboid
+        priority: 0
+    pvp-2:
+        min: {x: -136, y: 15, z: -56}
+        max: {x: -80, y: 20, z: -53}
+        members: {}
+        flags:
+            fly: deny
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-40:
-        min: {x: -114.0, y: 17.0, z: -76.0}
-        max: {x: -114.0, y: 19.0, z: -76.0}
+        min: {x: -114, y: 17, z: -76}
+        max: {x: -114, y: 19, z: -76}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-1:
-        min: {x: -138.0, y: 15.0, z: -52.0}
-        max: {x: -78.0, y: 20.0, z: -42.0}
+        min: {x: -138, y: 15, z: -52}
+        max: {x: -78, y: 20, z: -42}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-4:
-        min: {x: -134.0, y: 15.0, z: -61.0}
-        max: {x: -82.0, y: 20.0, z: -60.0}
+        min: {x: -134, y: 15, z: -61}
+        max: {x: -82, y: 20, z: -60}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-31:
-        min: {x: -120.0, y: 15.0, z: -20.0}
-        max: {x: -96.0, y: 20.0, z: -20.0}
+        min: {x: -120, y: 15, z: -20}
+        max: {x: -96, y: 20, z: -20}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
-            pvp: allow
-        owners: {}
-        type: cuboid
-        priority: 0
-    pvp-3:
-        min: {x: -135.0, y: 15.0, z: -59.0}
-        max: {x: -81.0, y: 20.0, z: -57.0}
-        members: {}
-        flags:
-            fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-30:
-        min: {x: -122.0, y: 15.0, z: -21.0}
-        max: {x: -94.0, y: 20.0, z: -21.0}
+        min: {x: -122, y: 15, z: -21}
+        max: {x: -94, y: 20, z: -21}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
-    pvp-6:
-        min: {x: -132.0, y: 15.0, z: -64.0}
-        max: {x: -84.0, y: 20.0, z: -63.0}
+    pvp-3:
+        min: {x: -135, y: 15, z: -59}
+        max: {x: -81, y: 20, z: -57}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-33:
-        min: {x: -137.0, y: 17.0, z: -53.0}
-        max: {x: -137.0, y: 19.0, z: -53.0}
+        min: {x: -137, y: 17, z: -53}
+        max: {x: -137, y: 19, z: -53}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
-    pvp-5:
-        min: {x: -133.0, y: 15.0, z: -62.0}
-        max: {x: -83.0, y: 20.0, z: -62.0}
+    pvp-6:
+        min: {x: -132, y: 15, z: -64}
+        max: {x: -84, y: 20, z: -63}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-32:
-        min: {x: -117.0, y: 15.0, z: -19.0}
-        max: {x: -99.0, y: 20.0, z: -19.0}
+        min: {x: -117, y: 15, z: -19}
+        max: {x: -99, y: 20, z: -19}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
-    pvp-35:
-        min: {x: -114.0, y: 17.0, z: -18.0}
-        max: {x: -114.0, y: 19.0, z: -18.0}
+    pvp-5:
+        min: {x: -133, y: 15, z: -62}
+        max: {x: -83, y: 20, z: -62}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-8:
-        min: {x: -130.0, y: 15.0, z: -67.0}
-        max: {x: -86.0, y: 20.0, z: -66.0}
+        min: {x: -130, y: 15, z: -67}
+        max: {x: -86, y: 20, z: -66}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
+            pvp: allow
+        owners: {}
+        type: cuboid
+        priority: 0
+    pvp-35:
+        min: {x: -114, y: 17, z: -18}
+        max: {x: -114, y: 19, z: -18}
+        members: {}
+        flags:
+            fly: deny
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-34:
-        min: {x: -137.0, y: 17.0, z: -41.0}
-        max: {x: -137.0, y: 19.0, z: -41.0}
+        min: {x: -137, y: 17, z: -41}
+        max: {x: -137, y: 19, z: -41}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-7:
-        min: {x: -131.0, y: 15.0, z: -65.0}
-        max: {x: -85.0, y: 20.0, z: -65.0}
+        min: {x: -131, y: 15, z: -65}
+        max: {x: -85, y: 20, z: -65}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-37:
-        min: {x: -79.0, y: 17.0, z: -41.0}
-        max: {x: -79.0, y: 19.0, z: -41.0}
+        min: {x: -79, y: 17, z: -41}
+        max: {x: -79, y: 19, z: -41}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-36:
-        min: {x: -102.0, y: 17.0, z: -18.0}
-        max: {x: -102.0, y: 19.0, z: -18.0}
+        min: {x: -102, y: 17, z: -18}
+        max: {x: -102, y: 19, z: -18}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-9:
-        min: {x: -129.0, y: 15.0, z: -68.0}
-        max: {x: -87.0, y: 20.0, z: -68.0}
+        min: {x: -129, y: 15, z: -68}
+        max: {x: -87, y: 20, z: -68}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-39:
-        min: {x: -102.0, y: 17.0, z: -76.0}
-        max: {x: -102.0, y: 19.0, z: -76.0}
+        min: {x: -102, y: 17, z: -76}
+        max: {x: -102, y: 19, z: -76}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-38:
-        min: {x: -79.0, y: 17.0, z: -53.0}
-        max: {x: -79.0, y: 19.0, z: -53.0}
+        min: {x: -79, y: 17, z: -53}
+        max: {x: -79, y: 19, z: -53}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
+    teleport-to-inner-dungeon:
+        min: {x: -137, y: 16, z: 32}
+        max: {x: -117, y: 36, z: 38}
+        members: {}
+        flags:
+            console-command-on-entry: [/warp inner-dungeon %username%]
+            fly: deny
+        owners: {}
+        type: cuboid
+        priority: 0
     no-fly-dungeon4:
-        min: {x: -126.0, y: 0.0, z: 77.0}
-        max: {x: -93.0, y: 63.0, z: 200.0}
+        min: {x: -126, y: 0, z: 77}
+        max: {x: -93, y: 63, z: 200}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
         owners: {}
         type: cuboid
         priority: 0
     no-fly-dungeon5:
-        min: {x: -92.0, y: 6.0, z: 115.0}
-        max: {x: -51.0, y: 63.0, z: 204.0}
+        min: {x: -92, y: 6, z: 115}
+        max: {x: -51, y: 63, z: 204}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
         owners: {}
         type: cuboid
         priority: 0
     no-fly-dungeon2:
-        min: {x: -178.0, y: 0.0, z: 125.0}
-        max: {x: -143.0, y: 59.0, z: 175.0}
+        min: {x: -178, y: 0, z: 125}
+        max: {x: -143, y: 59, z: 175}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
         owners: {}
         type: cuboid
         priority: 0
+    wood2:
+        min: {x: -55, y: 14, z: 23}
+        max: {x: 1, y: 46, z: 41}
+        members: {}
+        flags: {block-break: allow}
+        owners: {}
+        type: cuboid
+        priority: 100
     no-fly-dungeon3:
-        min: {x: -142.0, y: 0.0, z: 53.0}
-        max: {x: -127.0, y: 63.0, z: 187.0}
+        min: {x: -142, y: 0, z: 53}
+        max: {x: -127, y: 63, z: 187}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
         owners: {}
         type: cuboid
         priority: 0
-    no-mobs-dungeon:
-        min: {x: -148.0, y: 12.0, z: 43.0}
-        max: {x: -135.0, y: 37.0, z: 56.0}
+    wood1:
+        min: {x: -65, y: 17, z: 34}
+        max: {x: 33, y: 53, z: 100}
         members: {}
-        flags:
-            fly: deny
-            blocked-cmds: [/fly, /efly]
+        flags: {block-break: allow}
         owners: {}
         type: cuboid
-        priority: 0
+        priority: 100
     no-fly-dungeon1:
-        min: {x: -185.0, y: 6.0, z: 43.0}
-        max: {x: -143.0, y: 59.0, z: 124.0}
+        min: {x: -185, y: 6, z: 43}
+        max: {x: -143, y: 59, z: 124}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
+        owners: {}
+        type: cuboid
+        priority: 0
+    orcvalleyteleport:
+        min: {x: -80, y: 15, z: 156}
+        max: {x: -80, y: 27, z: 162}
+        members: {}
+        flags:
+            command-on-entry: [/warp orc-valley]
         owners: {}
         type: cuboid
         priority: 0
     wood-1:
-        min: {x: -59.0, y: 23.0, z: 24.0}
-        max: {x: -5.0, y: 54.0, z: 130.0}
+        min: {x: -59, y: 23, z: 24}
+        max: {x: -5, y: 54, z: 130}
         members: {}
         flags:
             allow-block-break: [LOG]
@@ -410,19 +455,19 @@ regions:
         type: cuboid
         priority: 0
     pvp-11:
-        min: {x: -126.0, y: 15.0, z: -70.0}
-        max: {x: -90.0, y: 20.0, z: -70.0}
+        min: {x: -126, y: 15, z: -70}
+        max: {x: -90, y: 20, z: -70}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     wood-2:
-        min: {x: -4.0, y: 19.0, z: 36.0}
-        max: {x: 23.0, y: 46.0, z: 113.0}
+        min: {x: -4, y: 19, z: 36}
+        max: {x: 23, y: 46, z: 113}
         members: {}
         flags:
             allow-block-break: [LOG]
@@ -430,8 +475,8 @@ regions:
         type: cuboid
         priority: 0
     spawn:
-        min: {x: -259.0, y: 3.0, z: -419.0}
-        max: {x: 220.0, y: 255.0, z: 502.0}
+        min: {x: -259, y: 3, z: -419}
+        max: {x: 220, y: 255, z: 502}
         members: {}
         flags: {lava-fire: deny, fall-damage: deny, block-break: deny, interact: allow,
             feed-min-hunger: 100}
@@ -439,19 +484,19 @@ regions:
         type: cuboid
         priority: 0
     pvp-10:
-        min: {x: -128.0, y: 15.0, z: -69.0}
-        max: {x: -88.0, y: 20.0, z: -69.0}
+        min: {x: -128, y: 15, z: -69}
+        max: {x: -88, y: 20, z: -69}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     wood-3:
-        min: {x: -4.0, y: 13.0, z: 31.0}
-        max: {x: 33.0, y: 45.0, z: 131.0}
+        min: {x: -4, y: 13, z: 31}
+        max: {x: 33, y: 45, z: 131}
         members: {}
         flags:
             allow-block-break: [LOG]
@@ -459,89 +504,89 @@ regions:
         type: cuboid
         priority: 0
     pvp-13:
-        min: {x: -123.0, y: 15.0, z: -72.0}
-        max: {x: -93.0, y: 20.0, z: -72.0}
+        min: {x: -123, y: 15, z: -72}
+        max: {x: -93, y: 20, z: -72}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-12:
-        min: {x: -125.0, y: 15.0, z: -71.0}
-        max: {x: -91.0, y: 20.0, z: -71.0}
+        min: {x: -125, y: 15, z: -71}
+        max: {x: -91, y: 20, z: -71}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-15:
-        min: {x: -120.0, y: 15.0, z: -74.0}
-        max: {x: -96.0, y: 20.0, z: -74.0}
+        min: {x: -120, y: 15, z: -74}
+        max: {x: -96, y: 20, z: -74}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-14:
-        min: {x: -122.0, y: 15.0, z: -73.0}
-        max: {x: -94.0, y: 20.0, z: -73.0}
+        min: {x: -122, y: 15, z: -73}
+        max: {x: -94, y: 20, z: -73}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-17:
-        min: {x: -113.0, y: 15.0, z: -77.0}
-        max: {x: -103.0, y: 20.0, z: -17.0}
+        min: {x: -113, y: 15, z: -77}
+        max: {x: -103, y: 20, z: -17}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-16:
-        min: {x: -117.0, y: 15.0, z: -75.0}
-        max: {x: -99.0, y: 20.0, z: -75.0}
+        min: {x: -117, y: 15, z: -75}
+        max: {x: -99, y: 20, z: -75}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-19:
-        min: {x: -135.0, y: 15.0, z: -37.0}
-        max: {x: -81.0, y: 20.0, z: -35.0}
+        min: {x: -135, y: 15, z: -37}
+        max: {x: -81, y: 20, z: -35}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
         priority: 0
     pvp-18:
-        min: {x: -136.0, y: 15.0, z: -41.0}
-        max: {x: -80.0, y: 20.0, z: -38.0}
+        min: {x: -136, y: 15, z: -41}
+        max: {x: -80, y: 20, z: -38}
         members: {}
         flags:
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /tfly, /efly]
             pvp: allow
         owners: {}
         type: cuboid
@@ -549,7 +594,7 @@ regions:
     __global__:
         members: {}
         flags: {other-explosion: deny, deny-message: '', creeper-explosion: deny,
-            lava-fire: deny, use: deny, feed-amount: 20, feed-delay: 1, tnt: deny,
+            lava-fire: deny, use: deny, feed-delay: 1, feed-amount: 20, tnt: deny,
             fire-spread: deny}
         owners: {}
         type: global

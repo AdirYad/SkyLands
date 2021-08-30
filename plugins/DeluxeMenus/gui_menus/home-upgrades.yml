@@ -4,8 +4,7 @@ size: 36
 items:
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 2
     - 4
@@ -27,8 +26,7 @@ items:
     - 33
   'Decoration-1':
     display_name: '&7'
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 1
@@ -47,33 +45,24 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
     - '[openguimenu] upgrades'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
     - '[openguimenu] upgrades'
-  'Null':
-    material: 351
-    data: 8
-    slot: 33
-    display_name: '&7'
-    #//
-    #// Homes Upgrade #1
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Homes1':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
     slot: 11
-    display_name: '&2[*] &aHomes #1'
+    display_name: '&aHomes #1'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'bskyblock.island.maxhomes.2'
     lore:
     - '&8Tier 1 Home Upgrade'
     - ''
@@ -86,7 +75,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 11
-    display_name: '&2[*] &aHomes #1'
+    display_name: '&aHomes #1'
     lore:
     - '&8Tier 1 Home Upgrade'
     - ''
@@ -102,14 +91,14 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eHomes #1&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 99999'
+    - '[console] eco take %player_name% 100000'
     - '[console] pex user %player_name% add Homes.bar.1'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.2'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.2'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 99999
+          amount: 100000
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -118,14 +107,14 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eHomes #1&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 99999'
+    - '[console] eco take %player_name% 100000'
     - '[console] pex user %player_name% add Homes.bar.1'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.2'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.2'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 99999 
+          amount: 100000
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -137,12 +126,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
     slot: 13
-    display_name: '&2[*] &aHomes #2'
+    display_name: '&aHomes #2'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'bskyblock.island.maxhomes.4'
     lore:
     - '&8Tier 2 Home Upgrade'
     - ''
@@ -155,12 +144,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 13
-    display_name: '&2[*] &aHomes #2'
+    display_name: '&aHomes #2'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'bskyblock.island.maxhomes.2'
     lore:
     - '&8Tier 2 Home Upgrade'
     - ''
@@ -176,34 +165,34 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eHomes #2&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
+    - '[console] eco take %player_name% 200000'
     - '[console] pex user %player_name% add Homes.bar.2'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.4'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999
+          amount: 200000
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'bskyblock.island.maxhomes.2'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[close]'
-    - '[console] eco take %player_name% 199999'
+    - '[console] eco take %player_name% 200000'
     - '[console] pex user %player_name% add Homes.bar.2'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.4'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999 
+          amount: 200000
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'bskyblock.island.maxhomes.2'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -212,7 +201,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 13
-    display_name: '&2[*] &aHomes #2'
+    display_name: '&aHomes #2'
     lore:
     - '&8Tier 2 Home Upgrade'
     - ''
@@ -239,12 +228,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
     slot: 15
-    display_name: '&2[*] &aHomes #3'
+    display_name: '&aHomes #3'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.6'
+          permission: 'bskyblock.island.maxhomes.6'
     lore:
     - '&8Tier 3 Home Upgrade'
     - ''
@@ -257,12 +246,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 15
-    display_name: '&2[*] &aHomes #3'
+    display_name: '&aHomes #3'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'bskyblock.island.maxhomes.4'
     lore:
     - '&8Tier 3 Home Upgrade'
     - ''
@@ -278,17 +267,17 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eHomes #3&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 299999'
+    - '[console] eco take %player_name% 300000'
     - '[console] pex user %player_name% add Homes.bar.3'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.6'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.6'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 299999
+          amount: 300000
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'bskyblock.island.maxhomes.4'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -297,17 +286,17 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eHomes #3&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 299999'
+    - '[console] eco take %player_name% 300000'
     - '[console] pex user %player_name% add Homes.bar.3'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.6'
+    - '[console] pex user %player_name% add bskyblock.island.maxhomes.6'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 299999 
+          amount: 300000
         Pex:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'bskyblock.island.maxhomes.4'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -316,7 +305,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 15
-    display_name: '&2[*] &aHomes #3'
+    display_name: '&aHomes #3'
     lore:
     - '&8Tier 3 Home Upgrade'
     - ''

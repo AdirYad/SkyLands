@@ -1,0 +1,87 @@
+# +———————————————————————————————————————————————————+ #
+# |——————————     BANITEM CONFIGURATION     ——————————| #
+# |——————————————————      v3.2      —————————————————| #
+# +———————————————————————————————————————————————————+ #
+# |                   Documentation:                  | #
+# |             https://banitem.andross.fr/           | #
+# +———————————————————————————————————————————————————+ #
+# For any bugs/suggestions: Andross#5254
+# +——————————————————————————————————————————————————————————————————————————————————————————————+
+# General Informations:
+#  - The blacklist will block the items.
+#  - The whitelist will allow only the items set.
+#    -> The 'message' key represents the message sent to players if they try to use an item which is not in whitelist
+#    -> The 'ignored' key represents all ignored actions (they will not being by default banned)
+debug:
+  errors: false
+  reload: false
+  colors-console: false
+no-permission: '&cYou do not have permission.'
+prefix: '&4&lANTICRAFT &8&l» &r'
+api:
+  playerbanitemevent: false
+  deletebanneditemevent: false
+check-update: true
+priority: use,consume
+actions:
+  enchant:
+    material: BARRIER
+    displayname: '&cBANNED'
+    lore:
+    - '&cYou can not add this'
+    - '&cenchantement.'
+  rename:
+  - /rename
+  transfer:
+    hoppers-block: false
+  wear:
+    region-check: false
+    scanner: true
+  delete:
+    ignored-inventories-titles:
+    - My Cool Gui
+    - Shop
+hooks:
+  worldguard: false
+  advancedenchantments: false
+sound:
+  enabled: true
+  type: ENCHANT_THORNS_HIT
+  volume: 1
+  pitch: 1
+  worldSound: false
+particle:
+  enabled: true
+  type: BARRIER
+  amount: 1
+blacklist:
+  ASkyBlock:
+    hopper:
+      craft: &id006 {}
+    enchanted_golden_apple:
+      craft: &id005 {}
+  Spawn:
+    enchanted_golden_apple:
+      craft: *id005
+    hopper:
+      craft: *id006
+  Mine:
+    enchanted_golden_apple:
+      craft: *id005
+    hopper:
+      craft: *id006
+  ASkyBlock_nether:
+    enchanted_golden_apple:
+      craft: *id005
+    hopper:
+      craft: *id006
+  Dungeon:
+    enchanted_golden_apple:
+      craft: *id005
+    hopper:
+      craft: *id006
+  askyblock_the_end:
+    enchanted_golden_apple:
+      craft: *id005
+    hopper:
+      craft: *id006

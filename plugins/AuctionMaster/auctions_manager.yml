@@ -144,6 +144,7 @@ collect-all-item-lore:
 
 #The message sent when the player has a full inventory but tries to claim an item
 not-enough-inventory-space: '&a&lAUCTIONS &8&l» &7You don''t have enough inventory space!'
+collect-all-message: '&aYou just collected all your auctions!'
 
 create-auction-item:
   no-item-selected-material: '159:14'

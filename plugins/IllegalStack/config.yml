@@ -4,6 +4,9 @@ Exploits:
     BlockPlayersAboveNether: false
     NetherYLevel: 128
     ExcludeNetherWorldFromHeightCheck: []
+    KillPlayersBelowNether: false
+    EnsureSafeTeleportLocationIfAboveCeiling: true
+    BlockBuildingAboveNether: true
   FishMod:
     WarnPlayerThenKickInsteadOfNotify: false
     MaxFishToNotifyStaffThenBlock: 5
@@ -11,11 +14,6 @@ Exploits:
     WatchForAutoFishMod: true
   BookExploit:
     DisableBookWriting: true
-    RemoveBooksNotMatchingCharset: true
-    PageCountThreshold: 1
-    BookAuthorWhitelist: []
-    ValidCharset: US-ASCII
-    LimitNumberOfPages: 0
   OverStack:
     FixOverstackedItemInstead: false
     StackWhiteListMode: true
@@ -61,6 +59,7 @@ Exploits:
     EnchantedItemWhitelist: []
     CustomEnchantOverride: []
     RemoveUnbreakableFlag: false
+    DestroyIllegallyEnchantedItemsInstead: false
   Fishing:
     KickForAutoClickerFishing: true
   3rdParty:
@@ -77,6 +76,9 @@ Exploits:
     PreventCommandsInBed: true
     PunishForChestsOnMobs: false
     PreventEndPortalDestruction: true
+    PreventBedExplosions: true
+    DisableRidingExploitableMobs: true
+    PreventMinecartsInBoats: true
   PortalDupe:
     BlockNonPlayersInEndPortal: true
     NotifyBlockedPortalAttempts: false
@@ -91,6 +93,7 @@ Exploits:
     RemoveExistingGlitchedMinecarts: false
     PreventMinecartGlitch: true
     MinecartBlockWhiteList: []
+    PreventHeadInsideBlocks: false
   DropperDupe:
     BlockLoopedDroppers: false
   SignExploit:
@@ -100,15 +103,31 @@ Exploits:
   1_13_Exploits: {}
   RNGEnchant:
     PreventRNGEnchant: true
-  1_12_Exploits:
-    PreventItemFramePistonDupe: true
-    PreventRecipeDupe: true
+  1_12_Exploits: {}
   NetherPortal:
     PreventPortalTrap: true
   Looting:
     PreventLootingExploit: true
   EndGateway:
     PreventEndGatewayCrashExploit: true
+  LavaDupe:
+    PreventLavaDupe: true
+  NegativeDurability: true
+  Minecart:
+    AlsoPreventHeadInside: []
+  RecordDupe: true
+  1_14_Exploits:
+    Traders:
+      ZombieVillagerTransformChance: 0
+      BlockVillagerTradeCheesing: true
+      VillagerRestockTime: 0
+  1_15_Exploits:
+    Dupes:
+      PreventTripwireDupe: true
+  ShulkerCrash2: true
+  1_16_Exploits:
+    Dupes:
+      PreventPiglinDupe: true
 UserRequested:
   Misc:
     NotifyInsteadOfBlock: []
@@ -126,6 +145,7 @@ UserRequested:
       CheckGroundForBadShulkerAtLogin: false
       DestroyInvalidShulkers: false
     BlockBadItemsFromCreativeTab: false
+    IgnoreAllShulkerPlaceChecks: false
   Mobs:
     PreventZombieItemPickup: false
   Spawners: {}
@@ -134,6 +154,10 @@ UserRequested:
       RemoveAllRenamedItems: false
   Cobble:
     PreventCobbleGenerators: false
+  NetherDamage:
+    DamageDelay: 0
+    DamageAmount: 0
+    DamagePlayersAboveNether: false
 Misc:
   LogOffensesInSeparateFile: true
   BreakMachinesInsteadOfDroppingItems: true
@@ -141,6 +165,8 @@ Misc:
   ItemScanTimer: 10
   NotifyNearbyPlayers: false
   DisableInWorlds: []
+  Spawners:
+    PreventSpawnEggsOnSpawners: true
 Exploit:
   LagMachines:
     End Crystal: true

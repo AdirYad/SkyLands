@@ -4,8 +4,7 @@
     items:
       'Decoration':
         display_name: '&7'
-        material: 160
-        data: 7
+        material: gray_stained_glass_pane
         slots:
         - 2
         - 4
@@ -28,8 +27,7 @@
         - 42
       'Decoration-1':
         display_name: '&7'
-        material: 160
-        data: 15
+        material: black_stained_glass_pane
         slots: 
         - 0
         - 1
@@ -49,16 +47,14 @@
       'Back':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
         slot: 40
-        display_name: '&2[*] &aBack'
+        display_name: '&aBack'
         lore: ''
         left_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] challenges'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
         right_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] challenges'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
       'No-A':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
         display_name: '&4[*] &cNot available'
@@ -69,7 +65,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 1
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -92,7 +88,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 2
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -134,7 +130,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 3
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -161,7 +157,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 4
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -200,7 +196,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 5
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -224,7 +220,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 6
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -266,7 +262,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 7
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -293,7 +289,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 8
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -332,7 +328,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 9
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -356,7 +352,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 10
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -398,7 +394,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 11
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -425,7 +421,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 12
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -462,7 +458,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 13
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -486,7 +482,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 14
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -528,7 +524,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 15
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -555,7 +551,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 16
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -594,7 +590,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 17
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -618,7 +614,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 18
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -652,7 +648,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
         priority: 19
         slot: 12
-        display_name: '&2[*] &aEmerald Ore Challenge'
+        display_name: '&aEmerald Ore Challenge'
         lore:
         - '&8Lv 1 Emerald Ore Challenge'
         - ''
@@ -667,7 +663,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 1
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -690,7 +686,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 2
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -732,7 +728,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 3
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -760,7 +756,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 4
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -799,7 +795,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 5
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -823,7 +819,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 6
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -865,7 +861,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 7
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -892,7 +888,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 8
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -931,7 +927,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 9
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -955,7 +951,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 10
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -997,7 +993,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 11
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1024,7 +1020,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 12
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1061,7 +1057,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 13
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1085,7 +1081,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 14
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1127,7 +1123,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 15
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1154,7 +1150,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 16
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1193,7 +1189,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 17
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1217,7 +1213,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 18
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1251,7 +1247,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
         priority: 19
         slot: 11
-        display_name: '&2[*] &aDiamond Ore Challenge'
+        display_name: '&aDiamond Ore Challenge'
         lore:
         - '&8Lv 1 Diamond Ore Challenge'
         - ''
@@ -1266,7 +1262,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 1
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1289,7 +1285,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 2
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1331,7 +1327,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 3
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1358,7 +1354,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 4
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1395,7 +1391,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 5
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1419,7 +1415,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 6
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1461,7 +1457,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 7
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1488,7 +1484,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 8
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1525,7 +1521,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 9
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1549,7 +1545,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 10
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1591,7 +1587,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 11
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1618,7 +1614,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 12
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1655,7 +1651,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 13
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1679,7 +1675,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 14
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1721,7 +1717,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 15
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1748,7 +1744,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 16
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1785,7 +1781,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 17
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1809,7 +1805,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 18
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1843,7 +1839,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
         priority: 19
         slot: 13
-        display_name: '&2[*] &aIron Ore Challenge'
+        display_name: '&aIron Ore Challenge'
         lore:
         - '&8Lv 1 Iron Ore Challenge'
         - ''
@@ -1858,7 +1854,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 1
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1881,7 +1877,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 2
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1923,7 +1919,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 3
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1950,7 +1946,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 4
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -1987,7 +1983,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 5
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2011,7 +2007,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 6
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2053,7 +2049,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 7
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2080,7 +2076,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 8
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2117,7 +2113,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 9
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2141,7 +2137,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 10
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2183,7 +2179,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 11
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2210,7 +2206,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 12
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2247,7 +2243,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 13
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2271,7 +2267,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 14
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2313,7 +2309,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 15
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2340,7 +2336,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 16
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2377,7 +2373,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 17
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2401,7 +2397,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 18
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2435,7 +2431,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
         priority: 19
         slot: 14
-        display_name: '&2[*] &aGold Ore Challenge'
+        display_name: '&aGold Ore Challenge'
         lore:
         - '&8Lv 1 Gold Ore Challenge'
         - ''
@@ -2450,7 +2446,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 1
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2473,7 +2469,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 2
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2515,7 +2511,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 3
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2542,7 +2538,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 4
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2579,7 +2575,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 5
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2603,7 +2599,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 6
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2645,7 +2641,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 7
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2672,7 +2668,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 8
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2709,7 +2705,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 9
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2733,7 +2729,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 10
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2775,7 +2771,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 11
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2802,7 +2798,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 12
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2839,7 +2835,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 13
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2863,7 +2859,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 14
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2905,7 +2901,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 15
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2932,7 +2928,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 16
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2969,7 +2965,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 17
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -2993,7 +2989,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 18
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3027,7 +3023,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
         priority: 19
         slot: 15
-        display_name: '&2[*] &aCoal Ore Challenge'
+        display_name: '&aCoal Ore Challenge'
         lore:
         - '&8Lv 1 Coal Ore Challenge'
         - ''
@@ -3042,7 +3038,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 1
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3065,7 +3061,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 2
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3107,7 +3103,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 3
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3134,7 +3130,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 4
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3171,7 +3167,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 5
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3195,7 +3191,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 6
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3237,7 +3233,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 7
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3264,7 +3260,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 8
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3301,7 +3297,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 9
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3325,7 +3321,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 10
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3367,7 +3363,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 11
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3394,7 +3390,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 12
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3431,7 +3427,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 13
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3455,7 +3451,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 14
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3497,7 +3493,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 15
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3524,7 +3520,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 16
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3561,7 +3557,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 17
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3585,7 +3581,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 18
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3619,7 +3615,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YTFmMTE0MTUxYjQ1MjEzNzNmMzRiYzE0YzI5NjNhNTAxMWNkYzI1YTY1NTRjNDhjNzA4Y2Q5NmViZmMifX19
         priority: 19
         slot: 20
-        display_name: '&2[*] &aRedstone Ore Challenge'
+        display_name: '&aRedstone Ore Challenge'
         lore:
         - '&8Lv 1 Redstone Ore Challenge'
         - ''
@@ -3634,7 +3630,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 1
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3657,7 +3653,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 2
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3699,7 +3695,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 3
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3726,7 +3722,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 4
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3763,7 +3759,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 5
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3787,7 +3783,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 6
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3829,7 +3825,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 7
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3856,7 +3852,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 8
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3893,7 +3889,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 9
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3917,7 +3913,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 10
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3959,7 +3955,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 11
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -3986,7 +3982,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 12
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4023,7 +4019,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 13
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4047,7 +4043,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 14
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4089,7 +4085,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 15
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4116,7 +4112,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 16
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4153,7 +4149,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 17
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4177,7 +4173,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 18
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4211,7 +4207,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1NGI2ZDk0OWE0NmQ4NmVjMDE1NDhjODkyYTU2OGI4Y2RhZDQ2NDZjYjJlMjk2ZDBkZDU4YWY3Nzk0NzEifX19
         priority: 19
         slot: 21
-        display_name: '&2[*] &aLapis Ore Challenge'
+        display_name: '&aLapis Ore Challenge'
         lore:
         - '&8Lv 1 Lapis Ore Challenge'
         - ''
@@ -4226,7 +4222,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 1
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4249,7 +4245,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 2
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4286,7 +4282,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 3
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4310,7 +4306,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 4
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4349,7 +4345,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 5
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4373,7 +4369,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 6
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4410,7 +4406,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 7
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4434,7 +4430,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 8
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4471,7 +4467,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 9
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4495,7 +4491,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 10
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4532,7 +4528,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 11
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4556,7 +4552,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 12
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4593,7 +4589,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 13
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4617,7 +4613,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 14
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4654,7 +4650,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 15
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4678,7 +4674,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 16
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4715,7 +4711,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 17
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4739,7 +4735,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 18
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         view_requirement:
           requirements:
             HasMine:
@@ -4773,7 +4769,7 @@
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
         priority: 19
         slot: 22
-        display_name: '&2[*] &aStone Challenge'
+        display_name: '&aStone Challenge'
         lore:
         - '&8Lv 1 Stone'
         - ''

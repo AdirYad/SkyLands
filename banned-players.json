@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "9c7b1a57-0a89-44b1-bcba-c2b8a3a0820c",
+    "name": "Deposit",
+    "created": "2021-08-21 16:41:17 +0300",
+    "source": "§4§lOWNER §fAdirYad§r",
+    "expires": "forever",
+    "reason": "all"
+  }
+]

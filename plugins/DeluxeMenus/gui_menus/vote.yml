@@ -9,11 +9,9 @@ open_command:
 - vote help
 size: 27
 items:
-#  Green stained glass pane
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 5
+    material: green_stained_glass_pane
     slots:
       - 0
       - 1
@@ -23,46 +21,37 @@ items:
       - 19
       - 25
       - 26
-  #  Red stained glass pane
   'Decoration-1':
     display_name: '&7'
-    material: 160
-    data: 14
+    material: red_stained_glass_pane
     slots:
       - 2
       - 6
       - 20
       - 24
-  #  yellow stained glass pane
   'Decoration-2':
     display_name: '&7'
-    material: 160
-    data: 4
+    material: yellow_stained_glass_pane
     slots:
       - 3
       - 5
       - 21
       - 23
-  #  pink stained glass pane
   'Decoration-3':
     display_name: '&7'
-    material: 160
-    data: 6
+    material: pink_stained_glass_pane
     slots:
       - 4
       - 22
-  #  light blue stained glass pane
   'Decoration-4':
     display_name: '&7'
-    material: 160
-    data: 3
+    material: light_blue_stained_glass_pane
     slots:
       - 9
       - 17
-  #  white stained glass pane
   'Decoration-5':
     display_name: '&7'
-    material: 160
+    material: white_stained_glass_pane
     slots:
       - 10
       - 11
@@ -81,7 +70,7 @@ items:
     - '&e&lNOTE &8» &fAdditional Vote rewards'
     - '&fwill be added soon so stay tuned!'
   'Links':
-    material: 339
+    material: 'paper'
     slot: 12
     display_name: '&8[&dLinks&8]'
     lore:

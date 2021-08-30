@@ -11,51 +11,54 @@
 #
 regions:
     mine:
-        min: {x: -2732.0, y: 11.0, z: -1242.0}
-        max: {x: -2462.0, y: 165.0, z: -979.0}
+        min: {x: -2732, y: 11, z: -1242}
+        max: {x: -2462, y: 165, z: -979}
         members: {}
         flags:
-            allow-block-break: [GLOWING_REDSTONE_ORE, GOLD_ORE, COAL_ORE, DIAMOND_ORE,
-                IRON_ORE, REDSTONE_ORE, EMERALD_ORE, LAPIS_ORE, STONE]
+            allow-block-break: [GOLD_ORE, IRON_ORE, EMERALD_ORE, GLOWING_REDSTONE_ORE,
+                REDSTONE_ORE, DIAMOND_ORE, COAL_ORE, LAPIS_ORE, STONE, REDSTONE_ORE]
+            fly: deny
+            blocked-cmds: [/fly, /tfly, /efly]
+            block-break: allow
             pvp: deny
         owners: {}
         type: cuboid
         priority: 0
     no-mobs-3:
-        min: {x: -2652.0, y: 54.0, z: -1129.0}
-        max: {x: -2638.0, y: 68.0, z: -1127.0}
+        min: {x: -2652, y: 54, z: -1129}
+        max: {x: -2638, y: 68, z: -1127}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
-    no-mobs-2:
-        min: {x: -2632.0, y: 63.0, z: -1150.0}
-        max: {x: -2630.0, y: 76.0, z: -1135.0}
+    no-mobws-2:
+        min: {x: -2632, y: 63, z: -1150}
+        max: {x: -2630, y: 76, z: -1135}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
     no-mobs-5:
-        min: {x: -2632.0, y: 34.0, z: -1153.0}
-        max: {x: -2620.0, y: 46.0, z: -1139.0}
+        min: {x: -2632, y: 34, z: -1153}
+        max: {x: -2620, y: 46, z: -1139}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
     no-mobs-4:
-        min: {x: -2626.0, y: 45.0, z: -1132.0}
-        max: {x: -2613.0, y: 52.0, z: -1129.0}
+        min: {x: -2626, y: 45, z: -1132}
+        max: {x: -2613, y: 52, z: -1129}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
     no-mobs-1:
-        min: {x: -2595.0, y: 77.0, z: -1123.0}
-        max: {x: -2583.0, y: 86.0, z: -1116.0}
+        min: {x: -2595, y: 77, z: -1123}
+        max: {x: -2583, y: 86, z: -1116}
         members: {}
         flags: {}
         owners: {}
@@ -69,8 +72,8 @@ regions:
             fly: deny
             creeper-explosion: deny
             lava-fire: deny
-            blocked-cmds: [/fly, /efly]
             fall-damage: deny
+            blocked-cmds: [/fly, /tfly, /efly]
             feed-amount: 20
             feed-delay: 1
             tnt: deny

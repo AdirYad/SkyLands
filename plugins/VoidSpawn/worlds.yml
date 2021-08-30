@@ -1,4 +1,4 @@
-version: 1
+version: 2
 ASkyBlock:
   spawn:
     x: -0.2842937449109841
@@ -8,3 +8,11 @@ ASkyBlock:
     yaw: -89.41624
     world: ASkyBlock
   mode: Touch
+Spawn:
+  mode: touch
+Dungeon:
+  mode: touch
+ASkyBlock_nether:
+  mode: touch
+Mine:
+  mode: touch

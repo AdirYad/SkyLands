@@ -1,0 +1,16 @@
+lose:
+  min: 1
+  max: 1000000000
+  percent: 50
+money:
+  format: '&6 #,###,##0.00'
+enabledworld:
+- Mine
+- Spawn
+- Dungeon
+- ASkyBlock
+- ASkyBlock_nether
+- askyblock_the_end
+keep-inventory: true
+keep-xp: true
+anishing-curse: false

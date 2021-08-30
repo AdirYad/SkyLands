@@ -5,8 +5,7 @@ size: 45
 items:
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 2
     - 4
@@ -28,8 +27,7 @@ items:
     - 34
   'Decoration-1':
     display_name: '&7'
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 1
@@ -68,25 +66,25 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNzM0NmQ4YmRhNzhkNTI1ZDE5ZjU0MGE5NWU0ZTc5ZGFlZGE3OTVjYmM1YTEzMjU2MjM2MzEyY2YifX19
     slot: 40
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Back-Page':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 38
-    display_name: '&2[*] &aBack Page'
+    display_name: '&aBack Page'
     lore: ''
     left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[openguimenu] Jobs'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[openguimenu] Jobs'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Next-Page':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
     slot: 42
@@ -100,7 +98,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNkYTU5NmJiZWY4ZjZhZjdiZmM3YmQ3OWYyMDg4MzFkNWFlMzYzYTlhYjQxMmYyYWJlODFlZmY1YTQyZDAwNSJ9fX0=
     priority: 1
     slot: 10
-    display_name: '&2[*] &aJoin to Builder Job'
+    display_name: '&aJoin to Builder Job'
     lore:
     - ''
     - '&7Builders earn money by'
@@ -119,7 +117,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     priority: 1
     slot: 19
-    display_name: '&2[*] &aLeave of Builder Job'
+    display_name: '&aLeave of Builder Job'
     lore:
     - ''
     - '&7Builders earn money by'
@@ -138,7 +136,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzEyM2YwNmUwZjMwNGI5NDI5ODA3NjAwN2I2N2IzNjA3OTg4MDI0MjkzYTFhYmU0MWMxNDhkNjgxNWE3MDA4YSJ9fX0=
     priority: 1
     slot: 12
-    display_name: '&2[*] &aJoin to Digger Job'
+    display_name: '&aJoin to Digger Job'
     lore:
     - ''
     - '&7Diggers earn money by'
@@ -157,7 +155,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     priority: 1
     slot: 21
-    display_name: '&2[*] &aLeave of Digger Job'
+    display_name: '&aLeave of Digger Job'
     lore:
     - ''
     - '&7Diggers earn money by'
@@ -176,7 +174,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE3YTg5MDdmY2IyOWJkMTM2YTRiMDY0OTkwOGZiMTVhNjk2ZTVmN2ZmNWFlMTk2OTQwMzk4ODgzYWM5ZmZhYSJ9fX0=
     priority: 1
     slot: 14
-    display_name: '&2[*] &aJoin to Fisherman Job'
+    display_name: '&aJoin to Fisherman Job'
     lore:
     - ''
     - '&7Fishermans earn money'
@@ -195,7 +193,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     priority: 1
     slot: 23
-    display_name: '&2[*] &aLeave of Fisherman Job'
+    display_name: '&aLeave of Fisherman Job'
     lore:
     - ''
     - '&7Fishermans earn money'
@@ -214,7 +212,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiYzI3NGE2M2IwZTA0NjFiMWFiYWViZGQ3MmMzMDNhZDIyZDE3OWZkNzc2OTg0NTQ3ODczNDJmMWZmMmY2ZCJ9fX0=
     priority: 1
     slot: 16
-    display_name: '&2[*] &aJoin to Enchanter Job'
+    display_name: '&aJoin to Enchanter Job'
     lore:
     - ''
     - '&7Enchanters earn money by'
@@ -233,7 +231,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     priority: 1
     slot: 25
-    display_name: '&2[*] &aLeave of Enchanter Job'
+    display_name: '&aLeave of Enchanter Job'
     lore:
     - ''
     - '&7Enchanters earn money by'

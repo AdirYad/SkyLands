@@ -68,18 +68,21 @@ crates:
   runcmd:
     - '/warp crates'
   register: true
+  permission-required: false
 dungeon:
   command: /dungeon
   type: RUN_COMMAND
   runcmd:
     - '/warp dungeon'
   register: true
+  permission-required: false
 mine:
   command: /mine
   type: RUN_COMMAND
   runcmd:
     - '/warp mine'
   register: true
+  permission-required: false
 clear_chat:
   command: /clearchat
   type: BROADCAST_TEXT
@@ -87,3 +90,61 @@ clear_chat:
   - '%Repeat%100% '
   - '&b&lSKY&a&lLANDS &8&l» &fChat cleared!'
   register: true
+  permission-required: true
+money:
+  command: /money
+  type: RUN_COMMAND
+  runcmd:
+    - '/bank balance'
+  register: true
+  permission-required: false
+bal:
+  command: /bal
+  type: ALIAS
+  alias: /money
+  register: true
+  permission-required: false
+balance:
+  command: /balance
+  type: ALIAS
+  alias: /money
+  register: true
+  permission-required: false
+sell:
+  command: /sell
+  type: ALIAS
+  alias: /sellall hand
+  register: true
+  permission-required: false
+
+# Blocked commands
+'block_pl':
+  command: /pl
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.pl
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+'block_plugins':
+  command: /plugins
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.plugins
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+'block_ver':
+  command: /ver
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.ver
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+'block_version':
+  command: /version
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.version
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+'block_?':
+  command: /?
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.?
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'
+'block_is_about':
+  command: /is about
+  type: ADD_PERMISSION
+  permission-node: blocked_commands.is_abou
+  permission-error: '&b&lSKY&a&lLANDS &8&l» &7Unknown command.'

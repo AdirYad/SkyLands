@@ -51,14 +51,59 @@ general:
   # By default tempfly will steal priority and take the command /fly away from other plugins.
   # If the player has a permission listed below tempfly will not override the command /fly for them.
   fly_override_permissions:
-    - 'essentials.fly'
   
   disabled:
     worlds:
-      - 'example_world'
+      - 'Mine'
+      - 'Dungeon'
     regions:
-      - 'test'
-  
+      - 'pvp-1'
+      - 'pvp-2'
+      - 'pvp-3'
+      - 'pvp-4'
+      - 'pvp-5'
+      - 'pvp-6'
+      - 'pvp-7'
+      - 'pvp-8'
+      - 'pvp-9'
+      - 'pvp-10'
+      - 'pvp-11'
+      - 'pvp-12'
+      - 'pvp-13'
+      - 'pvp-14'
+      - 'pvp-15'
+      - 'pvp-16'
+      - 'pvp-17'
+      - 'pvp-18'
+      - 'pvp-19'
+      - 'pvp-20'
+      - 'pvp-21'
+      - 'pvp-22'
+      - 'pvp-23'
+      - 'pvp-24'
+      - 'pvp-25'
+      - 'pvp-26'
+      - 'pvp-27'
+      - 'pvp-28'
+      - 'pvp-29'
+      - 'pvp-30'
+      - 'pvp-31'
+      - 'pvp-32'
+      - 'pvp-33'
+      - 'pvp-34'
+      - 'pvp-35'
+      - 'pvp-36'
+      - 'pvp-37'
+      - 'pvp-38'
+      - 'pvp-39'
+      - 'pvp-40'
+      - 'teleport-to-outside-dungeon'
+      - 'no-fly-dungeon1'
+      - 'no-fly-dungeon2'
+      - 'no-fly-dungeon3'
+      - 'no-fly-dungeon4'
+      - 'no-fly-dungeon5'
+
   timer:
     # If true the players timer will count down even when they have flight disabled.
     # If you want the time to count down while they are offline please see the feature "time_decay"

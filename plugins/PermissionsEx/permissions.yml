@@ -7,6 +7,8 @@ groups:
     worlds:
       AdirYad:
         permissions: []
+      Sturt_Clrk:
+        permissions: []
   Skyzen:
     options:
       prefix: '&7Skyzen &f'
@@ -15,20 +17,26 @@ groups:
     - parmorinfo.clickinfo
     - simplescore.toggle
     - autotool.use
-    - shop.command.usage
-    - shop.command.open
+    - economyshopgUI.shop.all
+    - economyshopgUI.sellall
+    - economyshopgUI.sellallitem
+    - economyshopgUI.sellallhand
     - deluxemenus.open.*
     - deluxemenus.clear
     - skyzen.tags
     - deluxetags.heart
     - deluxetags.coin
-    - askyblock.team.join
-    - askyblock.team.makeleader
-    - askyblock.team.kick
-    - askyblock.island.maxhomes.1
-    - askyblock.team.maxsize.2
-    - askyblock.team.create
-    - askyblock.craft.enderchest
+    - bskyblock.team.join
+    - bskyblock.team.makeleader
+    - bskyblock.team.kick
+    - bskyblock.island.maxhomes.1
+    - bskyblock.team.maxsize.2
+    - bskyblock.team.create
+    - bskyblock.craft.enderchest
+    - bskyblock.border.toggle
+    - -bskyblock.island.language
+    - -bskyblock.island.info
+    - -bskyblock.island.spawn
     - ISBorder.Color.Gui
     - ISBorder.Color
     - ISBorder.Toggle
@@ -53,10 +61,9 @@ groups:
     - essentials.warps.Mine
     - essentials.warps.PvP
     - essentials.warps.Wood
-    - essentials.balance.others
-    - essentials.balance
     - essentials.mail
     - essentials.mail.send
+    - essentials.signs.use.repair
     - silkspawners.place.*
     - silkspawners.silkdrop.*
     - unbreakable.armor
@@ -73,9 +80,9 @@ groups:
     - banksystem.command.deposit
     - banksystem.command.withdraw
     - skyzen.reward
-    - BlockCommand.click
     - tempfly.toggle.self
     - tempfly.time.self
+    - mycommand.block.END_PORTAL_FRAME.use
   SkyHero:
     options:
       prefix: '&aSkyHero &f'
@@ -168,3 +175,274 @@ users:
     - Owner
     options:
       name: AdirYad
+    permissions:
+    - challenge.Stone.3
+    - challenge.Stone.2
+    - bskyblock.island.maxhomes.4
+    - Homes.bar.2
+    - bskyblock.island.maxhomes.2
+    - Homes.bar.1
+  177a6f57-b1af-4571-b42f-4f36a20dd1c0:
+    group:
+    - SkyHero
+    options:
+      name: Madotsuki_Medium
+  173c0e33-f8a8-4e52-8714-05b3681ca4ff:
+    group:
+    - SkyHero
+    options:
+      name: Scades
+  97da3fae-11dc-419b-9a5d-0ad339b19812:
+    group:
+    - SkyHero
+    options:
+      name: Biohzrdz
+    permissions:
+    - archerylev.2
+    - healthlev.2
+    - criticalslev.2
+    - strengthlev.2
+    - healthlev.1
+    - archerylev.1
+    - resistancelev.1
+    - criticalslev.1
+    - strengthlev.1
+  b5283f4b-7594-4c05-ad9f-eab313a70dfc:
+    permissions:
+    - challenge.Diamond.8
+    - group.orc-valley
+    - essentials.warps.orc-valley
+    - healthlev.4
+    - healthlev.3
+    - healthlev.2
+    - healthlev.1
+    - challenge.Stone.3
+    - challenge.Emerald.8
+    - challenge.Pumpkin.2
+    - challenge.Diamond.7
+    - challenge.Diamond.6
+    - challenge.Diamond.5
+    - challenge.Diamond.4
+    - challenge.Diamond.3
+    - challenge.Diamond.2
+    - challenge.Emerald.7
+    - challenge.Emerald.6
+    - challenge.Emerald.5
+    - challenge.Emerald.4
+    - challenge.Redstone.2
+    - challenge.Lapis.2
+    - challenge.Stone.2
+    - challenge.Emerald.3
+    - challenge.Emerald.2
+    options:
+      name: xmerakii
+  8a9e9600-a1b8-4989-9ff3-41b4b80e189a:
+    group:
+    - SkyGod
+    options:
+      name: Questionabl
+    permissions:
+    - strengthlev.3
+    - strengthlev.2
+    - strengthlev.1
+    - healthlev.4
+    - healthlev.3
+    - challenge.Lapis.3
+    - challenge.Lapis.2
+    - challenge.Coal.4
+    - challenge.Coal.3
+    - challenge.Coal.2
+    - challenge.Iron.5
+    - challenge.Iron.4
+    - challenge.Iron.3
+    - challenge.Iron.2
+    - challenge.Emerald.3
+    - challenge.Emerald.2
+    - challenge.Diamond.3
+    - challenge.Diamond.2
+    - healthlev.2
+    - healthlev.1
+  a90d87de-2d51-4213-9f3c-43bfdac1c2f9:
+    group:
+    - SkyHero
+    options:
+      name: Asli_sikbeni
+  75060f8e-1362-4c8d-b2c4-b165740332d9:
+    group:
+    - SkyHero
+    options:
+      name: mxsonMC
+  707a72fc-241b-4bce-9526-8487ff3a34e2:
+    permissions:
+    - strengthlev.2
+    - archerylev.1
+    - resistancelev.2
+    - strengthlev.1
+    - healthlev.1
+    - resistancelev.1
+    options:
+      name: Gamercat18
+  90628cd5-0194-4d84-b68c-2aea14e0f7c2:
+    group:
+    - SkyGod
+    options:
+      name: _Slo_PvP_
+    permissions:
+    - challenge.Stone.2
+    - challenge.Gold.2
+    - challenge.Emerald.2
+    - challenge.Diamond.3
+    - challenge.Diamond.2
+    - resistancelev.2
+    - strengthlev.3
+    - strengthlev.2
+    - strengthlev.1
+    - resistancelev.1
+  c62559a6-f6c1-4e46-ae4b-9242d7b1e530:
+    permissions:
+    - strengthlev.1
+    options:
+      name: GewoonThomas_YT
+  a19595be-9e40-4138-823f-c8cc2f0231d2:
+    permissions:
+    - resistancelev.2
+    - resistancelev.1
+    group:
+    - SkyGod
+    options:
+      name: Sweet_Dream666
+  92cf298f-0a7b-4176-8490-45d2e45324c8:
+    permissions:
+    - challenge.Emerald.7
+    - challenge.Diamond.7
+    - challenge.Stone.7
+    - challenge.Stone.6
+    - challenge.Stone.5
+    - challenge.Stone.4
+    - challenge.Stone.3
+    - challenge.Pumpkin.7
+    - challenge.Emerald.6
+    - challenge.Diamond.6
+    - challenge.Diamond.5
+    - criticalslev.1
+    - challenge.Diamond.4
+    - challenge.Emerald.5
+    - challenge.Pumpkin.6
+    - challenge.Pumpkin.5
+    - challenge.Pumpkin.4
+    - challenge.Pumpkin.3
+    - challenge.Pumpkin.2
+    - challenge.Emerald.4
+    - challenge.Stone.2
+    - challenge.Diamond.3
+    - challenge.Emerald.3
+    - challenge.Emerald.2
+    - challenge.Diamond.2
+    - strengthlev.2
+    - strengthlev.1
+    - resistancelev.1
+    - healthlev.1
+    options:
+      name: Keatsu
+  65fd97d2-2497-401e-8b5f-c3257e8766ee:
+    permissions:
+    - strengthlev.1
+    options:
+      name: nb3rry
+  3a57ab86-1ad3-47a4-8367-fa17c706b0b9:
+    permissions:
+    - challenge.Coal.2
+    - challenge.Stone.8
+    - challenge.Diamond.8
+    - challenge.Diamond.7
+    - challenge.Stone.7
+    - challenge.Stone.6
+    - challenge.Stone.5
+    - challenge.Stone.4
+    - challenge.Pumpkin.9
+    - challenge.Stone.3
+    - challenge.Stone.2
+    - group.orc-valley
+    - essentials.warps.orc-valley
+    - challenge.Emerald.8
+    - challenge.Diamond.6
+    - criticalslev.4
+    - criticalslev.3
+    - criticalslev.2
+    - criticalslev.1
+    - strengthlev.4
+    - challenge.Diamond.5
+    - challenge.Emerald.7
+    - challenge.Pumpkin.8
+    - strengthlev.3
+    - challenge.Pumpkin.7
+    - strengthlev.2
+    - challenge.Pumpkin.6
+    - challenge.Pumpkin.5
+    - challenge.Pumpkin.4
+    - challenge.Pumpkin.3
+    - challenge.Pumpkin.2
+    - strengthlev.1
+    - archerylev.4
+    - healthlev.4
+    - archerylev.3
+    - challenge.Diamond.4
+    - archerylev.2
+    - archerylev.1
+    - healthlev.3
+    - healthlev.2
+    - healthlev.1
+    - challenge.Diamond.3
+    - challenge.Emerald.6
+    - resistancelev.3
+    - resistancelev.2
+    - resistancelev.1
+    - challenge.Emerald.5
+    - challenge.Diamond.2
+    - challenge.Emerald.4
+    - challenge.Emerald.3
+    - challenge.Emerald.2
+    options:
+      name: DerProDerEsKann
+  b22c4740-4f6a-4dc2-aefe-909766bc3fee:
+    permissions:
+    - strengthlev.1
+    options:
+      name: Setlin
+  15e6e0d4-7351-44dc-bf45-f150d030b1d6:
+    permissions:
+    - challenge.Gold.2
+    options:
+      name: PoneyJake
+  527fc5e0-3617-4964-aa5d-28beeada29ee:
+    permissions:
+    - challenge.Stone.2
+    options:
+      name: oClired_
+  53ae4715-42be-45b4-9640-449bcfe9e2d1:
+    group:
+    - SkyHero
+    options:
+      name: oilseed
+  b50cd273-536a-4078-90af-8ceecd885c03:
+    group:
+    - SkyLegend
+    options:
+      name: Honers
+  32d000ed-31a0-4260-8292-9809dfb6ee55:
+    group:
+    - SkyLegend
+    options:
+      name: hunterqq
+  793db881-88ca-4145-a36e-fa1bf976ca37:
+    permissions:
+    - resistancelev.1
+    options:
+      name: ItsSynzoh
+  dd458af4-1ed9-44e9-8763-ff75c0792297:
+    permissions:
+    - challenge.Diamond.3
+    - challenge.Emerald.2
+    - challenge.Diamond.2
+    options:
+      name: laqti

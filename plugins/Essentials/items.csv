@@ -1,4 +1,4 @@
-#version: 2.17.2.0
+#version: 2.18.2.0
 #If you change this file, it will not be automatically updated after the next release.
 #item,id,metadata
 stone,1,0
@@ -8975,4 +8975,4 @@ cd12,2267,0
 12disc,2267,0
 12cd,2267,0
 
-#5d95303a17405cd6eb8f9eb611211cbb
+#c24d9352308e64f251881db56c614b7c

@@ -27,7 +27,7 @@ regions:
             deny-message: ''
             entry: deny
             fly: deny
-            blocked-cmds: [/fly, /efly]
+            blocked-cmds: [/fly, /efly, /tfly]
             use: deny
         owners: {}
         type: global

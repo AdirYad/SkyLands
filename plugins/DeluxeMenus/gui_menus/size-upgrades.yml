@@ -4,8 +4,7 @@ size: 36
 items:
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 2
     - 4
@@ -27,8 +26,7 @@ items:
     - 33
   'Decoration-1':
     display_name: '&7'
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 1
@@ -47,31 +45,24 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
     - '[openguimenu] upgrades'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
     right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
     - '[openguimenu] upgrades'
-  'Null':
-    material: 351
-    data: 8
-    slot: 33
-    display_name: '&7'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'
   'Size1':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
     priority: 1
     slot: 11
-    display_name: '&2[*] &aSize #1'
+    display_name: '&aSize #1'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'Size.1'
+          permission: 'bskyblock.island.range.75'
     lore:
     - '&8Tier 1 Size Upgrade'
     - ''
@@ -84,12 +75,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 11
-    display_name: '&2[*] &aSize #1'
+    display_name: '&aSize #1'
     lore:
     - '&8Tier 1 Size Upgrade'
     - ''
     - '&8* &7Current: &3100x100'
-    - '&8* &7Current: &b200x200'
+    - '&8* &7Current: &b150x150'
     - ''
     - '&8* &7Price: &6200,000 ⛁'
     - ''
@@ -100,15 +91,15 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eSize #1&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Size.1'
-    - '[console] pex user %player_name% add size.bar.1'  
-    - '[console] asadmin setrange %player_name% 200'
+    - '[console] eco take %player_name% 200000'
+    - '[console] pex user %player_name% add bskyblock.island.range.75'
+    - '[console] pex user %player_name% add size.bar.1'
+    - '[console] bsbadmin range set %player_name% 75'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999
+          amount: 200000
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -117,15 +108,15 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eSize #1&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Size.1'
-    - '[console] pex user %player_name% add size.bar.1' 
-    - '[console] asadmin setrange %player_name% 200'
+    - '[console] eco take %player_name% 200000'
+    - '[console] pex user %player_name% add bskyblock.island.range.75'
+    - '[console] pex user %player_name% add size.bar.1'
+    - '[console] bsbadmin range set %player_name% 75'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999 
+          amount: 200000
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -134,12 +125,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
     priority: 1
     slot: 13
-    display_name: '&2[*] &aSize #2'
+    display_name: '&aSize #2'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'Size.2'
+          permission: 'bskyblock.island.range.100'
     lore:
     - '&8Tier 2 Size Upgrade'
     - ''
@@ -152,17 +143,17 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 13
-    display_name: '&2[*] &aSize #2'
+    display_name: '&aSize #2'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'Size.1'
+          permission: 'bskyblock.island.range.75'
     lore:
     - '&8Tier 2 Size Upgrade'
     - ''
-    - '&8* &7Current: &3200x200'
-    - '&8* &7Current: &b300x300'
+    - '&8* &7Current: &3150x150'
+    - '&8* &7Current: &b200x200'
     - ''
     - '&8* &7Price: &6400,000 ⛁'
     - ''
@@ -173,18 +164,18 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eSize #2&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 399999'
-    - '[console] pex user %player_name% add Size.2'
+    - '[console] eco take %player_name% 400000'
+    - '[console] pex user %player_name% add bskyblock.island.range.100'
     - '[console] pex user %player_name% add size.bar.2' 
-    - '[console] asadmin setrange %player_name% 300'
+    - '[console] bsbadmin range set %player_name% 100'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 399999
+          amount: 400000
         Pex:
           type: has permission
-          permission: 'Size.1'
+          permission: 'bskyblock.island.range.75'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e400,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -193,18 +184,18 @@ items:
     - '[message] &a&lUPGRADES &8&l» &7You have bought &eSize #2&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 399999'
-    - '[console] pex user %player_name% add Size.2'
+    - '[console] eco take %player_name% 400000'
+    - '[console] pex user %player_name% add bskyblock.island.range.100'
     - '[console] pex user %player_name% add size.bar.2' 
-    - '[console] asadmin setrange %player_name% 300'
+    - '[console] bsbadmin range set %player_name% 100'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 399999 
+          amount: 400000
         Pex:
           type: has permission
-          permission: 'Size.1'
+          permission: 'bskyblock.island.range.75'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e400,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -213,12 +204,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 13
-    display_name: '&2[*] &aSize #2'
+    display_name: '&aSize #2'
     lore:
     - '&8Tier 2 Size Upgrade'
     - ''
-    - '&8* &7Current: &3200x200'
-    - '&8* &7Current: &b300x300'
+    - '&8* &7Current: &3150x150'
+    - '&8* &7Current: &b200x200'
     - ''
     - '&8* &7Price: &6400,000 ⛁'
     - ''
@@ -237,12 +228,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
     priority: 1
     slot: 15
-    display_name: '&2[*] &aSize #3'
+    display_name: '&aSize #3'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'Size.3'
+          permission: 'bskyblock.island.range.150'
     lore:
     - '&8Tier 3 Size Upgrade'
     - ''
@@ -255,17 +246,17 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
     slot: 15
-    display_name: '&2[*] &aSize #3'
+    display_name: '&aSize #3'
     view_requirement:
       requirements:
         Pex:
           type: has permission
-          permission: 'Size.2'
+          permission: 'bskyblock.island.range.100'
     lore:
     - '&8Tier 3 Size Upgrade'
     - ''
-    - '&8* &7Current: &3300x300'
-    - '&8* &7Current: &b400x400'
+    - '&8* &7Current: &3200x200'
+    - '&8* &7Current: &b300x300'
     - ''
     - '&8* &7Price: &6600,000 ⛁'
     - ''
@@ -276,18 +267,18 @@ items:
     - '[console] tm msg %player_name% &2&lUPGRADES\n&a&aYou have bought &8[&2Size #3&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 599999'
-    - '[console] pex user %player_name% add Size.3'
-    - '[console] pex user %player_name% add size.bar.3' 
-    - '[console] asadmin setrange %player_name% 400'
+    - '[console] eco take %player_name% 600000'
+    - '[console] pex user %player_name% add bskyblock.island.range.150'
+    - '[console] pex user %player_name% add size.bar.3'
+    - '[console] bsbadmin range set %player_name% 150'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 599999
+          amount: 600000
         Pex:
           type: has permission
-          permission: 'Size.2'
+          permission: 'bskyblock.island.range.100'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e600,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -296,18 +287,18 @@ items:
     - '[console] tm msg %player_name% &2&lUPGRADES\n&a&aYou have bought &7(Size #3&7.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 599999'
-    - '[console] pex user %player_name% add Size.3'
-    - '[console] pex user %player_name% add size.bar.3' 
-    - '[console] asadmin setrange %player_name% 400'
+    - '[console] eco take %player_name% 600000'
+    - '[console] pex user %player_name% add bskyblock.island.range.150'
+    - '[console] pex user %player_name% add size.bar.3'
+    - '[console] bsbadmin range set %player_name% 150'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 599999 
+          amount: 600000
         Pex:
           type: has permission
-          permission: 'Size.2'
+          permission: 'bskyblock.island.range.100'
       deny_commands:
       - '[message] &a&lUPGRADES &8&l» &7You need &e600,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -316,12 +307,12 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 15
-    display_name: '&2[*] &aSize #3'
+    display_name: '&aSize #3'
     lore:
     - '&8Tier 3 Size Upgrade'
     - ''
-    - '&8* &7Current: &3300x300'
-    - '&8* &7Current: &b400x400'
+    - '&8* &7Current: &3200x200'
+    - '&8* &7Current: &b300x300'
     - ''
     - '&8* &7Price: &6600,000 ⛁'
     - ''

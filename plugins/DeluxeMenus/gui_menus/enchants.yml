@@ -5,8 +5,7 @@ size: 36
 items:
   'Decoration':
     display_name: '&7'
-    material: 160
-    data: 7
+    material: gray_stained_glass_pane
     slots:
     - 2
     - 4
@@ -28,8 +27,7 @@ items:
     - 33
   'Decoration-1':
     display_name: '&7'
-    material: 160
-    data: 15
+    material: black_stained_glass_pane
     slots:
     - 0
     - 1
@@ -48,20 +46,18 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&aBack'
     lore: ''
     left_click_commands:
     - '[openguimenu] enchantsmain'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
     right_click_commands:
     - '[openguimenu] enchantsmain'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
   'Common':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU1OTI0Nzk4YTQ4N2Y5OWJhMDhlNTRhNWIxMzA2OTJjYzU4NjkwMmE4N2UxZGVlMjEzODEzZWY4YzY2In19fQ==
     slot: 11
-    display_name: '&2[*] &aCommon Enchant'
+    display_name: '&aCommon Enchant'
     lore:
     - ''
     - '&7Buy one common random'
@@ -105,7 +101,7 @@ items:
   'Rare':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ==
     slot: 13
-    display_name: '&2[*] &aRare Enchant'
+    display_name: '&aRare Enchant'
     lore:
     - ''
     - '&7Buy one rare random'
@@ -149,7 +145,7 @@ items:
   'Legendary':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3NzhmNzJlYWNhNDUyZWUwMTM4OTNlMmJjNTNkOGQ1YjFmY2E0NGNmZTI3MDM4NjViMDU0YzI4YTNkZDcifX19
     slot: 15
-    display_name: '&2[*] &aLegendary Enchant'
+    display_name: '&aLegendary Enchant'
     lore:
     - ''
     - '&7Buy one legendary random'

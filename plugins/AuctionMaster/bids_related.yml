@@ -77,6 +77,17 @@ collect-bid-item-lore:
     - ''
     - '&eClick to collect!'
 
+#What amount of the previous bid is needed for a new bid
+#Default Example: to bid over a 100 coins bid you need '100 + 15% from 100' minimum
+#If you remove the % it will just take 15 coins instead of a percent
+bid-step: '15%'
+
+#When a bid is lower than this amount
+#the next bid will jump here
+#Set it to 0 to disable it but make sure you know
+#how to handle it
+bid-jump: 20
+
 edit-bid-item: '266'
 #Use %current-bid% for the amount the player has selected to bid
 edit-bid-item-name: '&fBid Amount: &6%current-bid% coins'

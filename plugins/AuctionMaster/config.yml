@@ -24,6 +24,9 @@ others-menu-color: 13
 consumables-menu-color: 14
 
 background-color: 15
+use-background-glass: true
+
+use-decimals: false
 
 #How much time you want to add to an auction
 #when a player bids:
@@ -209,9 +212,11 @@ view-bids-menu-item-lore:
 no-bids-message: '&a&lAUCTIONS &8&l» &7You don''t have any bids!'
 
 delivery-menu-name: '&8Delivery Menu'
+use-delivery-system: true
 
 #This is the item for deliveries in the main menu
 delivery-menu-item-name: '&aDeliveries'
+delivery-menu-item: '54'
 delivery-menu-item-lore:
   - '&7Here come the items and'
   - '&7coins sent from admins!'
@@ -298,6 +303,7 @@ auction-npc-use: false
 #You can only have 2 lines, sorry
 auction-npc-title:
   line-1: '&6Auction Master'
+  line-1-height: 2.05
   line-2: '&e&lCLICK'
 
 #When the option below is set to false, it will use 'auction-npc-skin-name' setting
@@ -335,4 +341,4 @@ blacklist-item-message: '&cThis item is not auctionable!'
 #This option is configurable in menu's file.
 
 #Please do not modify this
-version: 2.3
+version: 3.23

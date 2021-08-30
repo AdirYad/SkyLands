@@ -6,7 +6,7 @@ RedlapizSpawner3:
   Z: -1136
   Radius: 0
   UseTimer: true
-  MaxMobs: 2
+  MaxMobs: '2'
   MobLevel: '1'
   MobsPerSpawn: 2
   Cooldown: 30
@@ -15,6 +15,7 @@ RedlapizSpawner3:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 20
+  ScalingRange: 25.0
   LeashRange: 0
   HealOnLeash: false
   ResetThreatOnLeash: false

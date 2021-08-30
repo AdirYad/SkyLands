@@ -6,7 +6,7 @@ DiamondSpawner3:
   Z: -1117
   Radius: 0
   UseTimer: true
-  MaxMobs: 1
+  MaxMobs: '1'
   MobLevel: '1'
   MobsPerSpawn: 1
   Cooldown: 40
@@ -15,6 +15,7 @@ DiamondSpawner3:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 18
+  ScalingRange: 25.0
   LeashRange: 0
   HealOnLeash: false
   ResetThreatOnLeash: false

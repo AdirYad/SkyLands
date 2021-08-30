@@ -3,7 +3,7 @@ Settings:
   Currency: XP_Total #The currency you wish to use.
   TradeButton: '&eClick to accept the trade' #The Red Buttons in the Tinkerer
   BottleOptions:
-    Item: '384' #Item the XP bottles are
+    Item: 'experience_bottle' #Item the XP bottles are
     Name: '&aRecycled XP' #Name of the Bottle
     Lore: #Lore of the Bottle
       - '&a&lRecycled &6%Total%XP'

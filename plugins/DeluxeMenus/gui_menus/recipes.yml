@@ -4,8 +4,7 @@ size: 45
 items:
       'Decoration':
         display_name: '&7'
-        material: 160
-        data: 7
+        material: gray_stained_glass_pane
         slots:
         - 2
         - 4
@@ -28,8 +27,7 @@ items:
         - 42
       'Decoration-1':
         display_name: '&7'
-        material: 160
-        data: 15
+        material: black_stained_glass_pane
         slots: 
         - 0
         - 1
@@ -49,23 +47,22 @@ items:
       'Back':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
         slot: 40
-        display_name: '&2[*] &aBack'
+        display_name: '&aBack'
         lore: ''
         left_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] menu'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
         right_click_commands:
-        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-        - '[close]'
         - '[openguimenu] menu'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER'
       'ZombieHelmet':
-        material: 310
+        material: 'diamond_helmet'
         slot: 11
         display_name: '&9Zombie Helmet'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
+        - 'DURABILITY;3'
         lore:
         - '&7'
         - '&7Item tier: &9&lRARE'
@@ -80,12 +77,13 @@ items:
         - '[close]'
         - '[openguimenu] zombiehelmet' 
       'ZombieChestplate':
-        material: 311
+        material: 'diamond_chestplate'
         slot: 12
         display_name: '&9Zombie Chestplate'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
+        - 'DURABILITY;3'
         lore:
         - '&7'
         - '&7Item tier: &9&lRARE'
@@ -100,12 +98,13 @@ items:
         - '[close]'
         - '[openguimenu] zombiechestplate' 
       'ZombieLeggings':
-        material: 312
+        material: 'diamond_leggings'
         slot: 13
         display_name: '&9Zombie Leggings'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
+        - 'DURABILITY;3'
         lore:
         - '&7'
         - '&7Item tier: &9&lRARE'
@@ -120,12 +119,13 @@ items:
         - '[close]'
         - '[openguimenu] zombieleggings' 
       'ZombieBoots':
-        material: 313
+        material: 'diamond_boots'
         slot: 14
         display_name: '&9Zombie Boots'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
+        - 'DURABILITY;3'
         lore:
         - '&7'
         - '&7Item tier: &9&lRARE'
@@ -140,7 +140,7 @@ items:
         - '[close]'
         - '[openguimenu] zombieboots'
       'ZombieLeather':
-        material: 367
+        material: 'rotten_flesh'
         slot: 15
         display_name: '&2Zombie Leather'
         enchantments:
@@ -160,9 +160,9 @@ items:
         - '[close]'
         - '[openguimenu] zombieleather'
       'UltimateDiamond':
-        material: 264
+        material: 'diamond'
         slot: 20
-        display_name: '&2[*] &aUltimate Diamond'
+        display_name: '&aUltimate Diamond'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         hide_enchantments: true
@@ -180,7 +180,7 @@ items:
         - '[close]'
         - '[openguimenu] ultimatediamond'
       'SlimeBow':
-        material: 261
+        material: 'bow'
         slot: 21
         display_name: '&9Slime Bow'
         enchantments:
@@ -201,7 +201,7 @@ items:
         - '[close]'
         - '[openguimenu] slimebow'
       'CompactSlime':
-        material: 165
+        material: 'slime_block'
         slot: 22
         display_name: '&2Compact Slime'
         enchantments:

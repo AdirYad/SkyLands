@@ -37,8 +37,8 @@ gui:
     lore:
     - '%deluxetags_description%'
   divider_item:
-    material: STAINED_GLASS_PANE
     data: 15
+    material: black_stained_glass_pane
     displayname: ''
     lore: []
   has_tag_item:

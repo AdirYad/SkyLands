@@ -1,9 +1,9 @@
 # 
 #  - '&2* &aVote Crate &2»{medium}&a%crazycrates_Vote% &2*'
-lumberjack:
+engineer:
   location: Spawn, -8.585, 17.600, -16.521
   lines:
-  - '&aLumberjack'
+  - '&aEngineer'
   - '&e&lCLICK'
 builder:
   location: Spawn, -23.541, 17.600, -18.436
@@ -20,20 +20,20 @@ farmer:
   lines:
   - '&aFarmer'
   - '&e&lCLICK'
-adventurer:
+Decorator:
   location: Spawn, -2.500, 17.600, -49.500
   lines:
-  - '&aAdventurer'
+  - '&aDecorator'
   - '&e&lCLICK'
-weaponsmith:
+hunter:
   location: Spawn, -9.500, 17.600, -22.500
   lines:
-  - '&aWeaponsmith'
+  - '&aHunter'
   - '&e&lCLICK'
-blacksmith:
+chef:
   location: Spawn, -24.492, 17.600, -24.566
   lines:
-  - '&aBlacksmith'
+  - '&aChef'
   - '&e&lCLICK'
 traveler:
   location: Spawn, 5.529, 17.600, -11.463

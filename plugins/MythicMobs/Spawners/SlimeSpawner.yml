@@ -6,7 +6,7 @@ SlimeSpawner:
   Z: -1133
   Radius: 0
   UseTimer: true
-  MaxMobs: 2
+  MaxMobs: '2'
   MobLevel: '1'
   MobsPerSpawn: 2
   Cooldown: 30
@@ -15,6 +15,7 @@ SlimeSpawner:
   WarmupTimer: 0
   CheckForPlayers: true
   ActivationRange: 25
+  ScalingRange: 25.0
   LeashRange: 0
   HealOnLeash: false
   ResetThreatOnLeash: false
